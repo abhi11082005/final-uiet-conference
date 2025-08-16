@@ -1,78 +1,88 @@
 import React from "react";
 
-const Contactus = () => {
+const contacts = [
+  {
+    sr: 1,
+    name: "Prof. Rabins Porwal",
+    email: "Rabins@csjmu.ac.in",
+    phone: "+91 936 988 4977",
+  },
+  {
+    sr: 2,
+    name: "Dr. Alok Kumar",
+    email: "alok@csjmu.ac.in",
+    phone: "+91 700 771 3064",
+  },
+  {
+    sr: 3,
+    name: "Dr. Ajeet Kumar Srivastava",
+    email: "ajeet@csjmu.ac.in",
+    phone: "+91 831 632 2800",
+  },
+];
+
+const ContactUs = () => {   
   return (
-    <div className="mb-4">
-      <div className="max-w-4xl mx-auto mt-12 text-center px-4">
-        <h1 className="text-4xl font-bold text-third mb-8">CONTACT - US</h1>
-        <div className="overflow-x-auto">
-          <table className="table-auto w-full text-center bg-white border-collapse shadow-lg">
-            <thead className="bg-third text-white">
-              <tr>
-                <th className="px-2 py-3 sm:px-6 sm:py-4 text-base sm:text-xl font-semibold border border-gray-300">
-                  Sr.
-                </th>
-                <th className="px-2 py-3 sm:px-6 sm:py-4 text-base sm:text-xl font-semibold border border-gray-300">
-                  NAME
-                </th>
-                <th className="px-2 py-3 sm:px-6 sm:py-4 text-base sm:text-xl font-semibold border border-gray-300">
-                  E-MAIL
-                </th>
-                <th className="px-2 py-3 sm:px-6 sm:py-4 text-base sm:text-xl font-semibold border border-gray-300">
-                  MOBILE NO.
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td className="px-2 py-3 sm:px-6 sm:py-4 text-left border border-gray-300 text-sm sm:text-lg">
-                1.
+    <div className="bg-[#f9f9f9] py-12 px-4 md:px-12">
+      <h2 className="text-center text-3xl font-bold text-[#0b2340] mb-8">
+        CONTACT US
+      </h2>
+
+      <p className="text-center text-lg mb-8">
+        Conference Email:{" "}
+        <a
+          href="mailto:icraecct@csjmu.ac.in"
+          className="text-blue-600 hover:text-blue-800 underline"
+        >
+          icraecct@csjmu.ac.in
+        </a>
+      </p>
+
+      <div className="overflow-x-auto max-w-4xl mx-auto">
+        <table className="w-full border border-gray-300 shadow-lg rounded-lg overflow-hidden">
+          <thead className="bg-[#0b2340] text-white">
+            <tr>
+              <th className="py-3 px-4 text-left font-semibold">S. No.</th>
+              <th className="py-3 px-4 text-left font-semibold">Name</th>
+              <th className="py-3 px-4 text-left font-semibold">Email</th>
+              <th className="py-3 px-4 text-left font-semibold">Phone</th>
+            </tr>
+          </thead>
+          <tbody>
+            {contacts.map((person, index) => (
+              <tr
+                key={person.sr}
+                className={`${
+                  index % 2 === 0 ? "bg-white" : "bg-gray-50"
+                } hover:bg-gray-100 transition`}
+              >
+                <td className="py-3 px-4">{person.sr}</td>
+                <td className="py-3 px-4 font-medium text-gray-900">
+                  {person.name}
                 </td>
-                <td className="px-2 py-3 sm:px-6 sm:py-4 border border-gray-300 text-sm sm:text-lg">
-                  Prof. Robins Porwal
+                <td className="py-3 px-4">
+                  <a
+                    href={`mailto:${person.email}`}
+                    className="text-blue-600 hover:text-blue-800 underline"
+                  >
+                    {person.email}
+                  </a>
                 </td>
-                <td className="px-2 py-3 sm:px-6 sm:py-4 border border-gray-300 text-sm sm:text-lg">
-                  robins@csjmu.ac.in
-                </td>
-                <td className="px-2 py-3 sm:px-6 sm:py-4 border border-gray-300 text-sm sm:text-lg">
-                  +91 936 988 4977
-                </td>
-              </tr>
-              <tr>
-                <td className="px-2 py-3 sm:px-6 sm:py-4 text-left border border-gray-300 text-sm sm:text-lg">
-                2.
-                </td>
-                <td className="px-2 py-3 sm:px-6 sm:py-4 border border-gray-300 text-sm sm:text-lg">
-                  Dr. Alok Kumar
-                </td>
-                <td className="px-2 py-3 sm:px-6 sm:py-4 border border-gray-300 text-sm sm:text-lg">
-                  alok@csjmu.ac.in
-                </td>
-                <td className="px-2 py-3 sm:px-6 sm:py-4 border border-gray-300 text-sm sm:text-lg">
-                  +91 700 771 3064
-                </td>
-              </tr>
-              <tr>
-                <td className="px-2 py-3 sm:px-6 sm:py-4 text-left border border-gray-300 text-sm sm:text-lg">
-                3.
-                </td>
-                <td className="px-2 py-3 sm:px-6 sm:py-4 border border-gray-300 text-sm sm:text-lg">
-                  Dr. Ajeet Kumar Srivastava
-                </td>
-                <td className="px-2 py-3 sm:px-6 sm:py-4 border border-gray-300 text-sm sm:text-lg">
-                  ajeet@csjmu.ac.in
-                </td>
-                <td className="px-2 py-3 sm:px-6 sm:py-4 border border-gray-300 text-sm sm:text-lg">
-                  +91 831 632 2800
+                <td className="py-3 px-4">
+                  <a
+                    href={`tel:${person.phone}`}
+                    className="text-gray-700 hover:text-gray-900"
+                  >
+                    {person.phone}
+                  </a>
                 </td>
               </tr>
-             
-            </tbody>
-          </table>
-        </div>
+            ))}
+          </tbody>
+        </table>
       </div>
     </div>
   );
 };
 
-export default Contactus;
+export default ContactUs;

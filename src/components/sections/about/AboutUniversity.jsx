@@ -62,8 +62,7 @@ export default function AboutUniversity() {
           hands-on experience. UIET promotes innovation and entrepreneurship, preparing students for real-world 
           challenges. In addition to academics, UIET encourages participation in extracurricular activities such as 
           cultural festivals (Spandan) and technical fests (Techmart), fostering well-rounded personal development. 
-          With excellent infrastructure, including specialized labs and a dedicated library section, UIET prepares 
-          its students to excel in the rapidly evolving field of engineering and technology.
+          With excellent infrastructure, including specialized labs and a dedicated library section.
         </p>
       </div>
     </div>

@@ -5,15 +5,18 @@ import icraecctlogo from "../../assets/icraecct.png";
 import naaclogo from "../../assets/naaclogo.jpg";
 import romanialogo from "../../assets/romanialogo.jpg";
 import fullimage from "../../assets/fullimage.png";
+import image from "../../assets/image.png";
+import Submitpaper from "../submitpaper.jsx/Submitpaper";
 
 const Header = () => {
   const logos = [
-    fullimage,
+
+    image
   ];
 
   return (
     <header className=" header bg-white text-dark  px-4 pb-0">
-      <div className="flex justify-center items-center gap-4 flex-wrap  px-4 ">
+      <div className="flex justify-center items-center gap-0 flex-wrap  px-0 ">
       {logos.map((src, index) => (
         <img
           key={index}
@@ -25,10 +28,10 @@ const Header = () => {
     </div>
       <div className="max-w-4xl mx-auto text-center">
         <h1 className="text-3xl font-bold mb-4">
-          "International Conference on Recent Advances in Emerging Computing and
-          Communication Technologies"
+          International Conference on Recent Advances in Emerging Computing and Communication Technologies <br/> for a Sustainable Future
+
           <br />
-          <span className="text-primary"> (ICRAECCTSF) - 2026 Hybrid Mode</span>
+          <span className="text-[#1B305C]"> (ICRAECCTSF) - 2026 Hybrid Mode</span>
           <br />
         </h1>
         <div>
@@ -41,7 +44,7 @@ const Header = () => {
           </h2> */}
 
           <p className="font-semibold text-purple-700 text-lg">
-            Jointly organized by:
+            Jointly Organized By:
           </p>
           <ul className="list-none list-inside mt-4 text-gray-700 font-semibold">
             <li>Department of Computer Application</li>
@@ -54,7 +57,7 @@ const Header = () => {
             </li>
           </ul>
           <div className="text-center px-4 pb-10">
-            <h1 className="text-red-600 font-bold text-xl sm:text-2xl md:text-3xl">
+            <h1 className="text-[#1B305C] font-bold text-xl sm:text-2xl md:text-3xl">
               School of Engineering and Technology (UIET),
               <br />
               Chhatrapati Shahu Ji Maharaj University,<br></br> Kanpur (Venue Partner)
@@ -71,15 +74,15 @@ const Header = () => {
               Kanpur, India)
             </p>
 
-            <p className="text-red-600 font-medium text-base mt-2">
+            <p className="text-[#1B305C] font-medium text-base mt-2">
               in association with
             </p>
 
-            <h2 className="text-red-600 font-bold text-lg sm:text-xl md:text-2xl mt-1">
+            <h2 className="text-[#1B305C] font-bold text-lg sm:text-xl md:text-2xl mt-1">
               Aurel Vlaicu University of Arad, Romania
             </h2>
-            <h3 className="text-red-600 font-bold text-md sm:text-xl md:text-2xl mt-1">And</h3>
-          <h2 className="text-red-600 font-bold text-xl sm:text-xl md:text-2xl mt-1 capitalize">
+            <h3 className="text-[#1B305C] font-bold text-md sm:text-xl md:text-2xl mt-1">And</h3>
+          <h2 className="text-[#1B305C] font-bold text-xl sm:text-xl md:text-2xl mt-1 capitalize">
             Tecnm Instituto Tecnologico Superior De Fresnillo, Mexico
 
           </h2>
@@ -90,10 +93,8 @@ const Header = () => {
               </span>
             </div>
 
-            <p className="text-red-600 font-bold text-lg mt-6">
-              The event has started!
-            </p>
           </div>
+            <Submitpaper />
         </div>
       </div>
     </header>

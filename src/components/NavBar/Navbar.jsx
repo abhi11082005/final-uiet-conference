@@ -4,20 +4,33 @@ import { FaChevronDown, FaBars, FaTimes } from "react-icons/fa";
 const menuItems = [
   { label: "Home", href: "/" },
   { label: "About Conference", href: "/about" },
+  
   { label: "Speakers", href: "/speakers" },
   {
     label: "Committees",
-    href: "/advisory-committee",
+
     hasDropdown: true,
     subItems: [
-      "Steering Committee",
-      "Advisory Committee",
-      "Technical Program Committee",
+      { label: "Steering Committee", href: "/steering-committee" },
+      { label: "Advisory Committee", href: "/advisory-committee" },
+      { label: "Technical Program Committee", href: "/technical-committee" },
     ],
   },
-  { label: "Contact", href: "/contact" },
+  { label: "Contact Us", href: "/contact-us" },
   { label: "Important Dates", href: "/important-dates" },
   { label: "Submission Guidelines", href: "/submission-guidelines" },
+  {
+    label: "Gallery",
+    href: "/gallery",
+    hasDropdown: true,
+    subItems: [
+      { label: "Inaugural", href: "/gallery/inaugural" },
+      { label: "Valedictory", href: "/gallery/valedictory" },
+      { label: "Offline Session", href: "/gallery/offline-session" },
+      { label: "Online Session", href: "/gallery/online-session" },
+      { label: "Keynote Session", href: "/gallery/keynote-session" },
+    ],
+  },
   { label: "Publication", href: "/publication" },
   { label: "In and Around Kanpur", href: "/kanpur" },
 ];
@@ -50,20 +63,23 @@ export default function NavBar() {
             <div key={index} className="relative group cursor-pointer">
               {/* Menu item */}
               <div className="flex items-center gap-1 hover:text-yellow-300">
-                <a href={item.href}>{item.label}</a>
-                {item.hasDropdown && <FaChevronDown className="text-xs mt-[1px]" />}
+                <a href={item.href}
+                  >{item.label}</a>
+                {item.hasDropdown && (
+                  <FaChevronDown className="text-xs mt-[1px]" />
+                )}
               </div>
 
               {/* Desktop dropdown */}
-              {item.hasDropdown && (
-                <div className="absolute left-0 top-full mt-1 hidden group-hover:flex flex-col bg-[#1B305C] text-white rounded shadow-lg z-50 min-w-[200px]">
+              {item.hasDropdown  && (
+                <div className="absolute left-0 top-full mt-0 hidden group-hover:flex flex-col bg-[#1B305C] text-white rounded shadow-lg z-50 min-w-[200px]">
                   {item.subItems.map((subItem, subIndex) => (
                     <a
                       key={subIndex}
-                      href={`/${subItem.toLowerCase().replace(/\s+/g, "-")}`}
+                      href={subItem.href}
                       className="px-4 py-2 text-sm hover:text-yellow-300"
                     >
-                      {subItem}
+                      {subItem.label}
                     </a>
                   ))}
                 </div>
@@ -80,7 +96,9 @@ export default function NavBar() {
                 <div
                   className="flex items-center justify-between text-white hover:text-yellow-300"
                   onClick={() =>
-                    item.hasDropdown ? toggleDropdown(index) : setMenuOpen(false)
+                    item.hasDropdown
+                      ? toggleDropdown(index)
+                      : setMenuOpen(false)
                   }
                 >
                   <a href={item.href}>{item.label}</a>
@@ -94,16 +112,17 @@ export default function NavBar() {
                 </div>
 
                 {/* Mobile dropdown */}
+                {/* Mobile dropdown */}
                 {item.hasDropdown && openDropdown === index && (
                   <div className="mt-2 pl-4 space-y-1">
                     {item.subItems.map((subItem, subIndex) => (
                       <a
                         key={subIndex}
-                        href={`/${subItem.toLowerCase().replace(/\s+/g, "-")}`}
+                        href={subItem.href}
                         onClick={() => setMenuOpen(false)}
                         className="block text-sm text-white hover:text-yellow-300"
                       >
-                        {subItem}
+                        {subItem.label}
                       </a>
                     ))}
                   </div>
