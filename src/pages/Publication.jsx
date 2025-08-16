@@ -7,7 +7,7 @@ const Publication = () => {
   const journals = [
     {
       title: "CURRENT MEDICAL IMAGING",
-      image: pub1,
+      image: pub2,
       details: [
         "( ISSN / eISSN: 1573-4056 / 1875-6603 )",
         "( BENTHAM SCIENCE PUBLISHER )",
@@ -17,7 +17,7 @@ const Publication = () => {
     },
     {
       title: "CURRENT COMPUTER-AIDED DRUG DESIGN",
-      image: pub2,
+      image: pub1,
       details: [
         "( ISSN / eISSN: 1573-4089 / 1875-6997 )",
         "( BENTHAM SCIENCE PUBLISHER )",

@@ -4,6 +4,9 @@ import AboutUniversity from "../components/sections/about/AboutUniversity";
 import AboutConference from "../components/sections/about/AboutConference";
 import VideoHomepage from "../components/videoHomepage/VideoHomepage";
 import CountryFlags from "../components/countryflags/Countryflag";
+import Homepageimg from "../components/homepageimg/Homepageimg";
+import Homepagevideo from "../components/homepagevideo/Homepagevideo";
+import HomepageSpeaker from "../components/homepagespeaker/Homepagespeaker";
 
 const Home = () => {
   return (
@@ -53,7 +56,12 @@ const Home = () => {
         </p>
       </div>
       <AboutUniversity />
-      <CountryFlags />
+      <div className=" ">
+        <Homepageimg />
+        <Homepagevideo />
+        <HomepageSpeaker />
+        <CountryFlags />
+      </div>
     </>
   );
 };

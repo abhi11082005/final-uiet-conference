@@ -1,15 +1,24 @@
 import React from 'react'
 
 const Gallery = () => {
-    const images = [
-        'https://csjmu.ac.in/wp-content/uploads/2024/10/intl-conference.jpg',
-        'https://csjmu.ac.in/wp-content/uploads/2021/06/uiet-alumni-meet-1-1536x1061.jpeg',
-        'https://csjmu.ac.in/wp-content/uploads/2021/06/uiet-alumni-meet-8-1536x1155.jpeg',
-        'https://csjmu.ac.in/wp-content/uploads/2021/06/uiet-alumni-meet-9-1536x1155.jpeg',
-        'https://csjmu.ac.in/wp-content/uploads/2021/06/uiet-seminars-2.jpeg',
-        'https://csjmu.ac.in/wp-content/uploads/2021/06/g58.jpeg',
-        'https://csjmu.ac.in/wp-content/uploads/2021/06/g52.jpeg',
-      ];
+   const images = [
+  'https://csjmu.ac.in/wp-content/uploads/2024/10/intl-conference.jpg',
+  'https://csjmu.ac.in/wp-content/themes/csjmutheme/imgs-copyrighted/imgsirac/irac-5.jpeg',
+  'https://csjmu.ac.in/wp-content/uploads/2024/08/nepal-irac.jpg',
+  'https://csjmu.ac.in/wp-content/uploads/2024/08/spain-irac.jpg',
+  'https://csjmu.ac.in/wp-content/themes/csjmutheme/imgs-copyrighted/imgsirac/irac-3.jpeg',
+  'https://csjmu.ac.in/wp-content/uploads/2021/06/uiet-alumni-meet-1-1536x1061.jpeg',
+  'https://csjmu.ac.in/wp-content/uploads/2021/06/uiet-alumni-meet-8-1536x1155.jpeg',
+  'https://csjmu.ac.in/wp-content/uploads/2021/06/uiet-alumni-meet-9-1536x1155.jpeg',
+  'https://csjmu.ac.in/wp-content/uploads/2021/06/uiet-seminars-2.jpeg',
+  'https://csjmu.ac.in/wp-content/uploads/2021/06/g58.jpeg',
+  'https://csjmu.ac.in/wp-content/themes/csjmutheme/imgs-copyrighted/imgsirac/irac-8.jpeg',
+  'https://csjmu.ac.in/wp-content/uploads/2021/06/g52.jpeg',
+  'https://csjmu.ac.in/wp-content/themes/csjmutheme/imgs-copyrighted/imgsirac/irac-2.jpeg',
+  'https://csjmu.ac.in/wp-content/themes/csjmutheme/imgs-copyrighted/imgsirac/irac-7.jpeg',
+  'https://csjmu.ac.in/wp-content/themes/csjmutheme/imgs-copyrighted/imgsirac/irac-1.jpeg',
+];
+
   return (
     <div className="max-w-6xl mx-auto p-4 mt-4">
     <h1 className="text-4xl font-bold text-center text-third mb-8">

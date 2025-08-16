@@ -11,8 +11,8 @@ const AdvisoryCommittee = () => {
         <section>
           <div className="space-y-6">
             <div>
-              <h2 className="text-xl font-semibold text-gray-800 mb-2">
-                International
+              <h2 className="text-xl font-semibold text-gray-800 mb-2 uppercase">
+                International Advisory Committee
               </h2>
               <ul className="list-disc list-inside text-gray-700">
                 <li>
@@ -117,7 +117,7 @@ const AdvisoryCommittee = () => {
 
             <div>
               <h2 className="text-xl font-semibold text-gray-800 mb-2">
-                National
+                National Advisory Committee
               </h2>
               <ul className="list-disc list-inside text-gray-700">
                 <li>

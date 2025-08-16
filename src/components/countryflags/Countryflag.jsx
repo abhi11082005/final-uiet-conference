@@ -40,9 +40,13 @@ const countries = [
 const CountryFlags = () => {
   return (
     <div className="p-6">
-      <h2 className="text-center text-2xl font-semibold mb-6 uppercase">
-        Participation in ICRAECCT
-      </h2>
+      <h1 className="text-3xl font-bold mb-6">Participation in ICRAECCT  </h1>
+      <div className="flex justify-center gap-4 mb-6">
+        <button className="px-6 py-2 rounded-full bg-blue-600 text-white font-semibold">
+          2025
+        </button>
+       
+      </div>
       <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 gap-6">
         {countries.map((country, index) => (
           <a
@@ -57,7 +61,7 @@ const CountryFlags = () => {
               alt={country.name}
               className="w-16 h-16 object-cover rounded-full shadow-md group-hover:scale-110 transition-transform duration-200"
             />
-            <span className="mt-2 text-sm font-medium">{country.name}</span>
+            <span className="mt-2 text-sm font-medium text-green-900">{country.name}</span>
           </a>
         ))}
       </div>

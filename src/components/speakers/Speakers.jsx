@@ -26,19 +26,7 @@ import img24 from "../../assets/imagespeakers/Raviteja-Yalamanchili-B2QEfoV6.jpg
 
 
 const speakersData = [
-  {
-    img: img1,
-    name: "Prof. Alvaro Rocha",
-    title: "Professor of Information Systems, ISEG, University of Lisbon, Portugal",
-    details: [
-      "World's Top 1% Scientist, according to Stanford University and Elsevier",
-      "ISEM's Book Series Scientific Manager at Springer Nature",
-      "Chair of ITMA - Information and Technology Management Association",
-      "Founder and Vice-Chair of IEEE SMC Portugal Chapter",
-      "Invited Professor at University of Calabria, Italy",
-      "CEO at AMARITS Consulting, Dubai"
-    ]
-  },
+  
   {
     img: img2,
     name: "Prof. Sergei Levashkin",

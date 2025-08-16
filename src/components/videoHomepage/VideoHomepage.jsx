@@ -6,14 +6,14 @@ const VideoHomepage = () => {
     <div className="bg-white text-center text-black border-b shadow-sm rounded-lg">
       <div className="relative w-full h-screen overflow-hidden text-white">
         {/* Background Video */}
-           <video
-  className="absolute w-full h-full overflow-hidden object-cover"
-  src={video}
-  controls={false}
-  autoPlay
-  muted
-  loop
-/>
+        <video
+          className="absolute w-full h-full overflow-hidden object-cover"
+          src={video}
+          controls={false}
+          autoPlay
+          muted
+          loop
+        />
 
         {/* Overlay Text */}
         <div
@@ -29,14 +29,14 @@ const VideoHomepage = () => {
           </h2>
           <p className="text-xl font-medium">
             Conference Date: 11
-            <sup className="bg-gradient-to-r from-red-600 to-indigo-500 bg-clip-text">
+            <sup className="text-white">
               th
             </sup>{" "}
-            & 13
-            <sup className="bg-gradient-to-r from-red-600 to-indigo-500 bg-clip-text">
+            - 13
+            <sup className="text-white">
               th
             </sup>{" "}
-            April, 2026 (Tentative)
+            April, 2026
           </p>
         </div>
       </div>
