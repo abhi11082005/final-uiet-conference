@@ -5,25 +5,32 @@ import { Link } from "react-router-dom";
 const menuItems = [
   { label: "Home", href: "/" },
   { label: "About Conference", href: "/about" },
-  { label: "Speakers", href: "/speakers" },
+  {
+    label: "Calls",
+    hasDropdown: true,
+    subItems: [
+      { label: "Call for paper", href: "/call-for-papers" },
+    ],
+  },
+  { label: "Important Dates", href: "/important-dates" },
   {
     label: "Committees",
     hasDropdown: true,
     subItems: [
       { label: "Steering Committee", href: "/steering-committee" },
       { label: "Advisory Committee", href: "/advisory-committee" },
-      { label: "Technical Program Committee", href: "/technical-committee" },
+      { label: "Technical Committee", href: "/technical-committee" },
     ],
   },
-  { label: "Contact Us", href: "/contact-us" },
-  { label: "Registration", href: "/registration" },
-  { label: "Important Dates", href: "/important-dates" },
   {
-    label: "Submission Guidelines",
-    href: "/submission-guidelines",
+    label: "Author Info",
+   
     hasDropdown: true,
-    subItems: [{ label: "Call for Papers", href: "/call-for-papers" }],
+    subItems: [{ label: "Submission Guidelines", href: "/submission-guidelines" }],
   },
+  { label: "Registration", href: "/registration" },
+  { label: "Publication", href: "/publication" },
+  { label: "Speakers", href: "/speakers" },
   {
     label: "Gallery",
     href: "/gallery",
@@ -36,7 +43,7 @@ const menuItems = [
       { label: "Keynote Session", href: "/gallery/keynote-session" },
     ],
   },
-  { label: "Publication", href: "/publication" },
+  { label: "Contact Us", href: "/contact-us" },
   { label: "In and Around Kanpur", href: "/kanpur" },
 ];
 
