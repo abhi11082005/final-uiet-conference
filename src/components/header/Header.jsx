@@ -58,8 +58,7 @@ const Header = () => {
           </ul>
           <div className="text-center px-4 pb-10">
             <h1 className="text-[#1B305C] font-bold text-xl sm:text-2xl md:text-3xl">
-              School of Engineering and Technology (UIET),
-              <br />
+              
               Chhatrapati Shahu Ji Maharaj University,<br></br> Kanpur (Venue Partner)
             </h1>
 

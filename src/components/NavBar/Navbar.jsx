@@ -1,14 +1,13 @@
 import { useState } from "react";
 import { FaChevronDown, FaBars, FaTimes } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const menuItems = [
   { label: "Home", href: "/" },
   { label: "About Conference", href: "/about" },
-  
   { label: "Speakers", href: "/speakers" },
   {
     label: "Committees",
-
     hasDropdown: true,
     subItems: [
       { label: "Steering Committee", href: "/steering-committee" },
@@ -17,8 +16,14 @@ const menuItems = [
     ],
   },
   { label: "Contact Us", href: "/contact-us" },
+  { label: "Registration", href: "/registration" },
   { label: "Important Dates", href: "/important-dates" },
-  { label: "Submission Guidelines", href: "/submission-guidelines" },
+  {
+    label: "Submission Guidelines",
+    href: "/submission-guidelines",
+    hasDropdown: true,
+    subItems: [{ label: "Call for Papers", href: "/call-for-papers" }],
+  },
   {
     label: "Gallery",
     href: "/gallery",
@@ -45,7 +50,7 @@ export default function NavBar() {
 
   return (
     <nav className="sticky top-0 z-50 bg-[#1B305C] text-[#FEFBFB] font-bold text-sm tracking-wide">
-      <div className="max-w-screen-xl mx-auto px-4">
+      <div className="max-w-screen-2xl mx-auto px-4">
         {/* Mobile menu button */}
         <div className="lg:hidden flex justify-between items-center py-4">
           <div className="text-lg font-semibold">ICRAECCTSF</div>
@@ -63,24 +68,23 @@ export default function NavBar() {
             <div key={index} className="relative group cursor-pointer">
               {/* Menu item */}
               <div className="flex items-center gap-1 hover:text-yellow-300">
-                <a href={item.href}
-                  >{item.label}</a>
+                <Link to={item.href}>{item.label}</Link>
                 {item.hasDropdown && (
                   <FaChevronDown className="text-xs mt-[1px]" />
                 )}
               </div>
 
               {/* Desktop dropdown */}
-              {item.hasDropdown  && (
+              {item.hasDropdown && (
                 <div className="absolute left-0 top-full mt-0 hidden group-hover:flex flex-col bg-[#1B305C] text-white rounded shadow-lg z-50 min-w-[200px]">
                   {item.subItems.map((subItem, subIndex) => (
-                    <a
+                    <Link
                       key={subIndex}
-                      href={subItem.href}
+                      to={subItem.href}
                       className="px-4 py-2 text-sm hover:text-yellow-300"
                     >
                       {subItem.label}
-                    </a>
+                    </Link>
                   ))}
                 </div>
               )}
@@ -101,7 +105,9 @@ export default function NavBar() {
                       : setMenuOpen(false)
                   }
                 >
-                  <a href={item.href}>{item.label}</a>
+                  <Link to={item.href} onClick={() => !item.hasDropdown && setMenuOpen(false)}>
+                    {item.label}
+                  </Link>
                   {item.hasDropdown && (
                     <FaChevronDown
                       className={`text-xs transition-transform duration-300 ${
@@ -112,18 +118,17 @@ export default function NavBar() {
                 </div>
 
                 {/* Mobile dropdown */}
-                {/* Mobile dropdown */}
                 {item.hasDropdown && openDropdown === index && (
                   <div className="mt-2 pl-4 space-y-1">
                     {item.subItems.map((subItem, subIndex) => (
-                      <a
+                      <Link
                         key={subIndex}
-                        href={subItem.href}
+                        to={subItem.href}
                         onClick={() => setMenuOpen(false)}
                         className="block text-sm text-white hover:text-yellow-300"
                       >
                         {subItem.label}
-                      </a>
+                      </Link>
                     ))}
                   </div>
                 )}

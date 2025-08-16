@@ -41,7 +41,7 @@ const CountryFlags = () => {
   return (
     <div className="p-6">
       <h2 className="text-center text-2xl font-semibold mb-6 uppercase">
-        Participation in ICRAECCTSF
+        Participation in ICRAECCT
       </h2>
       <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 gap-6">
         {countries.map((country, index) => (

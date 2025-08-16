@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, BrowserRouter } from "react-router-dom";
 
 import "./App.css";
 import Navbar from "./components/NavBar/Navbar";
@@ -44,6 +44,7 @@ function App() {
   }, []);
 
   return ( 
+
     <Router>
       <Header />
       <Markey />
@@ -73,6 +74,7 @@ function App() {
       </Routes>
       <Footer />
     </Router>
+
   );
 }
 

@@ -1,11 +1,12 @@
 import React from "react";
 import video from "../../assets/videocsjmu.mp4"; // Adjust the path as necessary
+import uietimage from "../../assets/uietimage.jpg"; // Adjust the path as necessary
 const VideoHomepage = () => {
   return (
     <div className="bg-white text-center text-black border-b shadow-sm rounded-lg">
       <div className="relative w-full h-screen overflow-hidden text-white">
-        {/* Background YouTube Video */}
-      <video
+        {/* Background Video */}
+           <video
   className="absolute w-full h-full overflow-hidden object-cover"
   src={video}
   controls={false}
@@ -14,6 +15,30 @@ const VideoHomepage = () => {
   loop
 />
 
+        {/* Overlay Text */}
+        <div
+          className="absolute inset-0 z-10 flex flex-col items-center justify-center text-center px-4 bg-white bg-clip-text text-transparent
+"
+        >
+          <h1 className="text-4xl md:text-5xl font-bold mb-2">
+            Second International Conference on Recent Advances in Emerging
+            Computing and Communication
+          </h1>
+          <h2 className="text-3xl md:text-4xl font-semibold mb-4">
+            Technologies for A Sustainable Future
+          </h2>
+          <p className="text-xl font-medium">
+            Conference Date: 11
+            <sup className="bg-gradient-to-r from-red-600 to-indigo-500 bg-clip-text">
+              th
+            </sup>{" "}
+            & 13
+            <sup className="bg-gradient-to-r from-red-600 to-indigo-500 bg-clip-text">
+              th
+            </sup>{" "}
+            April, 2026 (Tentative)
+          </p>
+        </div>
       </div>
     </div>
   );

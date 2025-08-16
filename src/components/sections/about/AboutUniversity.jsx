@@ -3,11 +3,37 @@ import React from 'react';
 export default function AboutUniversity() {
   return (
     <div className="bg-gray-100 px-6 py-10 text-black rounded-lg">
-      <h2 className="text-center text-2xl font-semibold mb-6">
+      
+
+      <h3 className="text-center text-2xl font-semibold mb-6">
+        About UIET
+      </h3>
+
+      <div className="max-w-5xl mx-auto text-justify leading-7 space-y-4">
+        <p>
+          The University Institute of Engineering & Technology (UIET) at Chhatrapati Shahu Ji Maharaj University, 
+          Kanpur, is a prominent institution dedicated to producing skilled engineers and technologists. UIET offers 
+          a dynamic academic environment with modern facilities. It provides six Bachelor of Technology (B.Tech) 
+          programs in fields such as Chemical Engineering, Computer Science & Engineering, Electronics & Communication 
+          Engineering, Information Technology, and Mechanical Engineering. It also offers career-oriented courses like 
+          Bachelor of Computer Application (BCA), Master of Computer Application (MCA), and various diploma and vocational 
+          programs.
+        </p>
+
+        <p>
+          The institute’s curriculum is designed to meet industry standards, with regular updates and a focus on 
+          practical skills. Its qualified faculty ensures that students receive both theoretical knowledge and 
+          hands-on experience. UIET promotes innovation and entrepreneurship, preparing students for real-world 
+          challenges. In addition to academics, UIET encourages participation in extracurricular activities such as 
+          cultural festivals (Spandan) and technical fests (Techmart), fostering well-rounded personal development. 
+          With excellent infrastructure, including specialized labs and a dedicated library section.
+        </p>
+      </div>
+      <h2 className="text-center text-2xl font-semibold mb-6 mt-20">
         About the University
       </h2>
 
-      <div className="max-w-5xl mx-auto text-justify leading-7 space-y-4">
+      <div className="max-w-5xl mx-auto text-justify leading-7 space-y-4 ">
         <p>
           Chhatrapati Shahu Ji Maharaj University Kanpur, a premier landmark of higher education in Uttar Pradesh,
           is named after the great social reformer Chhatrapati Shahu Maharaj, also known as Rajarshi Shahu. 
@@ -38,31 +64,6 @@ export default function AboutUniversity() {
           environment where students can participate in extracurricular activities. Located in Kanpur, a major 
           industrial hub, the university benefits from its proximity to industries, providing students with ample 
           opportunities for internships and practical experience.
-        </p>
-      </div>
-
-      <h3 className="text-center text-2xl font-semibold mt-10 mb-6">
-        About UIET
-      </h3>
-
-      <div className="max-w-5xl mx-auto text-justify leading-7 space-y-4">
-        <p>
-          The University Institute of Engineering & Technology (UIET) at Chhatrapati Shahu Ji Maharaj University, 
-          Kanpur, is a prominent institution dedicated to producing skilled engineers and technologists. UIET offers 
-          a dynamic academic environment with modern facilities. It provides six Bachelor of Technology (B.Tech) 
-          programs in fields such as Chemical Engineering, Computer Science & Engineering, Electronics & Communication 
-          Engineering, Information Technology, and Mechanical Engineering. It also offers career-oriented courses like 
-          Bachelor of Computer Application (BCA), Master of Computer Application (MCA), and various diploma and vocational 
-          programs.
-        </p>
-
-        <p>
-          The institute’s curriculum is designed to meet industry standards, with regular updates and a focus on 
-          practical skills. Its qualified faculty ensures that students receive both theoretical knowledge and 
-          hands-on experience. UIET promotes innovation and entrepreneurship, preparing students for real-world 
-          challenges. In addition to academics, UIET encourages participation in extracurricular activities such as 
-          cultural festivals (Spandan) and technical fests (Techmart), fostering well-rounded personal development. 
-          With excellent infrastructure, including specialized labs and a dedicated library section.
         </p>
       </div>
     </div>
