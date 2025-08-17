@@ -10,6 +10,10 @@ const menuItems = [
     hasDropdown: true,
     subItems: [
       { label: "Call for paper", href: "/call-for-papers" },
+      { label: "Call for Special Session", href: "/call-for-special-session" },
+      { label: "Call for Sponsorship", href: "/call-for-sponsorship" },
+      { label: "Submission Guidelines", href: "/submission-guidelines" },
+
     ],
   },
   { label: "Important Dates", href: "/important-dates" },
@@ -22,18 +26,13 @@ const menuItems = [
       { label: "Technical Committee", href: "/technical-committee" },
     ],
   },
-  {
-    label: "Author Info",
-   
-    hasDropdown: true,
-    subItems: [{ label: "Submission Guidelines", href: "/submission-guidelines" }],
-  },
+  
   { label: "Registration", href: "/registration" },
   { label: "Publication", href: "/publication" },
   { label: "Speakers", href: "/speakers" },
   {
     label: "Gallery",
-    href: "/gallery",
+    // href: "/gallery",
     hasDropdown: true,
     subItems: [
       { label: "Inaugural", href: "/gallery/inaugural" },

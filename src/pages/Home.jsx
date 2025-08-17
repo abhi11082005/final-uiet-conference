@@ -7,6 +7,8 @@ import CountryFlags from "../components/countryflags/Countryflag";
 import Homepageimg from "../components/homepageimg/Homepageimg";
 import Homepagevideo from "../components/homepagevideo/Homepagevideo";
 import HomepageSpeaker from "../components/homepagespeaker/Homepagespeaker";
+import Homepagepublication from "../components/homepagepublication/Homepagepublication";
+import Homepagekeynotesession from "../components/homepagekeynotesession/Homepagekeynotesession";
 
 const Home = () => {
   return (
@@ -59,7 +61,9 @@ const Home = () => {
       <div className=" ">
         <Homepageimg />
         <Homepagevideo />
+        <Homepagekeynotesession />
         <HomepageSpeaker />
+        <Homepagepublication />
         <CountryFlags />
       </div>
     </>
