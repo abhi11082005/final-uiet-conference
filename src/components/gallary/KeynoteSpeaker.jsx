@@ -32,7 +32,7 @@ const KeynoteSpeaker = () => {
       {/* Gallery title */}
       <div className="text-center mb-8">
         <h1 className="text-4xl font-bold text-gray-800 tracking-wide uppercase">
-          valedictory Gallery 2025
+          Keynote sessions 2025
         </h1>
       </div>
 
