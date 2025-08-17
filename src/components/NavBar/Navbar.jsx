@@ -23,7 +23,7 @@ const menuItems = [
     subItems: [
       { label: "Steering Committee", href: "/steering-committee" },
       { label: "Advisory Committee", href: "/advisory-committee" },
-      { label: "Technical Committee", href: "/technical-committee" },
+      { label: "Technical Programme Committee", href: "/technical-committee" },
     ],
   },
   
