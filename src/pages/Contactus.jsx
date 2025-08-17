@@ -71,7 +71,7 @@ const ContactUs = () => {
                 <td className="py-3 px-4">
                   <a
                     href={`tel:${person.phone}`}
-                    className="text-gray-700 hover:text-gray-900"
+                    className="text-gray-700 hover:text-gray-900 text-nowrap"
                   >
                     {person.phone}
                   </a>
