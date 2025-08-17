@@ -121,7 +121,7 @@ const PhotoGallery = () => {
 
       {/* Marquee Section */}
       <div className="overflow-hidden relative w-full">
-        <div className="flex w-max animate-marquee gap-6">
+        <div className="flex w-max animate-marqueeimg gap-6">
           {[...photos, ...photos].map((src, index) => (
             <img
               key={index}

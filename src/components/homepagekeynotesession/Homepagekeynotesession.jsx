@@ -32,8 +32,6 @@ const Homepagekeynotesession = () => {
         Keynote sessions of ICRAECCT
       </h1>
 
-      
-
       {/* Year Buttons */}
       <div className="flex justify-center gap-4 mt-5 mb-6">
         <button className="px-6 py-2 rounded-full bg-blue-600 text-white font-semibold">
@@ -43,7 +41,7 @@ const Homepagekeynotesession = () => {
 
       {/* Marquee Section */}
       <div className="overflow-hidden relative w-full">
-        <div className="flex w-max animate-marquee gap-6">
+        <div className="flex w-max animate-marqueekeynotesession gap-6">
           {[...photos, ...photos].map((src, index) => (
             <img
               key={index}
