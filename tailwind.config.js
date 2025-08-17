@@ -16,14 +16,18 @@ export default {
           "0%": { transform: "translateX(0%)" },
           "100%": { transform: "translateX(-50%)" },
         },
+        marqueeText: {
+          "0%, 100%": { transform: "translateX(-75%)" },
+          "50%": { transform: "translateX(75%)" }, // move right
+        },
       },
       animation: {
-        marqueekeynotesession: "marquee 35s linear infinite",      // normal
-        marqueeimg: "marquee 240s linear infinite",  // 2x faster
-        marqueeFaster: "marquee 5s linear infinite", // 4x faster
+        marqueekeynotesession: "marquee 35s linear infinite", // normal
+        marqueeimg: "marquee 240s linear infinite",           // slow
+        marqueeFaster: "marquee 5s linear infinite",          // fast
+        marqueeText: "marqueeText 6s ease-in-out infinite",   // left-right bounce
       },
     },
   },
   plugins: [],
 };
-

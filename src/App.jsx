@@ -63,14 +63,8 @@ function App() {
         <Route path="/author-info" element={<AuthorInfo />} />
         <Route path="/registration" element={<Registration />} />
         <Route path="/publication" element={<Willbesoon />} />
-        <Route path="/speakers" element={<Speakers />} />
-        <Route path="/gallery" element={<Gallery />} />
-        <Route path="/gallery/inaugural" element={<Willbesoon />} />
-        <Route path="/gallery/valedictory" element={<Willbesoon />} />
-        <Route path="/gallery/offline-session" element={<Willbesoon />} />
-        <Route path="/gallery/online-session" element={<Willbesoon />} />
-        <Route path="/gallery/keynote-session" element={<Willbesoon />} />
-        <Route path="/nearby-attractions" element={<Willbesoon />} />
+        <Route path="/speakers" element={<Willbesoon />} />
+        <Route path="/gallery" element={<Willbesoon />} />
         <Route path="/contact-us" element={<Contactus />} />
         <Route path="/submission-guidelines" element={<SubmissionGuideline />} />
         <Route path="/call-for-special-session" element={<CallForSpecialSession />} />

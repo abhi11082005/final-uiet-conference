@@ -10,31 +10,30 @@ import Submitpaper from "../submitpaper.jsx/Submitpaper";
 import icraecctsf from "../../assets/icraecctsf.png";
 
 const Header = () => {
-  const logos = [
-
-    
-    fullimage,
-  ];
+  const logos = [fullimage];
 
   return (
     <header className=" header bg-white text-dark  px-4 pb-0">
       <div className="flex justify-center items-center gap-0 flex-wrap   ">
-      {logos.map((src, index) => (
-        <img
-          key={index}
-          src={src}
-          alt={`logo-${index}`}
-          draggable="false"
-          className="h-24 w-auto object-contain px-4"
-        />
-      ))}
-    </div>
+        {logos.map((src, index) => (
+          <img
+            key={index}
+            src={src}
+            alt={`logo-${index}`}
+            draggable="false"
+            className="h-24 w-auto object-contain px-4"
+          />
+        ))}
+      </div>
       <div className="max-w-4xl mx-auto text-center">
         <h1 className="text-3xl font-bold mb-4">
-          International Conference on Recent Advances in Emerging Computing and Communication Technologies <br/> for a Sustainable Future
-
+          International Conference on Recent Advances in Emerging Computing and
+          Communication Technologies <br /> for a Sustainable Future
           <br />
-          <span className="text-[#1B305C]"> (ICRAECCTSF) - 2026 Hybrid Mode</span>
+          <span className="text-[#1B305C]">
+            {" "}
+            (ICRAECCTSF) - 2026 Hybrid Mode
+          </span>
           <br />
         </h1>
         <div>
@@ -61,10 +60,9 @@ const Header = () => {
           </ul>
           <div className="text-center px-4 pb-10">
             <h1 className="text-[#1B305C] font-bold text-xl sm:text-2xl md:text-3xl">
-              
-              Chhatrapati Shahu Ji Maharaj University,<br></br> Kanpur (Venue Partner)
+              Chhatrapati Shahu Ji Maharaj University,<br></br> Kanpur (Venue
+              Partner)
             </h1>
-
 
             <div className="mt-4">
               <span className="bg-[#1B305C] text-white font-semibold px-4 py-2 rounded">
@@ -83,11 +81,12 @@ const Header = () => {
             <h2 className="text-green-900 font-bold text-lg sm:text-xl md:text-2xl mt-1">
               Aurel Vlaicu University of Arad, Romania
             </h2>
-            <h3 className="text-green-900 font-bold text-md sm:text-xl md:text-2xl mt-1">And</h3>
-          <h2 className="text-green-900 font-bold text-xl sm:text-xl md:text-2xl mt-1 capitalize">
-            Tecnm Instituto Tecnologico Superior De Fresnillo, Mexico
-
-          </h2>
+            <h3 className="text-green-900 font-bold text-md sm:text-xl md:text-2xl mt-1">
+              And
+            </h3>
+            <h2 className="text-green-900 font-bold text-xl sm:text-xl md:text-2xl mt-1 capitalize">
+              Tecnm Instituto Tecnologico Superior De Fresnillo, Mexico
+            </h2>
 
             <div className="mt-4">
               <span className="bg-yellow-400 text-black font-semibold px-4 py-2 rounded">
@@ -95,8 +94,13 @@ const Header = () => {
               </span>
             </div>
 
+            <div className="text-center overflow-hidden">
+              <span className="inline-block mt-4 px-4 py-2  text-[#1B305C] font-bold text-lg rounded-lg animate-marqueeText ">
+                Online Presentation Allowed!!
+              </span>
+            </div>
           </div>
-            <Submitpaper />
+          <Submitpaper />
         </div>
       </div>
     </header>

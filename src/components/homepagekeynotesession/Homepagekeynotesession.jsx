@@ -26,14 +26,15 @@ const Homepagekeynotesession = () => {
     img11,
   ];
 
-  return (
-    <div className="max-w-6xl mx-auto px-4 py-10 text-center">
-      <h1 className="text-3xl  font-bold text-gray-800 tracking-wide ">
-        Keynote sessions of ICRAECCT
+  return ( 
+    <div className="max-w-6xl mx-auto px-4 py-10 text-center flex flex-col items-center">
+      {/* Title */}
+      <h1 className="text-3xl font-bold text-gray-800 tracking-wide mb-6">
+        Keynote Sessions of ICRAECCT
       </h1>
 
       {/* Year Buttons */}
-      <div className="flex justify-center gap-4 mt-5 mb-6">
+      <div className="flex justify-center gap-4 mb-8">
         <button className="px-6 py-2 rounded-full bg-blue-600 text-white font-semibold">
           2025
         </button>
@@ -41,7 +42,7 @@ const Homepagekeynotesession = () => {
 
       {/* Marquee Section */}
       <div className="overflow-hidden relative w-full">
-        <div className="flex w-max animate-marqueekeynotesession gap-10">
+        <div className="flex w-max animate-marqueekeynotesession gap-10 items-center">
           {[...photos, ...photos].map((src, index) => (
             <img
               key={index}

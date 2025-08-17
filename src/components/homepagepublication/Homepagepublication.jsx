@@ -3,11 +3,11 @@ import commingsoon from "../../assets/publication/comingsoon.png";
 
 const publications = [
   {
-    img: commingsoon, 
+   
     title:
       "Recent Advances in Smart Communication Technologies for a Sustainable Future",
     authors:
-      "Valentina Emilia Balas (balas@drbalas.ro), Hari Pandey (hpandey@bournemouth.ac.uk), Muhammad Anshari (anshari.ali@ubd.edu.bn), Vineeta Singh (vineetasingh@csjmu.ac.in), Alok Kumar (alok@csjmu.ac.in)",
+      "Valentina Emilia Balas , Hari Pandey , Muhammad Anshari , Vineeta Singh , Alok Kumar ",
     release: "N/A",
     copyright: "© 2026",
     pages: "N/A",
@@ -15,10 +15,10 @@ const publications = [
     eisbn13: "978337335438",
   },
   {
-    img: commingsoon,
+  
     title: "Ensuring Secure Connectivity Through AI-Powered Wireless Systems",
     authors:
-      "Valentina Emilia Balas (balas@drbalas.ro), Hari Pandey (hpandey@bournemouth.ac.uk), Shilpa Mehta (shilpa.frnd1155@gmail.com), Vineeta Singh (vineetasingh@csjmu.ac.in), Kapil Joshi (kapilengg0509@gmail.com)",
+      "Valentina Emilia Balas , Hari Pandey , Shilpa Mehta , Vineeta Singh , Kapil Joshi ",
     release: "N/A",
     copyright: "© 2026",
     pages: "N/A",
@@ -26,22 +26,21 @@ const publications = [
     eisbn13: "978337335780",
   },
   {
-    img: commingsoon,
+ 
     title: "AI-Driven Decision Making",
     authors:
-      "Vineeta Singh (vineetasingh@csjmu.ac.in), Valentina Emilia Balas (balas@drbalas.ro), Hari Pandey (hpandey@bournemouth.ac.uk), Alok Kumar (alok@csjmu.ac.in) and Vandana Dixit Kaushik (...)",
+      "Vineeta Singh , Valentina Emilia Balas , Hari Pandey , Alok Kumar  and Vandana Dixit Kaushik ",
     release: "N/A",
     copyright: "© 2026",
     pages: "N/A",
-    isbn13: "978337335900",
-    eisbn13: "978337335920",
+
     visitLink: "https://benthambooks.com/future-books-by-subject/business-and-economics-and-finance-and-accounting/sub-category/business-technology-and-entrepreneurship/",
   },
 ];
 
 const Homepagepublication = () => {
   return (
-    <div className="w-full min-h-screen bg-gray-100 py-12">
+    <div className="w-full min-h-screen bg-gray-100 py-12 rounded-2xl px-4 ">
       {/* Heading */}
       <h1 className="text-3xl font-bold text-center mb-10">
          Publications of ICRAECCT
@@ -53,18 +52,14 @@ const Homepagepublication = () => {
        
       </div>
       {/* Cards */}
-      <div className="space-y-6 w-full max-w-5xl mx-auto">
+      <div className="space-y-6 w-full max-w-3xl mx-auto">
         {publications.map((book, index) => (
           <div
             key={index}
             className="flex bg-white shadow-md rounded-lg p-4 gap-6 items-start"
           >
             {/* Image */}
-            <img
-              src={book.img}
-              alt={book.title}
-              className="w-32 h-44 object-cover rounded-md"
-            />
+            
 
             {/* Content */}
             <div className="flex-1">

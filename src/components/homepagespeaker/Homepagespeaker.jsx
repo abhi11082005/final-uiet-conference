@@ -237,7 +237,7 @@ const Homepagespeaker = () => {
         Speakers of Previous ICRAECCT Conference
       </h1>
 
-      {/* Flexbox for centering */}
+      {/* Speakers Grid */}
       <div className="flex flex-wrap justify-center gap-6">
         {speakers.map((speaker, index) => (
           <div
@@ -249,11 +249,13 @@ const Homepagespeaker = () => {
               alt={speaker.name}
               className="w-28 h-28 mx-auto rounded-full object-cover mb-4"
             />
-            <h2 className="font-bold text-xl mb-2 text-red-800">{speaker.name}</h2>
+            <h2 className="font-bold text-xl mb-2 text-red-800">
+              {speaker.name}
+            </h2>
             <p className="text-sm text-gray-600 mb-2">{speaker.title}</p>
 
-            {/* Optional details */}
-            <ul className="text-sm text-gray-500 text-left list-disc pl-5 space-y-1">
+            {/* Consistent text alignment */}
+            <ul className="text-sm text-gray-500 text-center space-y-1">
               {speaker.details.map((detail, i) => (
                 <li key={i}>{detail}</li>
               ))}
