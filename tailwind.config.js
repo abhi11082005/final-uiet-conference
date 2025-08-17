@@ -18,8 +18,8 @@ export default {
         },
       },
       animation: {
-        marqueekeynotesession: "marquee 32s linear infinite",      // normal
-        marqueeimg: "marquee 150s linear infinite",  // 2x faster
+        marqueekeynotesession: "marquee 35s linear infinite",      // normal
+        marqueeimg: "marquee 240s linear infinite",  // 2x faster
         marqueeFaster: "marquee 5s linear infinite", // 4x faster
       },
     },

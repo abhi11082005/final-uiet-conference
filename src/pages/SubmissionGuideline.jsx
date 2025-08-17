@@ -60,8 +60,8 @@ const SubmissionGuideline = () => {
           <strong>Length of Papers:</strong> The most common types of papers
           accepted for publication are full papers (12–15+ pages) and short
           papers (8-12 pages), where a page constitutes 300-400 words. Only
-          papers of significant scientific content will be accepted. Very short
-          papers (less than 6 pages) are not allowed.
+          papers of significant scientific content will be accepted. <strong>Very short
+          papers (less than 6 pages) are not allowed.</strong>
         </li>
       </ol>
 
@@ -78,7 +78,7 @@ const SubmissionGuideline = () => {
       <p>
         Manuscripts, referred to as submissions / articles / papers, represent
         significant contributions to academic writing. For ICRAECCTSF-2026,
-        manuscripts will ONLY be accepted in electronic format via CMT. To
+        manuscripts will <strong>ONLY</strong> be accepted in electronic format via CMT. To
         submit a paper, at least one author must be a registered user on CMT.
         Authors who are not registered should first create an account on the CMT
         platform.

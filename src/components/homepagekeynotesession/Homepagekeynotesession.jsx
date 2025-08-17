@@ -41,13 +41,13 @@ const Homepagekeynotesession = () => {
 
       {/* Marquee Section */}
       <div className="overflow-hidden relative w-full">
-        <div className="flex w-max animate-marqueekeynotesession gap-6">
+        <div className="flex w-max animate-marqueekeynotesession gap-10">
           {[...photos, ...photos].map((src, index) => (
             <img
               key={index}
               src={src}
               alt={`photo-${index}`}
-              className="h-60 w-auto rounded-lg shadow-md object-cover transform transition-transform duration-500 hover:scale-110"
+              className="h-80 w-auto rounded-lg shadow-md object-cover transform transition-transform duration-500 hover:scale-110"
             />
           ))}
         </div>
