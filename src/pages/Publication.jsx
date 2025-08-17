@@ -5,36 +5,36 @@ import pub3 from "../assets/publication/pub3.jpg";
 
 const Publication = () => {
   const journals = [
-    {
-      title: "CURRENT MEDICAL IMAGING",
-      image: pub2,
-      details: [
-        "( ISSN / eISSN: 1573-4056 / 1875-6603 )",
-        "( BENTHAM SCIENCE PUBLISHER )",
-        "SCIE Indexed Journal"
-      ],
-      visitlink: "https://www.benthamscience.com/journal/33/indexing-agency",
-    },
-    {
-      title: "CURRENT COMPUTER-AIDED DRUG DESIGN",
-      image: pub1,
-      details: [
-        "( ISSN / eISSN: 1573-4089 / 1875-6997 )",
-        "( BENTHAM SCIENCE PUBLISHER )",
-        "SCIE Indexed Journal"
-      ],
-      visitlink: "https://www.benthamscience.com/journals/current-computer-aided-drug-design",
-    },
-    {
-      title: "FRANKLIN OPEN",
-      image: pub3,
-      details: [
-        "( ISSN / Print ISSN: 1879-2693 / 0016-0032 )",
-        "( ELSEVIER PUBLISHER )",
-        "Scopus Indexed Journal"
-      ],
-      visitlink: "https://www.sciencedirect.com/journal/journal-of-the-franklin-institute"
-    }
+    // {
+    //   title: "CURRENT MEDICAL IMAGING",
+    //   image: pub2,
+    //   details: [
+    //     "( ISSN / eISSN: 1573-4056 / 1875-6603 )",
+    //     "( BENTHAM SCIENCE PUBLISHER )",
+    //     "SCIE Indexed Journal"
+    //   ],
+    //   visitlink: "https://www.benthamscience.com/journal/33/indexing-agency",
+    // },
+    // {
+    //   title: "CURRENT COMPUTER-AIDED DRUG DESIGN",
+    //   image: pub1,
+    //   details: [
+    //     "( ISSN / eISSN: 1573-4089 / 1875-6997 )",
+    //     "( BENTHAM SCIENCE PUBLISHER )",
+    //     "SCIE Indexed Journal"
+    //   ],
+    //   visitlink: "https://www.benthamscience.com/journals/current-computer-aided-drug-design",
+    // },
+    // {
+    //   title: "FRANKLIN OPEN",
+    //   image: pub3,
+    //   details: [
+    //     "( ISSN / Print ISSN: 1879-2693 / 0016-0032 )",
+    //     "( ELSEVIER PUBLISHER )",
+    //     "Scopus Indexed Journal"
+    //   ],
+    //   visitlink: "https://www.sciencedirect.com/journal/journal-of-the-franklin-institute"
+    // }
   ];
 
   return (
