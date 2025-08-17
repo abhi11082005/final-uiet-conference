@@ -62,7 +62,7 @@ function App() {
         <Route path="/important-dates" element={<Impdate />} />
         <Route path="/author-info" element={<AuthorInfo />} />
         <Route path="/registration" element={<Registration />} />
-        <Route path="/publication" element={<Publication />} />
+        <Route path="/publication" element={<Willbesoon />} />
         <Route path="/speakers" element={<Speakers />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/gallery/inaugural" element={<Willbesoon />} />
