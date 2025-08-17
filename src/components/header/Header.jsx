@@ -24,6 +24,7 @@ const Header = () => {
           key={index}
           src={src}
           alt={`logo-${index}`}
+          draggable="false"
           className="h-24 w-auto object-contain px-4"
         />
       ))}
