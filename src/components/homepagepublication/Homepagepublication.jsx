@@ -7,7 +7,7 @@ const publications = [
     title:
       "Recent Advances in Smart Communication Technologies for a Sustainable Future",
     authors:
-      "Valentina Emilia Balas , Hari Pandey , Muhammad Anshari , Vineeta Singh , Alok Kumar ",
+      "Valentina Emilia Balas (Aurel Vlaicu University of Arad Romania), Hari Pandey (Bournemouth University UK), Muhammad Anshari (Universitas Amikom Yogyakarta), Vineeta Singh (CSJM University Kanpur India), Alok Kumar (CSJM University Kanpur India)",
     release: "N/A",
     copyright: "© 2026",
     pages: "N/A",
@@ -18,7 +18,7 @@ const publications = [
   
     title: "Ensuring Secure Connectivity Through AI-Powered Wireless Systems",
     authors:
-      "Valentina Emilia Balas , Hari Pandey , Shilpa Mehta , Vineeta Singh , Kapil Joshi ",
+      "Valentina Emilia Balas (Aurel Vlaicu University of Arad Romania), Hari Pandey (Bournemouth University UK), Shilpa Mehta (Uttaranchal University, Dehradun, India), Vineeta Singh (CSJM University Kanpur India), Kapil Joshi (Uttaranchal University, Dehradun, India)",
     release: "N/A",
     copyright: "© 2026",
     pages: "N/A",
@@ -29,7 +29,7 @@ const publications = [
  
     title: "AI-Driven Decision Making",
     authors:
-      "Vineeta Singh , Valentina Emilia Balas , Hari Pandey , Alok Kumar  and Vandana Dixit Kaushik ",
+      "Vineeta Singh (CSJM University Kanpur India), Valentina Emilia Balas (Aurel Vlaicu University of Arad Romania), Hari Pandey (Bournemouth University UK), Alok Kumar (CSJM University Kanpur India) and Vandana Dixit Kaushik (HBTU Kanpur India)",
     release: "N/A",
     copyright: "© 2026",
     pages: "N/A",
