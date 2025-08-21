@@ -24,7 +24,7 @@ export default function AboutConference() {
           <p>
             Scheduled for{" "}
             <strong>
-              11<sup>th</sup>–13<sup>th</sup> April 2026
+              17<sup>th</sup>–18<sup>th</sup> April 2026
             </strong>
             , this international conference aims to foster interdisciplinary
             collaboration to address urgent environmental, economic, and social

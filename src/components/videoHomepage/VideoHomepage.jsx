@@ -28,11 +28,11 @@ const VideoHomepage = () => {
             Technologies for A Sustainable Future
           </h2>
           <p className="text-xl font-medium">
-            Conference Date: 11
+            Conference Date: 17
             <sup className="text-white">
               th
             </sup>{" "}
-            - 13
+            - 18
             <sup className="text-white">
               th
             </sup>{" "}

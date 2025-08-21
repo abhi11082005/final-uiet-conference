@@ -32,13 +32,13 @@ const Home = () => {
             </strong>{" "}
             is a distinguished global forum dedicated to advancing research and
             innovation at the intersection of cutting-edge computing,
-            communication technologies, and sustainability.
+            communication technologies, and sustainability.{" "}
           </span>
 
           <span className="mt-4">
             Scheduled for{" "}
             <strong>
-              11<sup>th</sup>–13<sup>th</sup> April 2026
+              17<sup>th</sup>–18<sup>th</sup> April 2026
             </strong>
             , this international conference aims to foster interdisciplinary
             collaboration to address urgent environmental, economic, and social

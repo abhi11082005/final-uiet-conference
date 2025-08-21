@@ -90,7 +90,7 @@ const Header = () => {
 
             <div className="mt-4">
               <span className="bg-yellow-400 text-black font-semibold px-4 py-2 rounded">
-                Conference Date: 11<sup>th</sup> - 13<sup>th</sup> April, 2026
+                Conference Date: 17<sup>th</sup> - 18<sup>th</sup> April, 2026
               </span>
             </div>
 

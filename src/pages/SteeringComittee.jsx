@@ -10,9 +10,14 @@ const SteeringCommittee = () => {
       <div className="space-y-8">
         {/* Chief Patron */}
         <section>
-          <h2 className="text-xl font-semibold text-gray-800 mb-2">Chief Patron</h2>
+          <h2 className="text-xl font-semibold text-gray-800 mb-2">
+            Chief Patron
+          </h2>
           <ul className="list-disc list-inside text-gray-700">
-            <li>Prof. Vinay Kumar Pathak, Honorable Vice Chancellor, CSJM University, Kanpur</li>
+            <li>
+              Prof. Vinay Kumar Pathak, Honorable Vice Chancellor, CSJM
+              University, Kanpur
+            </li>
           </ul>
         </section>
 
@@ -20,25 +25,41 @@ const SteeringCommittee = () => {
         <section>
           <h2 className="text-xl font-semibold text-gray-800 mb-2">Patron</h2>
           <ul className="list-disc list-inside text-gray-700">
-            <li>Prof. Sudhir Kumar Awasthi, Pro Vice Chancellor, CSJM University, Kanpur</li>
+            <li>
+              Prof. Sudhir Kumar Awasthi, Pro Vice Chancellor, CSJM University,
+              Kanpur
+            </li>
             <li>Shri Rakesh Kumar, Registrar, CSJM University, Kanpur</li>
           </ul>
         </section>
 
         {/* Co-Patron */}
         <section>
-          <h2 className="text-xl font-semibold text-gray-800 mb-2">Co-Patron</h2>
+          <h2 className="text-xl font-semibold text-gray-800 mb-2">
+            Co-Patron
+          </h2>
           <ul className="list-disc list-inside text-gray-700">
-            <li>Prof. Bristhi Mitra, Dean Academics, CSJM University, Kanpur</li>
+            <li>
+              Prof. Bristhi Mitra, Dean Academics, CSJM University, Kanpur
+            </li>
           </ul>
         </section>
 
         {/* General Chair */}
         <section>
-          <h2 className="text-xl font-semibold text-gray-800 mb-2">General Chair</h2>
+          <h2 className="text-xl font-semibold text-gray-800 mb-2">
+            General Chair
+          </h2>
           <ul className="list-disc list-inside text-gray-700">
-            <li>Prof. (Dr.) Valentina Emilia Balas, Aurel Vlaicu University of Arad / Academy of Romanian Scientists, ROMANIA</li>
-            <li>Prof. Sergei Levashkin, Artificial Intelligence Research Lab (AIRL), Povolzhskiy State University of Telecommunications and Informatics (PSUTI), Samara, Russia</li>
+            <li>
+              Prof. (Dr.) Valentina Emilia Balas, Aurel Vlaicu University of
+              Arad / Academy of Romanian Scientists, ROMANIA
+            </li>
+            <li>
+              Prof. Sergei Levashkin, Artificial Intelligence Research Lab
+              (AIRL), Povolzhskiy State University of Telecommunications and
+              Informatics (PSUTI), Samara, Russia
+            </li>
             <li>Prof. Rajeev Srivastava, IIT BHU</li>
             <li>Prof. Prabodh Bajpai, IIT Kanpur</li>
           </ul>
@@ -46,9 +67,14 @@ const SteeringCommittee = () => {
 
         {/* Program Chair */}
         <section>
-          <h2 className="text-xl font-semibold text-gray-800 mb-2">Program Chair</h2>
+          <h2 className="text-xl font-semibold text-gray-800 mb-2">
+            Program Chair
+          </h2>
           <ul className="list-disc list-inside text-gray-700">
-            <li>Prof. (Dr.) Valentina Emilia Balas, Aurel Vlaicu University of Arad / Academy of Romanian Scientists, ROMANIA</li>
+            <li>
+              Prof. (Dr.) Valentina Emilia Balas, Aurel Vlaicu University of
+              Arad / Academy of Romanian Scientists, ROMANIA
+            </li>
             <li>Prof. (Dr.) Pabitra Mitra, IIT BHU</li>
             <li>Dr. Hari Mohan Pandey, Bournemouth University, UK</li>
           </ul>
@@ -56,7 +82,9 @@ const SteeringCommittee = () => {
 
         {/* Organizing Chair */}
         <section>
-          <h2 className="text-xl font-semibold text-gray-800 mb-2">Organizing Chair</h2>
+          <h2 className="text-xl font-semibold text-gray-800 mb-2">
+            Organizing Chair
+          </h2>
           <ul className="list-disc list-inside text-gray-700">
             <li>Dr. Raghvendra Kumar Chaudhary, IIT Kanpur</li>
             <li>Dr. Vipul Arora, IIT Kanpur</li>
@@ -67,9 +95,14 @@ const SteeringCommittee = () => {
 
         {/* Editorial Chair */}
         <section>
-          <h2 className="text-xl font-semibold text-gray-800 mb-2">Editorial Chair</h2>
+          <h2 className="text-xl font-semibold text-gray-800 mb-2">
+            Editorial Chair
+          </h2>
           <ul className="list-disc list-inside text-gray-700">
-            <li>Prof. (Dr.) Valentina Emilia Balas, Aurel Vlaicu University of Arad / Academy of Romanian Scientists, ROMANIA</li>
+            <li>
+              Prof. (Dr.) Valentina Emilia Balas, Aurel Vlaicu University of
+              Arad / Academy of Romanian Scientists, ROMANIA
+            </li>
             <li>Prof. Rajeev Srivastava, IIT BHU</li>
             <li>Dr. Deepak Gupta, MNNIT Allahabad</li>
             <li>Dr. Vineeta Singh, CSJM University, Kanpur</li>
@@ -78,18 +111,27 @@ const SteeringCommittee = () => {
 
         {/* Publication Chair */}
         <section>
-          <h2 className="text-xl font-semibold text-gray-800 mb-2">Publication Chair</h2>
+          <h2 className="text-xl font-semibold text-gray-800 mb-2">
+            Publication Chair
+          </h2>
           <ul className="list-disc list-inside text-gray-700">
-            <li>Prof. (Dr.) Valentina Emilia Balas, Aurel Vlaicu University of Arad / Academy of Romanian Scientists, ROMANIA</li>
+            <li>
+              Prof. (Dr.) Valentina Emilia Balas, Aurel Vlaicu University of
+              Arad / Academy of Romanian Scientists, ROMANIA
+            </li>
             <li>Dr. Hari Mohan Pandey, Bournemouth University, UK</li>
           </ul>
         </section>
 
         {/* Publicity Chair */}
         <section>
-          <h2 className="text-xl font-semibold text-gray-800 mb-2">Publicity Chair</h2>
+          <h2 className="text-xl font-semibold text-gray-800 mb-2">
+            Publicity Chair
+          </h2>
           <ul className="list-disc list-inside text-gray-700">
-            <li>Dr. Nahed Tawfik, Electronics Research Institute, Cairo, Egypt</li>
+            <li>
+              Dr. Nahed Tawfik, Electronics Research Institute, Cairo, Egypt
+            </li>
             <li>Dr. Nuno Mateus Coelho, Lusofona University, Portugal</li>
             <li>Dr. Ankush Sharma, IIT Kanpur</li>
             <li>Dr. Deepak Gupta, MAIT Delhi</li>
@@ -100,7 +142,9 @@ const SteeringCommittee = () => {
 
         {/* Convenor(s) */}
         <section>
-          <h2 className="text-xl font-semibold text-gray-800 mb-2">Convenor(s)</h2>
+          <h2 className="text-xl font-semibold text-gray-800 mb-2">
+            Convenor(s)
+          </h2>
           <ul className="list-disc list-inside text-gray-700">
             <li>Prof. Rabins Porwal</li>
             <li>Dr. Alok Kumar</li>
@@ -110,7 +154,9 @@ const SteeringCommittee = () => {
 
         {/* Co-Convenor(s) */}
         <section>
-          <h2 className="text-xl font-semibold text-gray-800 mb-2">Co-Convenor(s)</h2>
+          <h2 className="text-xl font-semibold text-gray-800 mb-2">
+            Co-Convenor(s)
+          </h2>
           <ul className="list-disc list-inside text-gray-700">
             <li>Dr. Pushpa Mamoriya</li>
             <li>Dr. Vineeta Singh</li>
@@ -121,7 +167,9 @@ const SteeringCommittee = () => {
 
         {/* Organizing Committee */}
         <section>
-          <h2 className="text-xl font-semibold text-gray-800 mb-2">Organizing Committee</h2>
+          <h2 className="text-xl font-semibold text-gray-800 mb-2">
+            Organizing Committee
+          </h2>
           <ul className="list-disc list-inside text-gray-700">
             <li>Dr. Deepak Kumar Verma</li>
             <li>Dr. Vishal Awasthi</li>
@@ -141,6 +189,7 @@ const SteeringCommittee = () => {
             <li>Mr. Prateek Srivastava</li>
             <li>Ms. Suruchi Singh</li>
             <li>Dr. Arpita Singh</li>
+            <li>Mr. Arpit Dubey</li>
             <li>Mr. Shilpi Dubey</li>
             <li>Dr. Ajay Tiwari</li>
             <li>Mr. Sanjeer Kumar</li>
@@ -149,7 +198,7 @@ const SteeringCommittee = () => {
             <li>Mr. Prashant Srivastava</li>
             <li>Mrs. Arpita Singh</li>
             <li>Dr. Mayur Rahul</li>
-            <li>Mr. Ravi Kant Mishra</li>
+            <li>Mr Ravi Kant Mishra</li>
             <li>Dr. Pushpa Mamoriya</li>
             <li>Dr. Mamta Tiwari</li>
             <li>Mr. Sheshmani Tiwari</li>
@@ -164,6 +213,9 @@ const SteeringCommittee = () => {
             <li>Mr. Ravi Kant</li>
             <li>Mr. Shekhar Varma</li>
             <li>Mr. Kamal Kant</li>
+            <li>Miss Gargi Gupta</li>
+            <li>Mrs. Pragya Tripathi</li>
+            <li>Mrs. Gayatri Rajpoot</li>
           </ul>
         </section>
       </div>
