@@ -8,6 +8,7 @@ import {
   FaGraduationCap,
   FaMapMarkerAlt,
 } from "react-icons/fa";
+import FooterWithMarquee from "./Footermarquee";
 import uietimage from "../../assets/uietimage.jpg";
 
 export default function Footer() {
@@ -32,6 +33,7 @@ export default function Footer() {
                Designed by CSE Department UIET CSJMU Kanpur
 
             </p>
+            <FooterWithMarquee />
           </div>
         </div>
       </div>

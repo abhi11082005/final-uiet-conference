@@ -216,6 +216,10 @@ const SteeringCommittee = () => {
             <li>Miss Gargi Gupta</li>
             <li>Mrs. Pragya Tripathi</li>
             <li>Mrs. Gayatri Rajpoot</li>
+            <li>Mr. Anand Kumar Mishra</li>
+
+            <li>Mrs. Shagoofi Anjum</li>
+
           </ul>
         </section>
       </div>

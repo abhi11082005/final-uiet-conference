@@ -9,9 +9,9 @@ const contacts = [
   },
   {
     sr: 2,
-    name: "Dr. Alok Kumar",
-    email: "alok@csjmu.ac.in",
-    phone: "+91 700 771 3064",
+    name: "Dr. Deepak Kumar Verma",
+    email: "deepak@csjmu.ac.in",
+    phone: "+91 98391 05362",
   },
   {
     sr: 3,
