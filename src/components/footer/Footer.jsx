@@ -33,6 +33,7 @@ export default function Footer() {
                Designed by CSE Department UIET CSJMU Kanpur
 
             </p>
+            
             <FooterWithMarquee />
           </div>
         </div>

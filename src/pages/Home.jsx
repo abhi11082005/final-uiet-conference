@@ -9,6 +9,7 @@ import Homepagevideo from "../components/homepagevideo/Homepagevideo";
 import HomepageSpeaker from "../components/homepagespeaker/Homepagespeaker";
 import Homepagepublication from "../components/homepagepublication/Homepagepublication";
 import Homepagekeynotesession from "../components/homepagekeynotesession/Homepagekeynotesession";
+import HomepageKeynotespeaker from "../components/homepagespeaker/HomepageKeynotespeaker";
 
 const Home = () => {
   return (
@@ -59,6 +60,7 @@ const Home = () => {
       </div>
       <AboutUniversity />
       <div className=" ">
+        <HomepageKeynotespeaker />
         <Homepageimg />
         <Homepagevideo />
         <Homepagekeynotesession />

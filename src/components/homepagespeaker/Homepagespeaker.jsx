@@ -192,7 +192,7 @@ const speakers = [
       name: "Ratnadeep Simhadri",
       title: "Software Engineer",
       details: [
-        "PayPal, USA"
+        "PayPal, USA" 
       ]
     },
     {
