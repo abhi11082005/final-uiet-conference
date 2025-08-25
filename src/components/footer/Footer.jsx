@@ -34,7 +34,6 @@ export default function Footer() {
 
             </p>
             
-            <FooterWithMarquee />
           </div>
         </div>
       </div>

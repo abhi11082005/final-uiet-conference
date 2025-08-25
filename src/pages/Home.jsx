@@ -45,7 +45,7 @@ const Home = () => {
             collaboration to address urgent environmental, economic, and social
             challenges through sustainable technological solutions.
           </span>
-
+ 
           <span className="mt-4">
             In an era marked by rapid digital transformation and environmental
             concerns, the role of emerging computing and communication

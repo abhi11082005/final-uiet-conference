@@ -29,6 +29,7 @@ import KeynoteSpeakers from "./components/gallary/KeynoteSpeaker";
 import SubmissionGuideline from "./pages/SubmissionGuideline";
 import CallForSpecialSession from "./pages/CallForSpecialSession";
 import CallForSponsorship from "./pages/CallForSponsorship";
+import CMTAcknowledgement from "./pages/CMTAcknowledgement";
 
 function App() {
   const [isSticky, setIsSticky] = useState(false);
@@ -69,6 +70,9 @@ function App() {
         <Route path="/submission-guidelines" element={<SubmissionGuideline />} />
         <Route path="/call-for-special-session" element={<CallForSpecialSession />} />
         <Route path="/call-for-sponsorship" element={<CallForSponsorship />} />
+        <Route path="/kanpur" element={<Willbesoon />} />
+
+        <Route path="/cmt-acknowledgement" element={<CMTAcknowledgement />} />
       </Routes>
       <Footer />
     </Router>

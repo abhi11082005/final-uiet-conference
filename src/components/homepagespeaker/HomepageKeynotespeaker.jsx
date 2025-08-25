@@ -43,11 +43,7 @@ const HomepageKeynotespeaker = () => {
       <h1 className="text-3xl font-bold mb-8">
         Keynote Speakers of ICRAECCT
       </h1>
-      <div className="flex justify-center gap-4 mb-6">
-        <button className="px-6 py-2 rounded-full bg-blue-600 text-white font-semibold">
-          2025
-        </button>
-      </div>
+     
 
       {/* Speakers Grid */}
       <div className="flex flex-wrap justify-center gap-6">
