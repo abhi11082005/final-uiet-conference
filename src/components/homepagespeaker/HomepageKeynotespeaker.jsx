@@ -41,7 +41,7 @@ const HomepageKeynotespeaker = () => {
   return (
     <div className="max-w-7xl mx-auto px-4 py-10 text-center">
       <h1 className="text-3xl font-bold mb-8">
-        Keynote Speakers of ICRAECCT
+        Keynote Speakers 
       </h1>
      
 
