@@ -16,7 +16,7 @@ const CMTAcknowledgement = () => {
         <p className="text-lg leading-relaxed text-justify">
           The <span className="font-semibold">Microsoft CMT service</span> was
           used for managing the peer-reviewing process for this conference. This
-          service was provided for <span className="italic">free by Microsoft</span>{" "}
+          service was provided for free by Microsoft{" "}
           and they bore all expenses, including costs for Azure cloud services as well as for software development and support.
         </p>
       </div>
