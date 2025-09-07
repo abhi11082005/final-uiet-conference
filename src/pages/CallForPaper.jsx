@@ -75,7 +75,9 @@ const CallForPaper = () => {
             inequality within and among countries
           </li>
           <li>
-            <span className="font-bold">Sustainable Cities and Communities</span>{" "}
+            <span className="font-bold">
+              Sustainable Cities and Communities
+            </span>{" "}
             – Make cities inclusive, safe, resilient, and sustainable
           </li>
           <li>
@@ -113,117 +115,113 @@ const CallForPaper = () => {
         <h2 className="text-2xl font-semibold mb-4">Conference Tracks</h2>
 
         <div className="space-y-6">
-          {/* Track S1 */}
+          {/* Track 1 */}
           <div>
             <h3 className="font-bold mb-2">
-              Track S1: Sustainable Computing and Green IT
+              TRACK1: Artificial Intelligence and Machine Learning for
+              Sustainable Development
             </h3>
             <ul className="list-disc ml-6 space-y-1">
-              <li>Energy-efficient algorithms and architectures</li>
-              <li>Carbon-aware computing practices</li>
-              <li>Sustainable software engineering</li>
-              <li>Life-cycle assessment of IT infrastructure</li>
-              <li>Low-power systems and green data centers</li>
+              <li>AI/ML applications in healthcare</li>
+              <li>AI/ML applications in agriculture</li>
+              <li>AI/ML applications in energy</li>
+              <li>AI/ML for climate modeling</li>
+              <li>AI/ML applications in smart cities</li>
             </ul>
           </div>
 
-          {/* Track S2 */}
+          {/* Track 2 */}
           <div>
             <h3 className="font-bold mb-2">
-              Track S2: Smart and Sustainable Cities
+              TRACK2: Green and Sustainable Communication Networks
             </h3>
             <ul className="list-disc ml-6 space-y-1">
-              <li>ICT for sustainable urban planning</li>
-              <li>Smart mobility and intelligent transport systems</li>
-              <li>Smart energy grids and resource management</li>
-              <li>Waste and water management using IoT</li>
-              <li>Digital twins for city-scale sustainability</li>
+              <li>5G/6G</li>
+              <li>IoT</li>
+              <li>Low-power communication</li>
+              <li>Spectrum efficiency</li>
+              <li>Energy-aware wireless technologies</li>
             </ul>
           </div>
 
-          {/* Track S3 */}
+          {/* Track 3 */}
           <div>
             <h3 className="font-bold mb-2">
-              Track S3: ICT for Climate Action and Environmental Monitoring
+              TRACK3: Cloud, Edge, and Quantum Computing for Next-Gen
+              Applications
             </h3>
             <ul className="list-disc ml-6 space-y-1">
-              <li>AI/ML for climate prediction and adaptation</li>
-              <li>Remote sensing for disaster management</li>
-              <li>IoT-based air and water quality monitoring</li>
-              <li>Real-time climate data processing and visualization</li>
-              <li>Citizen science and participatory sensing</li>
+              <li>Sustainable cloud/edge infrastructures</li>
+              <li>Quantum computing for optimization</li>
+              <li>Quantum computing for security</li>
             </ul>
           </div>
 
-          {/* Track S4 */}
+          {/* Track 4 */}
           <div>
             <h3 className="font-bold mb-2">
-              Track S4: Sustainable Agriculture and Food Systems
+              TRACK4: Cybersecurity, Privacy, and Blockchain for Trustworthy
+              Systems
             </h3>
             <ul className="list-disc ml-6 space-y-1">
-              <li>Precision agriculture using AI and IoT</li>
-              <li>Smart irrigation and water conservation systems</li>
-              <li>Agricultural robotics for reduced environmental impact</li>
-              <li>Blockchain in supply chain transparency</li>
-              <li>Data-driven approaches to food security</li>
+              <li>Secure communication</li>
+              <li>Blockchain for sustainability</li>
+              <li>Cryptography</li>
+              <li>AI in cybersecurity</li>
             </ul>
           </div>
 
-          {/* Track S5 */}
+          {/* Track 5 */}
           <div>
             <h3 className="font-bold mb-2">
-              Track S5: Renewable Energy Systems and Smart Grids
+              TRACK5: Smart Grids, Renewable Energy, and Sustainable IoT
             </h3>
             <ul className="list-disc ml-6 space-y-1">
-              <li>ICT for solar, wind, and bioenergy management</li>
-              <li>Smart grid communication technologies</li>
-              <li>Demand response and energy forecasting using AI</li>
-              <li>Energy storage optimization</li>
-              <li>Distributed energy resource management</li>
+              <li>IoT-enabled smart grids</li>
+              <li>Energy-efficient systems</li>
+              <li>Sensors for environmental monitoring</li>
             </ul>
           </div>
 
-          {/* Track S6 */}
+          {/* Track 6 */}
           <div>
             <h3 className="font-bold mb-2">
-              Track S6: Circular Economy and E-Waste Management
+              TRACK6: Big Data Analytics and Intelligent Decision Support
+              Systems
             </h3>
             <ul className="list-disc ml-6 space-y-1">
-              <li>Technologies for e-waste tracking and recycling</li>
-              <li>Digital platforms for product life-cycle management</li>
-              <li>AI/IoT for waste reduction and resource optimization</li>
-              <li>Circular product design and smart remanufacturing</li>
-              <li>Blockchain for supply chain transparency in recycling</li>
+              <li>Sustainable data centers</li>
+              <li>Green analytics</li>
+              <li>Decision-making for climate and resource management</li>
             </ul>
           </div>
 
-          {/* Track S7 */}
+          {/* Track 7 */}
           <div>
             <h3 className="font-bold mb-2">
-              Track S7: Sustainable Development Goals (SDGs) and Digital
-              Innovation
+              TRACK7: Human-Centered Computing and Sustainable Digital
+              Transformation
             </h3>
             <ul className="list-disc ml-6 space-y-1">
-              <li>Tech-enabled approaches to achieving UN SDGs</li>
-              <li>ICT for health, education, and gender equality</li>
-              <li>Socio-technical innovations for marginalized communities</li>
-              <li>Platforms for participatory governance and civic tech</li>
-              <li>Responsible AI and digital inclusion</li>
+              <li>HCI</li>
+              <li>E-governance</li>
+              <li>Education technologies</li>
+              <li>Digital inclusion</li>
+              <li>Sustainable e-services</li>
             </ul>
           </div>
 
-          {/* Track S8 */}
+          {/* Track 8 */}
           <div>
             <h3 className="font-bold mb-2">
-              Track S8: Ethics, Policy, and Responsible Innovation for
-              Sustainability
+              TRACK8: Emerging Trends in Electronics, VLSI, and Embedded Systems
+              for Sustainability
             </h3>
             <ul className="list-disc ml-6 space-y-1">
-              <li>Tech policy for environmental justice</li>
-              <li>Ethical AI for sustainability</li>
-              <li>Tech governance and digital rights</li>
-              <li>Global collaboration frameworks for sustainable innovation</li>
-              <li>Standards and certifications for green technologies</li>
+              <li>Low-power chips</li>
+              <li>Green electronics</li>
+              <li>Embedded AI</li>
+              <li>Sustainable hardware design</li>
             </ul>
           </div>
         </div>
