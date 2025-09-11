@@ -171,7 +171,6 @@ const SteeringCommittee = () => {
             Organizing Committee
           </h2>
           <ul className="list-disc list-inside text-gray-700">
-            <li>Dr. Deepak Kumar Verma</li>
             <li>Dr. Vishal Awasthi</li>
             <li>Dr. Sandesh Gupta</li>
             <li>Dr. Niraj Kumar</li>
@@ -185,7 +184,6 @@ const SteeringCommittee = () => {
             <li>Mr. Amit Virmani</li>
             <li>Mr. Vijay Agrawal</li>
             <li>Mohd. Shah Alam</li>
-            <li>Mr. Arpit Dubey</li>
             <li>Mr. Prateek Srivastava</li>
             <li>Ms. Suruchi Singh</li>
             <li>Dr. Arpita Singh</li>
@@ -198,7 +196,7 @@ const SteeringCommittee = () => {
             <li>Mr. Prashant Srivastava</li>
             <li>Mrs. Arpita Singh</li>
             <li>Dr. Mayur Rahul</li>
-            <li>Mr Ravi Kant Mishra</li>
+            <li>Mr. Ravi Kant Mishra</li>
             <li>Dr. Pushpa Mamoriya</li>
             <li>Dr. Mamta Tiwari</li>
             <li>Mr. Sheshmani Tiwari</li>
@@ -216,10 +214,8 @@ const SteeringCommittee = () => {
             <li>Miss Gargi Gupta</li>
             <li>Mrs. Pragya Tripathi</li>
             <li>Mrs. Gayatri Rajpoot</li>
-            <li>Mr. Anand Kumar Mishra</li>
-
-            <li>Mrs. Shagoofi Anjum</li>
-
+            <li>Mr. Anand Kumar Mishra, Assistant Professor</li>
+            <li>Ms. Shagoofi Anjum</li>
           </ul>
         </section>
       </div>
