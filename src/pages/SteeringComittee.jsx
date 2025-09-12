@@ -76,7 +76,7 @@ const SteeringCommittee = () => {
               Arad / Academy of Romanian Scientists, ROMANIA
             </li>
             <li>Prof. (Dr.) Pabitra Mitra, IIT BHU</li>
-            <li>Dr. Hari Mohan Pandey, Bournemouth University, UK</li>
+            <li>Dr. Hari Mohan Pandey, Bournemouth University UK</li>
           </ul>
         </section>
 
@@ -105,7 +105,8 @@ const SteeringCommittee = () => {
             </li>
             <li>Prof. Rajeev Srivastava, IIT BHU</li>
             <li>Dr. Deepak Gupta, MNNIT Allahabad</li>
-            <li>Dr. Vineeta Singh, CSJM University, Kanpur</li>
+            <li>Dr. Alok Kumar, CSJM University Kanpur</li>
+            <li>Dr. Vineeta Singh, CSJM University Kanpur</li>
           </ul>
         </section>
 
@@ -119,7 +120,7 @@ const SteeringCommittee = () => {
               Prof. (Dr.) Valentina Emilia Balas, Aurel Vlaicu University of
               Arad / Academy of Romanian Scientists, ROMANIA
             </li>
-            <li>Dr. Hari Mohan Pandey, Bournemouth University, UK</li>
+            <li>Dr. Hari Mohan Pandey, Bournemouth University UK</li>
           </ul>
         </section>
 
@@ -130,13 +131,13 @@ const SteeringCommittee = () => {
           </h2>
           <ul className="list-disc list-inside text-gray-700">
             <li>
-              Dr. Nahed Tawfik, Electronics Research Institute, Cairo, Egypt
+              Dr. Nahed Tawfik, Electronics Research Institute, Cairo Egypt
             </li>
             <li>Dr. Nuno Mateus Coelho, Lusofona University, Portugal</li>
             <li>Dr. Ankush Sharma, IIT Kanpur</li>
             <li>Dr. Deepak Gupta, MAIT Delhi</li>
-            <li>Dr. Keshav Kaushik, Amity University, Punjab</li>
-            <li>Dr. Kapil Joshi, Uttaranchal University, Dehradun</li>
+            <li>Dr. Keshav Kaushik, Amity University Punjab</li>
+            <li>Dr. Kapil Joshi, Uttaranchal University Dehradun</li>
           </ul>
         </section>
 
@@ -147,7 +148,7 @@ const SteeringCommittee = () => {
           </h2>
           <ul className="list-disc list-inside text-gray-700">
             <li>Prof. Rabins Porwal</li>
-            <li>Dr. Alok Kumar</li>
+            <li>Dr. Deepak Kumar Verma</li>
             <li>Dr. Ajeet Kumar Srivastava</li>
           </ul>
         </section>
@@ -161,7 +162,7 @@ const SteeringCommittee = () => {
             <li>Dr. Pushpa Mamoriya</li>
             <li>Dr. Vineeta Singh</li>
             <li>Dr. Ajay Tiwari</li>
-            <li>Dr. Kapil Joshi, Uttaranchal University, Dehradun</li>
+            <li>Dr. Kapil Joshi, Uttaranchal University Dehradun</li>
           </ul>
         </section>
 
