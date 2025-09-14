@@ -1,107 +1,61 @@
 import React from "react";
-import pub1 from "../assets/publication/pub1.jpg";
+import pub1 from "../assets/publication/image.png";
 import pub2 from "../assets/publication/pub2.jpg";
 import pub3 from "../assets/publication/pub3.jpg";
 
 const Publication = () => {
-  const journals = [
-    {
-      title: "Open Access, Scopus Indexed Journals",
-      image: pub1,
-      details: [
-        "High quality selected research papers, successfully presented, may be recommended",
-        "Additional Article Processing Charges borne by authors",
-        "Independent review by the journal for final acceptance"
-      ],
-      visitlink: "https://www.scopus.com/sources",
-    },
-    {
-      title: "Springer LNNS Conference Proceedings (ICRAECCTSF 2026)",
-      image: pub2,
-      details: [
-        "Selected high-quality papers with strong technical content",
-        "May appear in Scopus Indexed Springer LNNS Proceedings",
-        "Proposal submitted for ICRAECCTSF 2026"
-      ],
-      visitlink: "https://link.springer.com/bookseries/15179",
-    },
-    {
-      title: "Book Chapters in Edited Volumes",
-      image: pub3,
-      details: [
-        "Extended and successfully presented papers",
-        "Scopus Indexed Edited Books",
-        "Renowned publishers: IGI Global, Bentham Science",
-        "Minimum page length: 15 pages"
-      ],
-      visitlink: "https://www.igi-global.com/",
-    },
-  ];
-
   return (
-    <div className="min-h-screen bg-gray-50 p-8">
-      {/* Top heading */}
-      <div className="mb-10 text-center">
-        <h3 className="text-2xl md:text-4xl font-bold text-gray-800 uppercase tracking-wide">
-          Publication Opportunities
-        </h3>
-        <p className="mt-4 text-gray-600 max-w-2xl mx-auto">
-          Selected high-quality research papers and extended manuscripts will be
-          considered for publication in Scopus Indexed Journals, Springer LNNS
-          Conference Proceedings, and Edited Books with renowned publishers.
+    <div className="w-full bg-gray-100 py-10 mt-10 rounded-lg">
+      <div className="max-w-7xl mx-auto bg-white shadow-md rounded-2xl p-6 border border-gray-200 text-center">
+        <h2 className="text-3xl font-semibold text-gray-800 mb-4">
+          PUBLICATION OPPORTUNITIES:
+        </h2>
+        <p className="text-black leading-relaxed">
+          1. High Quality Selected Research Papers, Successfully presented and
+          after considerable extension may be recommended to following Open
+          Access, Scopus Indexed Journal (Additional Article Processing Charges
+          have to be borne by Author). Journal will have their own additional
+          round of reviews to satisfy the quality of manuscript.
         </p>
       </div>
 
-      {/* Cards */}
-      <div className="flex flex-col lg:flex-row justify-center items-center gap-10 flex-wrap">
-        {journals.map((journal, index) => (
-          <div
-            key={index}
-            className="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 p-8 flex flex-col items-center max-w-md w-full transform hover:scale-105"
-          >
-            {/* Image */}
-            <img
-              src={journal.image}
-              alt={`${journal.title} cover`}
-              className="w-56 h-auto rounded-md object-cover mb-6 shadow-md"
-            />
-
-            {/* Title */}
-            <h3 className="font-bold text-center text-xl text-gray-900 mb-3 leading-tight">
-              {journal.title}
-            </h3>
-
-            {/* Details */}
-            <div className="text-base text-gray-600 text-center space-y-1 mb-8">
-              {journal.details.map((detail, detailIndex) => (
-                <p key={detailIndex}>{detail}</p>
-              ))}
-            </div>
-
-            {/* Button */}
-            {journal.visitlink && (
-              <a
-                href={journal.visitlink}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-blue-600 text-white font-semibold py-3 px-8 rounded-full shadow-md hover:bg-blue-700 transition-transform duration-300 hover:scale-110"
-              >
-                Visit
-              </a>
-            )}
-          </div>
-        ))}
+      {/* Insert Image Section */}
+      <div className="max-w-7xl mx-auto my-8 flex justify-center">
+        <img
+          src={pub1}
+          alt="Publication Opportunities"
+          className="rounded-xl shadow-md border border-gray-200 max-h-80 object-contain"
+        />
       </div>
 
-      {/* Note */}
-      <div className="mt-12 bg-yellow-100 p-6 rounded-lg border border-yellow-300 max-w-4xl mx-auto">
-        <p className="text-lg font-bold text-yellow-800 mb-2">Note:</p>
-        <p className="text-md text-gray-700 font-bold  ">
-          Organizers will not be responsible for any quality issues in the
-          manuscript. Acceptance for conference presentation does not guarantee
-          publication. Authors must follow strong technical and formatting
-          guidelines of the publisher. Final publication decision rests with the
-          publisher.
+      <div className="max-w-7xl mx-auto bg-white shadow-md rounded-2xl p-6 border border-gray-200 text-center">
+        <p className="text-black leading-relaxed">
+          2. High Quality Selected Research Papers, Successfully presented and
+          after considerable extension may be recommended to following Open
+          Access, Scopus Indexed Journal (Additional Article Processing Charges
+          have to be borne by Author). Journal will have their own additional
+          round of reviews to satisfy the quality of manuscript.
+        </p>
+      </div>
+      <div className="max-w-7xl mx-auto bg-white shadow-md rounded-2xl p-6 border border-gray-200 text-center mt-5">
+        <p className="text-black leading-relaxed">
+          3. Some of Selected Quality Extended Papers and Successfully Presented
+          Papers may be published as Book Chapters in Scopus Indexed Edited
+          Books with Renowned Publishers such as IGI Global Scientific
+          Publishing/Bentham Science Publisher. (Minimum Page Length – 15 Pages)
+        </p>
+      </div>
+      <div className="max-w-7xl mx-auto bg-yellow-50 shadow-md rounded-2xl p-6 border-l-4 border-yellow-500 my-8">
+        <p className="text-yellow-800 font-medium leading-relaxed">
+          <strong>
+            NOTE<span className="text-red-600">*</span>{" "} :
+          </strong>{" "}
+          ORGANIZERS WILL NOT BE RESPONSIBLE FOR ANY KIND OF QUALITY ISSUE
+          REFLECTING IN THE MANUSCRIPT FROM AUTHOR SIDE. MERELY ACCEPTANCE FOR
+          THE CONFERENCE PRESENTATION DOES NOT GAURANTEE THE PUBLICATION OF
+          MANUSCRIPT. AUTHOR MUST ADHERE TO THE STRONG TECHNICAL QUALITY AND
+          FORMATTING GUIDELINES OF THE PUBLISHER. FINAL PUBLICATION DECISION
+          WILL BE OF THE PUBLISHER.
         </p>
       </div>
     </div>
