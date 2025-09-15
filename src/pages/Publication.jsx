@@ -30,13 +30,12 @@ const Publication = () => {
 
       <div className="max-w-7xl mx-auto bg-white shadow-md rounded-2xl p-6 border border-gray-200 text-center">
         <p className="text-black leading-relaxed">
-          2. High Quality Selected Research Papers, Successfully presented and
-          after considerable extension may be recommended to following Open
-          Access, Scopus Indexed Journal (Additional Article Processing Charges
-          have to be borne by Author). Journal will have their own additional
-          round of reviews to satisfy the quality of manuscript.
+          2. Selected High Quality Papers and successfully presented papers,
+          backed up with strong technical content, may appear in Scopus Indexed
+          Springer LNNS (Proposal Submitted) ICRAECCTSF 2026 Conference
+          Proceedings.
         </p>
-      </div>
+      </div>  
       <div className="max-w-7xl mx-auto bg-white shadow-md rounded-2xl p-6 border border-gray-200 text-center mt-5">
         <p className="text-black leading-relaxed">
           3. Some of Selected Quality Extended Papers and Successfully Presented
@@ -48,7 +47,7 @@ const Publication = () => {
       <div className="max-w-7xl mx-auto bg-yellow-50 shadow-md rounded-2xl p-6 border-l-4 border-yellow-500 my-8">
         <p className="text-yellow-800 font-medium leading-relaxed">
           <strong>
-            NOTE<span className="text-red-600">*</span>{" "} :
+            NOTE<span className="text-red-600">*</span> :
           </strong>{" "}
           ORGANIZERS WILL NOT BE RESPONSIBLE FOR ANY KIND OF QUALITY ISSUE
           REFLECTING IN THE MANUSCRIPT FROM AUTHOR SIDE. MERELY ACCEPTANCE FOR
