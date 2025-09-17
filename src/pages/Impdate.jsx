@@ -17,22 +17,7 @@ const Impdate = () => {
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td className="px-6 py-4 border border-gray-300 text-lg">
-                Last Date Fot Abstract Submission:{" "}
-              </td>
-              <td className="px-6 py-4 border border-gray-300 text-lg">
-                15 September 2025
-              </td>
-            </tr>
-            <tr className="bg-gray-200">
-              <td className="px-6 py-4 border border-gray-300 text-lg">
-                Notification of tentative acceptance:{" "}
-              </td>
-              <td className="px-6 py-4 border border-gray-300 text-lg">
-                10 October 2025
-              </td>
-            </tr>
+            
             <tr>
               <td className="px-6 py-4 border border-gray-300 text-lg">
                 Last date for final paper submission:{" "}
