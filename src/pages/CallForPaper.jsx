@@ -118,110 +118,128 @@ const CallForPaper = () => {
           {/* Track 1 */}
           <div>
             <h3 className="font-bold mb-2">
-              TRACK1: Artificial Intelligence and Machine Learning for
-              Sustainable Development
+              Track 1: Sustainable Computing Architectures and Systems
             </h3>
             <ul className="list-disc ml-6 space-y-1">
-              <li>AI/ML applications in healthcare</li>
-              <li>AI/ML applications in agriculture</li>
-              <li>AI/ML applications in energy</li>
-              <li>AI/ML for climate modeling</li>
-              <li>AI/ML applications in smart cities</li>
+              <li>Quantum computing for sustainable problem-solving</li>
+              <li>
+                Bio-inspired and nature-inspired computing for energy efficiency
+              </li>
+              <li>
+                3D/heterogeneous integration technologies for green systems
+              </li>
+              <li>Energy-efficient high-performance computing (HPC)</li>
+              <li>
+                Sustainable software engineering and green coding practices
+              </li>
+              <li>
+                Lifecycle assessment of computing systems and hardware recycling
+              </li>
+              <li>Carbon-neutral cloud and data center design</li>
             </ul>
           </div>
 
           {/* Track 2 */}
           <div>
             <h3 className="font-bold mb-2">
-              TRACK2: Green and Sustainable Communication Networks
+              Track 2: Artificial Intelligence and Machine Learning for
+              Sustainability
             </h3>
             <ul className="list-disc ml-6 space-y-1">
-              <li>5G/6G</li>
-              <li>IoT</li>
-              <li>Low-power communication</li>
-              <li>Spectrum efficiency</li>
-              <li>Energy-aware wireless technologies</li>
+              <li>
+                Generative AI for climate change simulation and impact modeling
+              </li>
+              <li>Adaptive AI systems for energy-aware computing</li>
+              <li>
+                AI for renewable energy optimization (solar, wind, hydro,
+                bioenergy)
+              </li>
+              <li>
+                Sustainable training pipelines for foundation models (Green AI)
+              </li>
+              <li>
+                Multimodal AI for environmental and societal sustainability
+              </li>
+              <li>
+                Transfer learning and domain adaptation in low-resource eco
+                applications
+              </li>
+              <li>
+                AI-driven policy modeling and decision support for
+                sustainability governance
+              </li>
             </ul>
           </div>
 
           {/* Track 3 */}
           <div>
             <h3 className="font-bold mb-2">
-              TRACK3: Cloud, Edge, and Quantum Computing for Next-Gen
-              Applications
+              Track 3: Intelligent IoT and Cyber-Physical Systems for
+              Sustainability
             </h3>
             <ul className="list-disc ml-6 space-y-1">
-              <li>Sustainable cloud/edge infrastructures</li>
-              <li>Quantum computing for optimization</li>
-              <li>Quantum computing for security</li>
+              <li>
+                Energy harvesting IoT devices for self-sustainable ecosystems
+              </li>
+              <li>AIoT (AI + IoT) for circular economy applications</li>
+              <li>Smart waste management systems powered by IoT</li>
+              <li>Digital agriculture with IoT, UAVs, and robotics</li>
+              <li>Cyber-physical energy systems for renewable microgrids</li>
+              <li>IoT for sustainable smart buildings and green homes</li>
+              <li>
+                Fog/edge computing for sustainability in real-time applications
+              </li>
             </ul>
           </div>
 
           {/* Track 4 */}
           <div>
             <h3 className="font-bold mb-2">
-              TRACK4: Cybersecurity, Privacy, and Blockchain for Trustworthy
+              Track 4: Security, Privacy, and Trust in Sustainable Intelligent
               Systems
             </h3>
             <ul className="list-disc ml-6 space-y-1">
-              <li>Secure communication</li>
-              <li>Blockchain for sustainability</li>
-              <li>Cryptography</li>
-              <li>AI in cybersecurity</li>
+              <li>
+                Energy-efficient blockchain for green supply chain management
+              </li>
+              <li>Sustainable governance models for AI ethics and trust</li>
+              <li>Privacy-preserving AI for medical and environmental data</li>
+              <li>
+                Secure interoperability in cross-border sustainable IoT systems
+              </li>
+              <li>Sustainability-aware cyber resilience frameworks</li>
+              <li>
+                Threat modeling in renewable energy cyber-physical systems
+              </li>
+              <li>
+                Human-centric trust models for sustainable intelligent
+                infrastructures
+              </li>
             </ul>
           </div>
 
           {/* Track 5 */}
           <div>
             <h3 className="font-bold mb-2">
-              TRACK5: Smart Grids, Renewable Energy, and Sustainable IoT
-            </h3>
-            <ul className="list-disc ml-6 space-y-1">
-              <li>IoT-enabled smart grids</li>
-              <li>Energy-efficient systems</li>
-              <li>Sensors for environmental monitoring</li>
-            </ul>
-          </div>
-
-          {/* Track 6 */}
-          <div>
-            <h3 className="font-bold mb-2">
-              TRACK6: Big Data Analytics and Intelligent Decision Support
+              Track 5: Applications and Case Studies in Sustainable Intelligent
               Systems
             </h3>
             <ul className="list-disc ml-6 space-y-1">
-              <li>Sustainable data centers</li>
-              <li>Green analytics</li>
-              <li>Decision-making for climate and resource management</li>
-            </ul>
-          </div>
-
-          {/* Track 7 */}
-          <div>
-            <h3 className="font-bold mb-2">
-              TRACK7: Human-Centered Computing and Sustainable Digital
-              Transformation
-            </h3>
-            <ul className="list-disc ml-6 space-y-1">
-              <li>HCI</li>
-              <li>E-governance</li>
-              <li>Education technologies</li>
-              <li>Digital inclusion</li>
-              <li>Sustainable e-services</li>
-            </ul>
-          </div>
-
-          {/* Track 8 */}
-          <div>
-            <h3 className="font-bold mb-2">
-              TRACK8: Emerging Trends in Electronics, VLSI, and Embedded Systems
-              for Sustainability
-            </h3>
-            <ul className="list-disc ml-6 space-y-1">
-              <li>Low-power chips</li>
-              <li>Green electronics</li>
-              <li>Embedded AI</li>
-              <li>Sustainable hardware design</li>
+              <li>
+                Sustainable fintech and digital banking with blockchain & AI
+              </li>
+              <li>AI-powered sustainable urban planning and mobility</li>
+              <li>Climate-smart agriculture with drones and AI analytics</li>
+              <li>
+                AI/ML in biodiversity conservation and ecosystem restoration
+              </li>
+              <li>
+                AI for United Nations Sustainable Development Goals (SDGs)
+              </li>
+              <li>Robotics for ocean cleaning and marine life protection</li>
+              <li>
+                Case studies: Smart cities, net-zero campuses, smart villages
+              </li>
             </ul>
           </div>
         </div>

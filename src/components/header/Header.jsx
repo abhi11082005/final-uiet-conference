@@ -27,12 +27,12 @@ const Header = () => {
       </div>
       <div className="max-w-4xl mx-auto text-center">
         <h1 className="text-3xl font-bold mb-4">
-          International Conference on Recent Advances in Emerging Computing and
-          Communication Technologies <br /> for a Sustainable Future
+          International Conference on Sustainable Computing and Intelligent Systems 
+         
           <br />
           <span className="text-[#1B305C]">
             {" "}
-            (ICRAECCTSF) - 2026 Hybrid Mode
+            (ICSIS) - 2026 Hybrid Mode
           </span>
           <br />
         </h1>

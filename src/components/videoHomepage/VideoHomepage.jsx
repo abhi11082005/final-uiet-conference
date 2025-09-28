@@ -21,12 +21,9 @@ const VideoHomepage = () => {
 "
         >
           <h1 className="text-4xl md:text-5xl font-bold mb-2">
-            Second International Conference on Recent Advances in Emerging
-            Computing and Communication
+            International Conference on Sustainable Computing and Intelligent Systems (ICSIS 2026)
           </h1>
-          <h2 className="text-3xl md:text-4xl font-semibold mb-4">
-            Technologies for A Sustainable Future
-          </h2>
+          
           <p className="text-xl font-medium">
             Conference Date: 17
             <sup className="text-white">
