@@ -8,9 +8,10 @@ import fullimage from "../../assets/fullimage.png";
 import image from "../../assets/image.png";
 import Submitpaper from "../submitpaper.jsx/Submitpaper";
 import icraecctsf from "../../assets/icraecctsf.png";
+import finallogo from "../../assets/finallogo.png";   
 
 const Header = () => {
-  const logos = [fullimage];
+  const logos = [finallogo];
 
   return (
     <header className=" header bg-white text-dark  px-4 pb-0">
