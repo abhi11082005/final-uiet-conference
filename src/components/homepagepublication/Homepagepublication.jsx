@@ -7,9 +7,9 @@ const publications = [
       "Recent Advances in Smart Communication Technologies for a Sustainable Future",
     authors:
       "Valentina Emilia Balas (Aurel Vlaicu University of Arad Romania), Hari Pandey (Bournemouth University UK), Muhammad Anshari (University Brunei Darussalam), Vineeta Singh (CSJM University Kanpur India), Alok Kumar (CSJM University Kanpur India)",
-    release: "N/A",
+    release: "October, 2025",
     copyright: "© 2026",
-    pages: "N/A",
+    pages: "315",
     isbn13: "978337335414",
     eisbn13: "978337335438",
   },
