@@ -27,7 +27,7 @@ export default function Footer() {
         <div className="relative z-10 w-full bg-[#1B305C]/80 px-8 py-6 flex flex-col justify-between rounded-lg">
           <div className="text-center space-y-2">
             <p className="text-xs md:text-sm">
-              Copyright © ICRAECCTSF 2026 - All Rights Reserved.
+              Copyright © ICSCIS 2026 - All Rights Reserved.
             </p>
             <p className="text-xs md:text-sm text-[#1B305C]">
                Designed by CSE Department UIET CSJMU Kanpur

@@ -60,7 +60,7 @@ export default function NavBar() {
       <div className="max-w-screen-2xl mx-auto px-4">
         {/* Mobile menu button */}
         <div className="lg:hidden flex justify-between items-center py-4">
-          <div className="text-lg font-semibold">ICRAECCTSF</div>
+          <div className="text-lg font-semibold">ICSCIS</div>
           <button
             onClick={() => setMenuOpen(!menuOpen)}
             className="text-white text-xl"

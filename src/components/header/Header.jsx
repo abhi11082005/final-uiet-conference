@@ -33,7 +33,7 @@ const Header = () => {
           <br />
           <span className="text-[#1B305C]">
             {" "}
-            (ICSIS) - 2026 Hybrid Mode
+            (ICSCIS) - 2026 Hybrid Mode
           </span>
           <br />
         </h1>

@@ -27,7 +27,7 @@ const Home = () => {
           <span>
             The{" "}
             <strong>
-              International Conference on Sustainable Computing and Intelligent Systems (ICSIS 2026)
+              International Conference on Sustainable Computing and Intelligent Systems (ICSCIS 2026)
             </strong>{" "}
             is a distinguished global forum dedicated to advancing research and
             innovation at the intersection of cutting-edge computing,
@@ -48,7 +48,7 @@ const Home = () => {
             In an era marked by rapid digital transformation and environmental
             concerns, the role of emerging computing and communication
             technologies in shaping a resilient and sustainable future is more
-            critical than ever. <strong>ICSIS 2026</strong> provides a
+            critical than ever. <strong>ICSCIS 2026</strong> provides a
             platform for researchers, practitioners, industry leaders, and
             policymakers to share breakthrough ideas, promote green technology
             practices, and explore sustainable frameworks that minimize

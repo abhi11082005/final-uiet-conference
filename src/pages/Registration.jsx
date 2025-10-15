@@ -71,7 +71,7 @@ const Registration = () => {
           </p>
 
           <p className="mt-4">
-            <strong>Discount for Women Researchers:</strong><br/> <span className=" italic font-bold ">ICRAECCTSF-2026 is
+            <strong>Discount for Women Researchers:</strong><br/> <span className=" italic font-bold ">ICSCIS-2026 is
             committed to empowering women researchers. </span>If the paper includes a
             female author/coauthor, the paper is eligible for a 10% discount on
             total registration fees.

@@ -19,7 +19,7 @@ const CallForPaper = () => {
         </div>
 
         <p className="mb-6">
-          <strong>ICRAECCTSF 2026</strong> invites original research
+          <strong>ICSCIS 2026</strong> invites original research
           contributions under the following thematic tracks, reflecting the
           latest innovations in computing, communication, and sustainable
           technologies. Each track is aligned with relevant{" "}

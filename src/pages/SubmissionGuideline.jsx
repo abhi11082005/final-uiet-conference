@@ -77,7 +77,7 @@ const SubmissionGuideline = () => {
       </h2>
       <p>
         Manuscripts, referred to as submissions / articles / papers, represent
-        significant contributions to academic writing. For ICRAECCTSF-2026,
+        significant contributions to academic writing. For ICSCIS-2026,
         manuscripts will <strong>ONLY</strong> be accepted in electronic format via CMT. To
         submit a paper, at least one author must be a registered user on CMT.
         Authors who are not registered should first create an account on the CMT
@@ -102,7 +102,7 @@ const SubmissionGuideline = () => {
       <ul className="list-disc pl-6 space-y-2 font-bold">
         <li>
           {" "}
-          Authors must submit original and unpublished work to ICRAECCTSF-2026.
+          Authors must submit original and unpublished work to ICSCIS-2026.
         </li>
         <li> All fonts must be embedded in the file.</li>
         <li>Fonts requiring non-English language support are not permitted.</li>
@@ -127,14 +127,14 @@ const SubmissionGuideline = () => {
       {/* Types of Articles */}
       <h3 className="text-xl font-semibold mt-6 mb-2">Types of Articles</h3>
       <p>
-        Authors submitting to ICRAECCTSF – 2026 can choose from various article types that align with the conference scope. These include, but are not limited to:
+        Authors submitting to ICSCIS– 2026 can choose from various article types that align with the conference scope. These include, but are not limited to:
       </p>
       <ul className="list-disc pl-6 space-y-2">
         <li>
-          <strong>Original Paper:</strong> This type presents the authors' original work in the form of an electronic manuscript. It may encompass an abstract, keywords, introduction, problem statement, objectives, approach, significance, research questions, limitations, definitions of terms, related work, methodology, in-depth technical investigation, details of experimental analysis, results and / or conclusions, future work scope, and references relevant to the research work presented in the paper aligned with ICRAECCTSF – 2026 theme supported by figures, tables, datasets, pictorial/graphical representations, and video links.
+          <strong>Original Paper:</strong> This type presents the authors' original work in the form of an electronic manuscript. It may encompass an abstract, keywords, introduction, problem statement, objectives, approach, significance, research questions, limitations, definitions of terms, related work, methodology, in-depth technical investigation, details of experimental analysis, results and / or conclusions, future work scope, and references relevant to the research work presented in the paper aligned with ICSCIS– 2026 theme supported by figures, tables, datasets, pictorial/graphical representations, and video links.
         </li>
         <li>
-          <strong>Review Paper:</strong> This consists of a comprehensive compilation and concise summary of research conducted on a topic within the scope of ICRAECCTSF – 2026. It should be presented as an electronic manuscript and may contain an abstract, keywords, introduction, problem statement or justification, objectives, approach, significance, research questions, limitations, definitions of terms, related work, in-depth technical investigation or comparison, conclusions, advantages and disadvantages, proposed future work, and references. Additional materials may also include figures, tables, datasets, pictorial/graphical representations, and video links.
+          <strong>Review Paper:</strong> This consists of a comprehensive compilation and concise summary of research conducted on a topic within the scope of ICSCIS– 2026. It should be presented as an electronic manuscript and may contain an abstract, keywords, introduction, problem statement or justification, objectives, approach, significance, research questions, limitations, definitions of terms, related work, in-depth technical investigation or comparison, conclusions, advantages and disadvantages, proposed future work, and references. Additional materials may also include figures, tables, datasets, pictorial/graphical representations, and video links.
         </li>
       </ul>
 
@@ -152,7 +152,7 @@ const SubmissionGuideline = () => {
       <ul className="list-disc pl-6 space-y-2">
         <li><strong>Final Manuscript: </strong> Following the acceptance of the manuscript, the corresponding author is required to submit the final version, incorporating any suggested changes outlined in the acceptance notification email.</li>
         <li><strong>Copyright Transfer: </strong> Authors will be required to transfer the copyright of their manuscript to the publisher. This is a mandatory process and will be conducted electronically. Authors will receive an email notification regarding the e-copyright transfer process. This measure is intended to ensure the broadest possible protection and dissemination of information under copyright laws. Should authors encounter any difficulties during the copyright transfer process, they must contact the conference organizers for assistance.</li>
-        <li><strong>Camera Ready Copy (CRC): </strong> The camera-ready paper, referred to as CRC, will represent the final version of the manuscript for ICRAECCTSF – 2026. The CRC versions of eligible manuscripts will be forwarded to the publisher. The organizing team for ICRAECCTSF – 2026 will notify the corresponding author(s) via email to seek their consent for the final version of the manuscript. Authors may also suggest any changes, corrections, typos, or spelling mistakes as needed by replying to the email.</li>
+        <li><strong>Camera Ready Copy (CRC): </strong> The camera-ready paper, referred to as CRC, will represent the final version of the manuscript for ICSCIS– 2026. The CRC versions of eligible manuscripts will be forwarded to the publisher. The organizing team for ICSCIS– 2026 will notify the corresponding author(s) via email to seek their consent for the final version of the manuscript. Authors may also suggest any changes, corrections, typos, or spelling mistakes as needed by replying to the email.</li>
         <li><strong>Update in Manuscript:  </strong> Once the manuscript is accepted, any suggested changes noted in the acceptance notification or otherwise must be incorporated by the author(s) without altering the fundamental essence of the accepted version. These changes should be limited to no more than 20% of the manuscript.</li>
       </ul>
 
@@ -161,12 +161,12 @@ const SubmissionGuideline = () => {
       <ul className="list-disc pl-6 space-y-2">
         <li><strong>Ethics: </strong>The originality of the submitted manuscript is the sole responsibility of the author(s). They must avoid duplicate submissions and publications, as well as instances of plagiarism and self-plagiarism. All manuscript submissions will be screened using Turnitin/Ithenticate.</li>
         <li><strong>Co-Author Guidelines:  </strong>When an article is submitted, it is understood that the manuscript has received approval from all author(s) and co-author(s). Additionally, changes to the co-author list will not be allowed after the manuscript has been accepted, except in exceptional cases, which may be considered by the Editor.</li>
-        <li><strong>Corresponding Author Guidelines: </strong>The Corresponding Author refers to the individual responsible for email correspondence with ICRAECCTSF – 2026, regardless of their position in the author sequence. The manuscript must clearly indicate the Corresponding Author's name and email address, marked with an asterisk (*). In addition to the manuscript's content, the Corresponding Author is solely responsible for including the names and details of all other authors and co-authors in the submission. The conference committee assumes that all authors and co-authors have contributed to the submission and that their consent has been obtained by the Corresponding Author or first author to include their names in the submission.</li>
+        <li><strong>Corresponding Author Guidelines: </strong>The Corresponding Author refers to the individual responsible for email correspondence with ICSCIS– 2026, regardless of their position in the author sequence. The manuscript must clearly indicate the Corresponding Author's name and email address, marked with an asterisk (*). In addition to the manuscript's content, the Corresponding Author is solely responsible for including the names and details of all other authors and co-authors in the submission. The conference committee assumes that all authors and co-authors have contributed to the submission and that their consent has been obtained by the Corresponding Author or first author to include their names in the submission.</li>
 
         <li><strong>Headings: </strong>Please refrain from using more than three levels of displayed headings.</li>
         <li><strong>Abbreviations: </strong>Abbreviations should be introduced with their definitions upon first mention and used consistently thereafter. If an abbreviation is first used in the abstract, it must be defined both in the abstract and upon its initial appearance in the main text to maintain clarity and consistency.</li>
         <li><strong>Flow of the Manuscript:  </strong>A manuscript in general should start with Title, abstract, keywords, Introduction, Literature Survey, Proposed Methodology, Experimental Work and Simulation Details, Comparative Analysis, Performance Metrics and end up with Conclusion with Limiations and Future Scope keeping References at end. Funding Statement/Acknowledgement/Data Availability Statement should be included after the Conclusion and before the References.</li> 
-        <li><strong>Notifications:  </strong>Authors of manuscripts submitted to ICRAECCTSF – 2026 will receive notifications solely via email. Please be aware that ICRAECCTSF – 2026 cannot be held liable for any lapses in email communication, including non-receipt of messages or emails being directed to junk/spam folders, or any other technical issues. We appreciate your understanding regarding this matter.</li>
+        <li><strong>Notifications:  </strong>Authors of manuscripts submitted to ICSCIS – 2026 will receive notifications solely via email. Please be aware that ICSCIS – 2026 cannot be held liable for any lapses in email communication, including non-receipt of messages or emails being directed to junk/spam folders, or any other technical issues. We appreciate your understanding regarding this matter.</li>
 
       </ul>
 

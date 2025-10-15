@@ -21,7 +21,7 @@ const VideoHomepage = () => {
 "
         >
           <h1 className="text-4xl md:text-5xl font-bold mb-2">
-            International Conference on Sustainable Computing and Intelligent Systems (ICSIS 2026)
+            International Conference on Sustainable Computing and Intelligent Systems (ICSCIS 2026)
           </h1>
           
           <p className="text-xl font-medium">
