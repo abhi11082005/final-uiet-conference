@@ -23,12 +23,15 @@ const Impdate = () => {
                 Last date for final paper submission:{" "}
               </td>
               <td className="px-6 py-4 border border-gray-300 text-lg">
-                25 October 2025
+                <del>25 October 2025 </del>
+                <ins className="text-red-800 no-underline ml-1">25 November 2025</ins>
               </td>
             </tr>
             <tr className="bg-gray-200">
               <td className="px-6 py-4 border border-gray-300 text-lg">
-                Notification of acceptance :
+                Notification of <span class="relative font-bold underline decoration-blue-400 decoration-1 text-gray-800 tracking-tight after:content-[''] after:absolute after:left-0 after:right-0 after:-bottom-0.5 after:border-b after:border-blue-400">acceptance</span>
+
+ :
               </td>
               <td className="px-6 py-4 border border-gray-300 text-lg">
                 15 December 2025
@@ -36,7 +39,7 @@ const Impdate = () => {
             </tr>
             <tr>
               <td className="px-6 py-4 border border-gray-300 text-lg">
-                Last date for registration :
+                Last date for <span class="relative font-bold underline decoration-blue-400 decoration-1 text-gray-800 tracking-tight after:content-[''] after:absolute after:left-0 after:right-0 after:-bottom-0.5 after:border-b after:border-blue-400">registration</span> :
               </td>
               <td className="px-6 py-4 border border-gray-300 text-lg">
                 05 January 2026
