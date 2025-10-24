@@ -34,7 +34,7 @@ const ContactUs = () => {
           href="mailto:icraecct@csjmu.ac.in"
           className="text-blue-600 hover:text-blue-800 underline"
         >
-          icraecctsf2026@csjmu.ac.in
+          icscis2026@csjmu.ac.in
         </a>
       </p>
 

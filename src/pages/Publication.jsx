@@ -32,7 +32,7 @@ const Publication = () => {
         <p className="text-black leading-relaxed">
           2. Selected High Quality Papers and successfully presented papers,
           backed up with strong technical content, may appear in Scopus Indexed
-          Springer LNNS (Proposal Submitted) ICRAECCTSF 2026 Conference
+          Springer LNNS (Proposal Submitted) ICSCIS 2026 Conference
           Proceedings.
         </p>
       </div>  
