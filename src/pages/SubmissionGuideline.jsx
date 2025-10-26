@@ -90,7 +90,7 @@ const SubmissionGuideline = () => {
           className="text-blue-600 underline font-bold "
         >
           {" "}
-          icraecctsf2026@csjmu.ac.in{" "}
+          icscis2026@csjmu.ac.in{" "}
         </a>
         .
       </p>
