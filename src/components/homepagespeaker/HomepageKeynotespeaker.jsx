@@ -3,6 +3,7 @@ import img3 from "../../assets/imagespeakers/Dr-Hari-Mohan-Pandey-BiZjcQa4.png";
 import img5 from "../../assets/imagespeakers/Dr-Rajeev-K-Shakya-Ce17I09D.jpg";
 import img7 from "../../assets/imagespeakers/Dr-Akhila-Reddy-Yadulla-B2gPi2dG.jpg";
 import img8 from "../../assets/imagespeakers/Er-Abhinav-Tripathi-H_Nq_82g.png";
+import img23 from "../../assets/imagespeakers/KathyayanGoudMula-BJsR-Uv7.jpg";
 
 
 const speakers = [
@@ -14,13 +15,13 @@ const speakers = [
         "Top 2% scientist (2022 World Ranking list by Stanford University)"
       ]
     },   {
-      img: img5,
-      name: "Dr. Rajeev K Shakya",
-      title: "Department of Electrical Engineering & Computing Engineering",
-      details: [
-        "Adama Science & Technology University, Adama Ethiopia"
-      ]
-    }, {
+          img: img23,
+          name: "Kathyayan Goud Mula",
+          title: "Technical lead manager",
+          details: [
+            "Chime, USA"
+          ]
+        }, {
       img: img7,
       name: "Dr. Akhila Reddy Yadulla",
       title: "Department of Information Technology",

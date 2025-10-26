@@ -21,7 +21,7 @@ import img19 from "../../assets/imagespeakers/niranjan-CFUX3Xal.jpg";
 import img20 from "../../assets/imagespeakers/Ratnadeep_Simhadri-CTFiZZTP.jpg";
 import img21 from "../../assets/imagespeakers/Dr_Seleznev_Tim-BoIHWjZN.jpg";
 import img22 from "../../assets/imagespeakers/DrBhargaviKonda-BQlimB7x.jpg";
-import img23 from "../../assets/imagespeakers/KathyayanGoudMula-BJsR-Uv7.jpg";
+import img23 from "../../assets/imagespeakers/KathyayanGoudMula-BJsR-Uv7.jpg"; 
 import img24 from "../../assets/imagespeakers/Raviteja-Yalamanchili-B2QEfoV6.jpg";
 
 // Example speakers data
