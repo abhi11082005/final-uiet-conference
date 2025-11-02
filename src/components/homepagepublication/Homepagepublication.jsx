@@ -12,6 +12,7 @@ const publications = [
     pages: "315",
     isbn13: "978337335414",
     eisbn13: "978337335438",
+    DOI: "10.4018/979-8-3373-3541-4",
   },
   {
     title: "Ensuring Secure Connectivity Through AI-Powered Wireless Systems",
@@ -99,6 +100,13 @@ const Homepagepublication = () => {
                   <span>
                     <strong>EISBN13:</strong> {book.eisbn13 || "N/A"}
                   </span>
+                </p>
+                <p>
+                  {book.DOI && (
+                    <span>
+                      <strong>DOI:</strong> {book.DOI}
+                    </span>
+                  )}
                 </p>
               </div>
 
