@@ -10,6 +10,9 @@ import img1 from "../../assets/Slideimg/IMG_9239.jpg";
 import img2 from "../../assets/Slideimg/IMG_9250.jpg";
 import img3 from "../../assets/Slideimg/IMG_9254.jpg";
 import img4 from "../../assets/Slideimg/image.png";
+import img5 from "../../assets/Slideimg/image_5.jpg";
+import img6 from "../../assets/Slideimg/image_6.jpg";
+import img7 from "../../assets/Slideimg/image_13.png";
 
 const Carousel = () => {
   // Array with image and specific object position for each
@@ -17,6 +20,9 @@ const Carousel = () => {
     { src: img1, position: "object-center" },
     { src: img4, position: "object-center" },
     { src: img3, position: "object-center" },
+
+    { src: img7, position: "object-top" },
+    
   ];
 
   return (

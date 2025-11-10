@@ -5,6 +5,7 @@ const Impdate = () => {
     <div className="mb-4">
       <div className="max-w-4xl mx-auto mt-4 text-center">
         <h1 className="text-4xl font-bold text-third mb-8">IMPORTANT DATES</h1>
+
         <table className="table-auto w-full text-left bg-white border-collapse shadow-lg">
           <thead className="bg-third text-white">
             <tr>
@@ -17,32 +18,51 @@ const Impdate = () => {
             </tr>
           </thead>
           <tbody>
-            
+            {/* Row 1 */}
             <tr>
               <td className="px-6 py-4 border border-gray-300 text-lg">
-                Last date for final paper submission:{" "}
+                Last date for final paper submission:
               </td>
               <td className="px-6 py-4 border border-gray-300 text-lg">
-                <del>25 October 2025 </del>
-                <ins className="text-red-800 no-underline ml-1">25 November 2025</ins>
+                <del className="text-[#5a8aac]">25 October 2025 </del>
+                <del className="text-[#5a8aac] ml-1">25 November 2025</del>
+                <span className="text-red-800 font-semibold ml-1">
+                  25 December 2025
+                </span>
               </td>
             </tr>
-            <tr className="bg-gray-200">
-              <td className="px-6 py-4 border border-gray-300 text-lg">
-                Notification of <span class="relative font-bold underline decoration-blue-400 decoration-1 text-gray-800 tracking-tight after:content-[''] after:absolute after:left-0 after:right-0 after:-bottom-0.5 after:border-b after:border-blue-400">acceptance</span>
 
- :
+            {/* Row 2 */}
+            <tr className="bg-gray-100">
+              <td className="px-6 py-4 border border-gray-300 text-lg">
+                Notification of{" "}
+                <span className="font-bold underline decoration-blue-400 decoration-1">
+                  acceptance
+                </span>
+                :
               </td>
               <td className="px-6 py-4 border border-gray-300 text-lg">
-                15 December 2025
+                <del className="text-black">15 December 2025</del>
+                <span className="text-red-800 font-semibold ml-1">
+                  15 January 2026
+                </span>
               </td>
             </tr>
+
+            {/* Row 3 */}
             <tr>
               <td className="px-6 py-4 border border-gray-300 text-lg">
-                Last date for <span class="relative font-bold underline decoration-blue-400 decoration-1 text-gray-800 tracking-tight after:content-[''] after:absolute after:left-0 after:right-0 after:-bottom-0.5 after:border-b after:border-blue-400">registration</span> :
+                Last date for{" "}
+                <span className="font-bold underline decoration-blue-400 decoration-1">
+                  registration
+                </span>
+                :
               </td>
               <td className="px-6 py-4 border border-gray-300 text-lg">
-                05 January 2026
+                <del className="text-black">05 January 2026</del>
+                <span className="text-red-800 font-semibold ml-1">
+                  25 January 2026
+                </span>
               </td>
             </tr>
           </tbody>
