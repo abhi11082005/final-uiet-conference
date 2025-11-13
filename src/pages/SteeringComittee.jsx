@@ -29,7 +29,7 @@ const SteeringCommittee = () => {
               Prof. Sudhir Kumar Awasthi, Pro Vice Chancellor, CSJM University,
               Kanpur
             </li>
-            <li>Shri Rakesh Kumar, Registrar, CSJM University, Kanpur</li>
+            <li>Shri Rakesh Kumar Mishra, Registrar, CSJM University, Kanpur</li>
           </ul>
         </section>
 
