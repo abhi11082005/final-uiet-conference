@@ -10,6 +10,7 @@ import HomepageSpeaker from "../components/homepagespeaker/Homepagespeaker";
 import Homepagepublication from "../components/homepagepublication/Homepagepublication";
 import Homepagekeynotesession from "../components/homepagekeynotesession/Homepagekeynotesession";
 import HomepageKeynotespeaker from "../components/homepagespeaker/HomepageKeynotespeaker";
+import Homepagemediapartner from "../components/homepagemediapartner/Homepagemediapartner";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
 
       <VideoHomepage />
       <Carousel />
+      <Homepagemediapartner />
       <div className="bg-gray-100 py-10  text-center text-black border-b shadow-sm rounded-lg">
         {/* Section: About the Conference */}
         <h2 className="text-2xl md:text-3xl font-bold text-center mb-6">
