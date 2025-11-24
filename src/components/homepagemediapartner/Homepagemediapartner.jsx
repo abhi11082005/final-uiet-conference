@@ -8,37 +8,45 @@ import img5 from '../../assets/logoother/img5.jpg';
 import img6 from '../../assets/logoother/img6.jpg';
 
 const Homepagemediapartner = () => {
-
-  const logos = [
-    { src: img1, alt: "Logo 1" },
-    { src: img2, alt: "Logo 2" },
-    { src: img3, alt: "Logo 3" },
-    { src: img4, alt: "Logo 4" },
-    { src: img5, alt: "Logo 5" },
-    { src: img6, alt: "Logo 6" },
-  ];
+  const logos = [img1, img2, img3, img4, img5, img6,img1, img2, img3, img4, img5, img6,img1, img2, img3, img4, img5, img6,img1, img2, img3, img4, img5, img6,img1, img2, img3, img4, img5, img6,img1, img2, img3, img4, img5, img6];
 
   return (
-    <div className="w-full py-10 bg-gray-100 flex flex-col items-center">
+    <div className="w-full mt-4 py-10 bg-gray-100 flex flex-col items-center overflow-hidden mb-5 rounded-lg shadow-md">
 
       {/* Heading */}
       <h1 className="text-3xl font-bold text-center mb-6">
         Media Partners
       </h1>
 
-      {/* Logos Container */}
-      <div className="flex items-center justify-between gap-10 bg-white shadow-md rounded-xl px-10 py-6 max-w-[1400px] w-full">
+      {/* Marquee Container */}
+      <div className="relative w-full max-w-[1400px] bg-white shadow-md rounded-xl py-6 overflow-hidden">
 
-        {logos.map((logo, index) => (
-          <img
-            key={index}
-            src={logo.src}
-            alt={logo.alt}
-            className="h-16 object-contain"
-          />
-        ))}
+        <div className="flex animate-marquee whitespace-nowrap">
+          {logos.concat(logos).map((logo, index) => (
+            <img
+              key={index}
+              src={logo}
+              alt={"logo"}
+              className="h-16 mx-10 object-contain inline-block"
+            />
+          ))}
+        </div>
 
       </div>
+
+      {/* CSS Animation */}
+      <style>{`
+        @keyframes marquee {
+          0% { transform: translateX(0); }
+          100% { transform: translateX(-50%); }
+        }
+
+        .animate-marquee {
+          display: inline-flex;
+          animation: marquee 50s linear infinite;
+        }
+      `}</style>
+
     </div>
   );
 };

@@ -19,7 +19,7 @@ const Home = () => {
       <VideoHomepage />
       <Carousel />
       <Homepagemediapartner />
-      <div className="bg-gray-100 py-10  text-center text-black border-b shadow-sm rounded-lg">
+      <div className="bg-gray-100 py-10  text-center text-black border-b shadow-lg rounded-lg">
         {/* Section: About the Conference */}
         <h2 className="text-2xl md:text-3xl font-bold text-center mb-6">
             About the Conference
