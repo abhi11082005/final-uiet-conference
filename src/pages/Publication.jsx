@@ -3,7 +3,7 @@ import pub1 from "../assets/publication/image.png";
 import pub2 from "../assets/publication/pub2.jpg";
 import pub3 from "../assets/publication/pub3.jpg";
 import pub4 from "../assets/publication/pub4.jpg";
-import pub4 from "../assets/publication/pub4.png";
+
 
 const Publication = () => {
   return (
