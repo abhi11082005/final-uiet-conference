@@ -2,8 +2,7 @@ import React from "react";
 import pub1 from "../assets/publication/image.png";
 import pub2 from "../assets/publication/pub2.jpg";
 import pub3 from "../assets/publication/pub3.jpg";
-import pub4 from "../assets/publication/pub4.jpg";
-import pub4 from "../assets/publication/pub4.png";
+import publication4 from "../assets/publication/publication4.png";
 
 const Publication = () => {
   return (
@@ -35,7 +34,7 @@ const Publication = () => {
       <a href="https://xlescience.org/index.php/IJASIS">
         <div className="max-w-7xl mx-auto mb-8 mt-2 flex justify-center">
           <img
-            src={pub4}
+            src={publication4}
             alt="Publication Opportunities"
             className="rounded-xl shadow-md border border-gray-200 object-contain"
           />

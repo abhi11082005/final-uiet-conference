@@ -71,8 +71,8 @@ const Registration = () => {
           </p>
 
           <p className="mt-4">
-            <strong>Discount for Women Researchers:</strong><br/> <span className=" italic font-bold ">ICSCIS-2026 is
-            committed to empowering women researchers. </span>If the paper includes a
+            <strong>Discount for Women Researchers:</strong><br /> <span className=" italic font-bold ">ICSCIS-2026 is
+              committed to empowering women researchers. </span>If the paper includes a
             female author/coauthor, the paper is eligible for a 10% discount on
             total registration fees.
           </p>
@@ -157,6 +157,30 @@ const Registration = () => {
           </table>
         </div>
 
+        {/* Payment Link */}
+        <div className="max-w-sm mx-auto bg-gray-100 border-4 border-third p-6 rounded-lg text-dark mt-10">
+          <a
+            href="https://p.ppsl.io/PYTMPS/e4Daqk"
+            className="px-6 py-2 bg-third text-white font-semibold rounded-lg inline-block"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Pay Your Registration Fee
+          </a>
+
+          <p className="mt-4 text-sm text-gray-500">
+            * You will be redirected to the Paytm website to complete your payment.
+          </p>
+        </div>
+
+        {/* Submit registration details */}
+        <div className="mt-3">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScPqqEwDq4hxSIGoDFsYbNOx8_V7dyleCLK2jJVS2ZNiPDGgw/viewform?usp=publish-editor" className="text-xl text-blue-600 underline font-semibold cursor-pointer hover:text-blue-800">
+            Click here to submit registration details
+          </a>
+        </div>
+
+
         {/* Registration Form Link */}
         <div>
           <a
@@ -168,6 +192,8 @@ const Registration = () => {
             Submit Paper
           </a>
         </div>
+
+
       </div>
     </div>
   );
