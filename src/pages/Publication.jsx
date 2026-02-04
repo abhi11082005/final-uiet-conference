@@ -2,7 +2,12 @@ import React from "react";
 import pub1 from "../assets/publication/image.png";
 import pub2 from "../assets/publication/pub2.jpg";
 import pub3 from "../assets/publication/pub3.jpg";
+<<<<<<< HEAD
 import publication4 from "../assets/publication/publication4.png";
+=======
+import pub4 from "../assets/publication/pub4.jpg";
+
+>>>>>>> 5606583d5ad5c1e434dcb0ae83c36f2d0c6f29dd
 
 const Publication = () => {
   return (
