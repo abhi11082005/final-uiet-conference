@@ -9,7 +9,7 @@ import image from "../../assets/image.png";
 import Submitpaper from "../submitpaper.jsx/Submitpaper";
 import icraecctsf from "../../assets/icraecctsf.png";
 import finallogo from "../../assets/finallogo.png";   
-
+import finallogo2026 from "../../assets/finallogo2026.png";
 import logo2026publicationPartner from "../../assets/logo2026publicationPartner.jpg";
 
 const Header = () => {
@@ -28,16 +28,7 @@ const Header = () => {
           />
         ))}
       </div>
-      <div className="max-w-4xl mx-auto text-center">
-        <h1 className="text-3xl font-bold mb-4">
-          ⬇ Publication Partners ⬇
-        </h1>
-        <img
-          src={logo2026publicationPartner}
-          alt="Publication Partner Logo"
-          className="h-24 w-auto object-contain mx-auto"
-        />
-      </div>
+
       <div className="max-w-4xl mx-auto text-center">
         <h1 className="text-3xl font-bold mb-4">
           International Conference on Sustainable Computing and Intelligent Systems 
