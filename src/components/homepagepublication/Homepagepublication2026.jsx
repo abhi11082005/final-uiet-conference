@@ -3,7 +3,6 @@ import React from "react";
 import pub_partner1 from '../../assets/publication_partners/pub_partner1.jpeg';
 import pub_partner2 from '../../assets/publication_partners/pub_partner2.jpeg';
 
-
 const Homepagepublication2026 = () => {
   const logos = [pub_partner1, pub_partner2, pub_partner1, pub_partner2, pub_partner1, pub_partner2, pub_partner1, pub_partner2, pub_partner1, pub_partner2, pub_partner1, pub_partner2];
 
@@ -49,3 +48,4 @@ const Homepagepublication2026 = () => {
 };
 
 export default Homepagepublication2026;
+
