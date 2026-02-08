@@ -17,7 +17,6 @@ import Homepagepublication2026 from "../components/homepagepublication/Homepagep
 const Home = () => {
   return (
     <>
-
       <VideoHomepage />
       <Carousel />
       <Homepagepublication2026 />
