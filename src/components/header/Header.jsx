@@ -9,7 +9,6 @@ import image from "../../assets/image.png";
 import Submitpaper from "../submitpaper.jsx/Submitpaper";
 import icraecctsf from "../../assets/icraecctsf.png";
 import finallogo from "../../assets/finallogo.png";   
-import finallogo2026 from "../../assets/finallogo2026.png";
 import logo2026publicationPartner from "../../assets/logo2026publicationPartner.jpg";
 
 const Header = () => {
