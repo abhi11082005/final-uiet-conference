@@ -11,6 +11,8 @@ import Homepagepublication from "../components/homepagepublication/Homepagepubli
 import Homepagekeynotesession from "../components/homepagekeynotesession/Homepagekeynotesession";
 import HomepageKeynotespeaker from "../components/homepagespeaker/HomepageKeynotespeaker";
 import Homepagemediapartner from "../components/homepagemediapartner/Homepagemediapartner";
+import Homepagepublication2026 from "../components/homepagepublication/Homepagepublication2026";
+// import Homepagepublication from "../components/homepagepublication/Homepagepublication";
 
 const Home = () => {
   return (
@@ -18,6 +20,7 @@ const Home = () => {
 
       <VideoHomepage />
       <Carousel />
+      <Homepagepublication2026 />
       <Homepagemediapartner />
       <div className="bg-gray-100 py-10  text-center text-black border-b shadow-lg rounded-lg">
         {/* Section: About the Conference */}
