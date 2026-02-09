@@ -3,7 +3,7 @@ const PeerReviewPolicy = () => {
     <section className="max-w-6xl mx-auto my-10 bg-gray-50 rounded-lg px-10 py-12">
       {/* Page Title */}
       <h1 className="text-center text-3xl md:text-4xl font-bold text-blue-900 tracking-wide mb-10">
-        REVIEW PROCESS POLICY
+        PEER REVIEW PROCESS POLICY
       </h1>
 
       <p className="text-gray-800 text-base leading-relaxed mb-6 text-justify">
@@ -140,4 +140,5 @@ const PeerReviewPolicy = () => {
 };
 
 export default PeerReviewPolicy;
+
 
