@@ -33,8 +33,7 @@ import CMTAcknowledgement from "./pages/CMTAcknowledgement";
 import PeerReviewPolicy from "./pages/PeerReviewPolicy";
 import HomepageKeynotespeaker from "./components/homepagespeaker/HomepageKeynotespeaker";
 import InAndAroundKanpur from "./pages/InAndAroundKanpur";
-
-
+]
 function App() {
   const [isSticky, setIsSticky] = useState(false);
 
