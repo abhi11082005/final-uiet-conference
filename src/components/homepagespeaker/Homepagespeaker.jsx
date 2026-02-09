@@ -23,6 +23,7 @@ import img21 from "../../assets/imagespeakers/Dr_Seleznev_Tim-BoIHWjZN.jpg";
 import img22 from "../../assets/imagespeakers/DrBhargaviKonda-BQlimB7x.jpg";
 import img23 from "../../assets/imagespeakers/KathyayanGoudMula-BJsR-Uv7.jpg"; 
 import img24 from "../../assets/imagespeakers/Raviteja-Yalamanchili-B2QEfoV6.jpg";
+import img25 from "../../assets/imagespeakers/Jofia_Jose_Prakash.jpeg"
 
 // Example speakers data
 const speakers = [
@@ -226,7 +227,15 @@ const speakers = [
       details: [
         "Microsoft, USA"
       ]
-    }
+    },{
+      img: img25,
+      name: "Jofia Jose Prakash",
+      title: "Enterprise AI Architect & Technology Strategist",
+      details: [
+        "Specialized in scaling Generative AI with Strong Governance, measurable Business Impact, and responsible adoption across Complex Organizations.",
+        "Senior IEEE Member, IEEE Computer Society, USA"
+      ]
+    },
   
 ];
 
@@ -234,7 +243,7 @@ const Homepagespeaker = () => {
   return (
     <div className="max-w-7xl mx-auto px-4 py-10 text-center">
       <h1 className="text-3xl font-bold mb-8">
-        Speakers of Previous ICRAECCT Conference
+        Speakers of Previous ICRAECCT 2025 Conference
       </h1>
 
       {/* Speakers Grid */}
