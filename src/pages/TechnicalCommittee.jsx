@@ -146,11 +146,11 @@ const TechnicalCommittee = () => {
                   Dr. Hari Mohan Gaur, Frankfurt Institute for Advanced Studies,
                   Goethe-Uni Frankfurt, Germany
                 </li>
-                <li>
+                {/* <li>
                   Dr. Rajeev Kumar Shakya, Department of Electronics and
                   Communication Engineering, Adama Science and Technology
                   University, Ethiopia
-                </li>
+                </li> */}
                 <li>
                   Dr. Dzati Athiar Ramli, School of Electrical & Electronic
                   Engineering, Universiti Sains, Malaysia
