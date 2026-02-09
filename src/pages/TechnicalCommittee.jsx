@@ -215,6 +215,25 @@ const TechnicalCommittee = () => {
                 <li>
                   Dr. Ajay Narayan Shukla, Graphic Era Hill University, Dehradun
                 </li>
+                <li>Sibaram Prasad Panda – Database Architect, Data and Analytics – Decision Ready Solutions, Irvine, California</li>
+
+                <li>Gaurav Sarraf – Senior Security Software Engineer, Lumen Technologies; Founder & Advisor, Atlantis Robotics</li>
+
+                <li>Krishnaveni Musku – Cyber Security Expert, USA</li>
+
+                <li>Mugunth Chandran – Senior Manager, Dish Network Corp, Colorado</li>
+
+                <li>Kavitha Thiyagarajan – Dallas, Texas</li>
+
+                <li>Seshendra Balla – Principal Architect (Data Engineering), Comcast, Denver, Colorado</li>
+
+                <li>Nilesh Bhandarwar – Senior Software Engineer, Microsoft, USA</li>
+
+                <li>Deepika Paturu – Head of GCE Technical Upgrade Excellence Center NA/LA, Enterprise Cloud Services, SAP America Inc, Newtown Square</li>
+
+                <li>Sowjanya Karri – Principal Technical Support Engineer, Oracle Corporation</li>
+
+                <li>Mahesh Soni – Senior Solution Architect, Hartford, USA</li>
               </ul>
             </div>
           </div>
