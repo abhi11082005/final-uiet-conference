@@ -13,6 +13,7 @@ const menuItems = [
       { label: "Call for Special Session", href: "/call-for-special-session" },
       { label: "Call for Sponsorship", href: "/call-for-sponsorship" },
       { label: "Submission Guidelines", href: "/submission-guidelines" },
+      { label: "Peer Review Policy", href: "/peer-review-policy" },
 
     ],
   },
