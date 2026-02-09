@@ -15,7 +15,7 @@ const InAndAroundKanpur = () => {
             {/* Heading */}
             <div className="mt-8 mb-16 fade-enter-done">
                 <h1 className="text-4xl font-bold text-third mb-8">
-                    ATTRACTION NEARBY
+                    IN AND AROUND KANPUR
                 </h1>
             </div>
 
@@ -418,3 +418,4 @@ const ReadMoreButton = () => (
 );
 
 export default InAndAroundKanpur;
+
