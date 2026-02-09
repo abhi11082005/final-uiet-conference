@@ -30,7 +30,7 @@ import SubmissionGuideline from "./pages/SubmissionGuideline";
 import CallForSpecialSession from "./pages/CallForSpecialSession";
 import CallForSponsorship from "./pages/CallForSponsorship";
 import CMTAcknowledgement from "./pages/CMTAcknowledgement";
-
+import PeerReviewPolicy from "./pages/PeerReviewPolicy";
 
 function App() {
   const [isSticky, setIsSticky] = useState(false);
@@ -72,6 +72,7 @@ function App() {
         <Route path="/call-for-special-session" element={<CallForSpecialSession />} />
         <Route path="/call-for-sponsorship" element={<CallForSponsorship />} />
         <Route path="/kanpur" element={<Willbesoon />} />
+        <Route path="/peer-review-policy" element={<PeerReviewPolicy />} />
 
         <Route path="/cmt-acknowledgement" element={<CMTAcknowledgement />} />
       </Routes>
