@@ -45,7 +45,10 @@ const Publication = () => {
 
       <div className="max-w-7xl mx-auto bg-white shadow-md rounded-2xl p-6 border border-gray-200 text-center">
         <p className="text-black leading-relaxed">
-          2. Successfully presented selected papers, backed up with strong technical content, will be published in Scopus Indexed** SCITE Press Conference Proceedings.
+          2. Successfully presented selected papers, backed up with strong technical content, will be published as Scopus Indexed** Conference Proceedings and will be available online on 
+        <a className="text-blue-600 hover:text-blue-800" href="https://www.scitepress.org/ProceedingsList.aspx"> SCITEPRESS DIGITAL LIBRARY
+        </a>
+        .
         </p>
       </div>
       <div className="max-w-7xl mx-auto bg-white shadow-md rounded-2xl p-6 border border-gray-200 text-center mt-5">
