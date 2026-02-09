@@ -4,6 +4,7 @@ import img5 from "../../assets/imagespeakers/Dr-Rajeev-K-Shakya-Ce17I09D.jpg";
 import img7 from "../../assets/imagespeakers/Dr-Akhila-Reddy-Yadulla-B2gPi2dG.jpg";
 import img8 from "../../assets/imagespeakers/Er-Abhinav-Tripathi-H_Nq_82g.png";
 import img23 from "../../assets/imagespeakers/KathyayanGoudMula-BJsR-Uv7.jpg";
+import img1 from "../../assets/imagespeakers/Jofia_Jose_Prakash.jpeg"
 
 
 const speakers = [
@@ -34,6 +35,14 @@ const speakers = [
       title: "Senior Director",
       details: [
         "Smarsh Inc., UK"
+      ]
+    },{
+      img: img1,
+      name: "Jofia Jose Prakash",
+      title: "Enterprise AI Architect & Technology Strategist",
+      details: [
+        "Specialized in scaling Generative AI with Strong Governance, measurable Business Impact, and responsible adoption across Complex Organizations.",
+        "Senior IEEE Member, IEEE Computer Society, USA"
       ]
     },
   
