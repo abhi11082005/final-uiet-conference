@@ -31,6 +31,8 @@ import CallForSpecialSession from "./pages/CallForSpecialSession";
 import CallForSponsorship from "./pages/CallForSponsorship";
 import CMTAcknowledgement from "./pages/CMTAcknowledgement";
 import PeerReviewPolicy from "./pages/PeerReviewPolicy";
+import HomepageKeynotespeaker from "./components/homepagespeaker/HomepageKeynotespeaker";
+
 
 function App() {
   const [isSticky, setIsSticky] = useState(false);
@@ -65,7 +67,7 @@ function App() {
         <Route path="/author-info" element={<AuthorInfo />} />
         <Route path="/registration" element={<Registration />} />
         <Route path="/publication" element={<Publication />} />
-        <Route path="/speakers" element={<Willbesoon />} />
+        <Route path="/speakers" element={<HomepageKeynotespeaker />} />
         <Route path="/gallery" element={<Willbesoon />} />
         <Route path="/contact-us" element={<Contactus />} />
         <Route path="/submission-guidelines" element={<SubmissionGuideline />} />
