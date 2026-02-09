@@ -21,16 +21,16 @@ const InAndAroundKanpur = () => {
 
             {/* Cards Container */}
             <div className="flex justify-evenly flex-wrap">
-                {/* Agar */}
+                {/* Agra */}
                 <div className="max-w-xs bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mb-8">
                     <img
                         className="rounded-t-lg h-48 w-full object-cover"
                         src={tajMahal}
-                        alt="Agar"
+                        alt="Agra"
                     />
                     <div className="p-5">
                         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                            Agar
+                            Agra
                         </h5>
                         <p className="card-desc mb-3 font-normal text-xs text-gray-700 dark:text-gray-400 text-justify">
                             The Taj Mahal in Agra, India, is a white marble mausoleum built by
@@ -150,7 +150,7 @@ const InAndAroundKanpur = () => {
                     />
                     <div className="p-5">
                         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                            JK TEMPLE
+                            JK Temple
                         </h5>
                         <p className="card-desc mb-3 font-normal text-xs text-gray-700 dark:text-gray-400 text-justify">
                             JK Temple (Juggilal Kamlapat temple) is a Hindu temple in the Indian
@@ -418,4 +418,5 @@ const ReadMoreButton = () => (
 );
 
 export default InAndAroundKanpur;
+
 
