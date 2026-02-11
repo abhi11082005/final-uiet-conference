@@ -112,28 +112,28 @@ const Registration = () => {
                 <td className="px-2 py-3 text-left border border-gray-300 text-sm sm:text-lg">
                   Industry Experts
                 </td>
-                <td className="border px-2 py-3">INR 10,500</td>
-                <td className="border px-2 py-3">INR 8,500</td>
-                <td className="border px-2 py-3">INR 12,500</td>
-                <td className="border px-2 py-3">INR 10,500</td>
+                <td className="border px-2 py-3">INR 10,800</td>
+                <td className="border px-2 py-3">INR 8,800</td>
+                <td className="border px-2 py-3">INR 12,800</td>
+                <td className="border px-2 py-3">INR 10,800</td>
               </tr>
               <tr className="bg-gray-200">
                 <td className="px-2 py-3 text-left border border-gray-300 text-sm sm:text-lg">
                   Academician
                 </td>
-                <td className="border px-2 py-3">INR 8,500</td>
-                <td className="border px-2 py-3">INR 6,500</td>
-                <td className="border px-2 py-3">INR 10,500</td>
-                <td className="border px-2 py-3">INR 8,500</td>
+                <td className="border px-2 py-3">INR 8,800</td>
+                <td className="border px-2 py-3">INR 6,800</td>
+                <td className="border px-2 py-3">INR 10,800</td>
+                <td className="border px-2 py-3">INR 8,800</td>
               </tr>
               <tr>
                 <td className="px-2 py-3 text-left border border-gray-300 text-sm sm:text-lg">
                   Research Scholars / Students
                 </td>
-                <td className="border px-2 py-3">INR 7,500</td>
-                <td className="border px-2 py-3">INR 5,500</td>
-                <td className="border px-2 py-3">INR 9,500</td>
-                <td className="border px-2 py-3">INR 7,500</td>
+                <td className="border px-2 py-3">INR 7,800</td>
+                <td className="border px-2 py-3">INR 5,800</td>
+                <td className="border px-2 py-3">INR 9,800</td>
+                <td className="border px-2 py-3">INR 7,800</td>
               </tr>
               <tr className="bg-gray-200">
                 <td className="px-2 py-3 text-left border border-gray-300 text-sm sm:text-lg">
