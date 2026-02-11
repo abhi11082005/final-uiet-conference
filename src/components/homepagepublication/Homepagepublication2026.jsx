@@ -5,7 +5,116 @@ import pub_partner2 from '../../assets/publication_partners/pub_partner2.jpeg';
 
 
 const Homepagepublication2026 = () => {
-  const logos = [pub_partner1, pub_partner2, pub_partner1, pub_partner2, pub_partner1, pub_partner2, pub_partner1, pub_partner2, pub_partner1, pub_partner2, pub_partner1, pub_partner2];
+
+  // const logos = [pub_partner1, pub_partner2, pub_partner1, pub_partner2, pub_partner1, pub_partner2, pub_partner1, pub_partner2, pub_partner1, pub_partner2, pub_partner1, pub_partner2];
+
+  const logos = [
+    {
+      image: pub_partner1,
+      link: "https://www.scitepress.org/ProceedingsList.aspx",
+    },
+    {
+      image: pub_partner2,
+      link: null,
+    },
+    {
+      image: pub_partner1,
+      link: "https://www.scitepress.org/ProceedingsList.aspx",
+    },
+    {
+      image: pub_partner2,
+      link: null,
+    },
+    {
+      image: pub_partner1,
+      link: "https://www.scitepress.org/ProceedingsList.aspx",
+    },
+    {
+      image: pub_partner2,
+      link: null,
+    },
+    {
+      image: pub_partner1,
+      link: "https://www.scitepress.org/ProceedingsList.aspx",
+    },
+    {
+      image: pub_partner2,
+      link: null,
+    },
+    {
+      image: pub_partner1,
+      link: "https://www.scitepress.org/ProceedingsList.aspx",
+    },
+    {
+      image: pub_partner2,
+      link: null,
+    },
+    {
+      image: pub_partner1,
+      link: "https://www.scitepress.org/ProceedingsList.aspx",
+    },
+    {
+      image: pub_partner2,
+      link: null,
+    },
+    {
+      image: pub_partner1,
+      link: "https://www.scitepress.org/ProceedingsList.aspx",
+    },
+    {
+      image: pub_partner2,
+      link: null,
+    },
+    {
+      image: pub_partner1,
+      link: "https://www.scitepress.org/ProceedingsList.aspx",
+    },
+    {
+      image: pub_partner2,
+      link: null,
+    },
+    {
+      image: pub_partner1,
+      link: "https://www.scitepress.org/ProceedingsList.aspx",
+    },
+    {
+      image: pub_partner2,
+      link: null,
+    },
+    {
+      image: pub_partner1,
+      link: "https://www.scitepress.org/ProceedingsList.aspx",
+    },
+    {
+      image: pub_partner2,
+      link: null,
+    },
+    {
+      image: pub_partner1,
+      link: "https://www.scitepress.org/ProceedingsList.aspx",
+    },
+    {
+      image: pub_partner2,
+      link: null,
+    },
+    {
+      image: pub_partner1,
+      link: "https://www.scitepress.org/ProceedingsList.aspx",
+    },
+    {
+      image: pub_partner2,
+      link: null,
+    },
+    {
+      image: pub_partner1,
+      link: "https://www.scitepress.org/ProceedingsList.aspx",
+    },
+    {
+      image: pub_partner2,
+      link: null,
+    },
+  ];
+
 
   return (
     <div className="w-full mt-4 py-10 bg-gray-100 flex flex-col items-center overflow-hidden mb-5 rounded-lg shadow-md">
@@ -17,19 +126,37 @@ const Homepagepublication2026 = () => {
 
       {/* Marquee Container */}
       <div className="relative w-full max-w-[1400px] bg-white shadow-md rounded-xl py-6 overflow-hidden">
-
-        <div className="flex animate-marquee whitespace-nowrap">
-          {logos.concat(logos).map((logo, index) => (
-            <img
+        <div className="flex w-max animate-[marquee_80s_linear_infinite]">
+          {[...logos, ...logos].map((logo, index) => (
+            <div
               key={index}
-              src={logo}
-              alt={"logo"}
-              className="h-16 mx-10 object-contain inline-block"
-            />
+              className="flex-shrink-0 mx-10 flex items-center"
+            >
+              {logo.link ? (
+                <a
+                  href={logo.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="cursor-pointer"
+                >
+                  <img
+                    src={logo.image}
+                    alt="Publication Partner"
+                    className="h-16 object-contain"
+                  />
+                </a>
+              ) : (
+                <img
+                  src={logo.image}
+                  alt="Publication Partner"
+                  className="h-16 object-contain"
+                />
+              )}
+            </div>
           ))}
         </div>
-
       </div>
+
 
       {/* CSS Animation */}
       <style>{`
@@ -40,7 +167,7 @@ const Homepagepublication2026 = () => {
 
         .animate-marquee {
           display: inline-flex;
-          animation: marquee 50s linear infinite;
+          animation: marquee 80s linear infinite;
         }
       `}</style>
 
@@ -49,5 +176,3 @@ const Homepagepublication2026 = () => {
 };
 
 export default Homepagepublication2026;
-
-
