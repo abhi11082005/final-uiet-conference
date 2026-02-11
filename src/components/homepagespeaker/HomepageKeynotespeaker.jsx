@@ -4,9 +4,24 @@ import img5 from "../../assets/imagespeakers/Dr-Rajeev-K-Shakya-Ce17I09D.jpg";
 import img7 from "../../assets/imagespeakers/Dr-Akhila-Reddy-Yadulla-B2gPi2dG.jpg";
 import img8 from "../../assets/imagespeakers/Er-Abhinav-Tripathi-H_Nq_82g.png";
 import img23 from "../../assets/imagespeakers/KathyayanGoudMula-BJsR-Uv7.jpg";
+import img1 from "../../assets/imagespeakers/Prof-Alvaro-Rocha-aNHygu6H.png";
 
 
 const speakers = [
+   {
+      img: img1,
+      name: "Prof. Alvaro Rocha",
+      title:
+        "Professor of Information Systems, ISEG, University of Lisbon, Portugal",
+      details: [
+        "World's Top 1% Scientist, according to Stanford University and Elsevier",
+        "ISEM's Book Series Scientific Manager at Springer Nature",
+        "Chair of ITMA - Information and Technology Management Association",
+        "Founder and Vice-Chair of IEEE SMC Portugal Chapter",
+        "Invited Professor at University of Calabria, Italy",
+        "CEO at AMARITS Consulting, Dubai",
+      ],
+    },
    {
       img: img3,
       name: "Dr. Hari Mohan Pandey",
