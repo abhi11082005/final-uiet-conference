@@ -3,7 +3,6 @@ import pub1 from "../assets/publication/image.png";
 import pub2 from "../assets/publication/pub2.jpg";
 import pub3 from "../assets/publication/pub3.jpg";
 import pub4 from "../assets/publication/pub4.jpg";
-// import pub4 from "../assets/publication/pub4.png";
 import pub5 from "../assets/publication_partners/pub_partner1.jpeg";
 
 const Publication = () => {
@@ -44,8 +43,6 @@ const Publication = () => {
       </a>
 
 
-
-
       <div className="max-w-7xl mx-auto bg-white shadow-md rounded-2xl p-6 border border-gray-200 mt-5">
         <div className="flex flex-col md:flex-row items-center gap-6">
 
@@ -60,7 +57,8 @@ const Publication = () => {
 
           {/* Right: EXACT content from image */}
           <div className="text-black leading-relaxed text-center md:text-left">
-            <span className=" text-black leading-relaxed">2.</span>{" "}
+            <p className="text-black leading-relaxed"> 2. Successfully presented selected papers, backed up with strong technical content, will be published as Scopus Indexed** Conference Proceedings and will be available online on{' '} <a className="underline text-blue-600 hover:text-blue-800" href="https://www.scitepress.org/ProceedingsList.aspx">SCITEPRESS DIGITAL LIBRARY </a> . </p>
+            <br />
             <span className="font-semibold">
               Science and Technology Publications, Lda
             </span>{" "}
@@ -84,6 +82,7 @@ const Publication = () => {
 
         </div>
       </div>
+
 
       <div className="max-w-7xl mx-auto bg-white shadow-md rounded-2xl p-6 border border-gray-200 text-center mt-5">
         <p className="text-black leading-relaxed">
