@@ -5,6 +5,7 @@ import img7 from "../../assets/imagespeakers/Dr-Akhila-Reddy-Yadulla-B2gPi2dG.jp
 import img8 from "../../assets/imagespeakers/Er-Abhinav-Tripathi-H_Nq_82g.png";
 import img23 from "../../assets/imagespeakers/KathyayanGoudMula-BJsR-Uv7.jpg";
 import img1 from "../../assets/imagespeakers/Prof-Alvaro-Rocha-aNHygu6H.png";
+import img2 from "../../assets/imagespeakers/Maksudul_Amin.jpeg"
 
 
 const speakers = [
@@ -49,6 +50,13 @@ const speakers = [
       title: "Senior Director",
       details: [
         "Smarsh Inc., UK"
+      ]
+    },{
+      img: img2,
+      name: "Md. Maksudul Amin",
+      title: "FCCA, CIA",
+      details: [
+        "Accounting, Data Analytics & Technologies at Pace University (Lubin School of Business) New York"
       ]
     },
   
