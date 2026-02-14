@@ -234,6 +234,8 @@ const TechnicalCommittee = () => {
                 <li>Sowjanya Karri – Principal Technical Support Engineer, Oracle Corporation</li>
 
                 <li>Mahesh Soni – Senior Solution Architect, Hartford, USA</li>
+
+                <li>Satyam Nikhra, Technical Lead and Staff Software Engineer at Earnest in San Francisco, USA.</li>
               </ul>
             </div>
           </div>
