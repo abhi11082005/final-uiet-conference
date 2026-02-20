@@ -205,7 +205,7 @@ const SteeringCommittee = () => {
             <li>Dr. Mamta Tiwari</li>
             <li>Mr. Sheshmani Tiwari</li>
             <li>Mr. Ramnayan Mishra</li>
-            <li>Mr. Hemant Kumar</li>
+            {/* <li>Mr. Hemant Kumar</li> */}
             <li>Mr. Sunil Kumar</li>
             <li>Mr. Hrishab K Prajapati</li>
             <li>Dr. Arpita Singh</li>
