@@ -6,6 +6,13 @@ import img8 from "../../assets/imagespeakers/Er-Abhinav-Tripathi-H_Nq_82g.png";
 import img23 from "../../assets/imagespeakers/KathyayanGoudMula-BJsR-Uv7.jpg";
 import img1 from "../../assets/imagespeakers/Prof-Alvaro-Rocha-aNHygu6H.png";
 import img2 from "../../assets/imagespeakers/Maksudul_Amin.jpeg"
+import img4 from "../../assets/imagespeakers/Anokh_Kishore.jpeg";
+import img6 from "../../assets/imagespeakers/Harshendra_Gite.jpeg";
+import img9 from "../../assets/imagespeakers/Virendra_Singh_Chawra.jpeg";
+import img10 from "../../assets/imagespeakers/Divyaraj_Singh_Jatav.jpeg";
+import img11 from "../../assets/imagespeakers/Faiz_Mulla.jpeg";
+import img12 from "../../assets/imagespeakers/Sandeep_Bharadwaj_Mannapur.jpeg";
+import img13 from "../../assets/imagespeakers/Shekar_Vollem.jpeg";
 
 
 const speakers = [
@@ -57,6 +64,55 @@ const speakers = [
       title: "FCCA, CIA",
       details: [
         "Accounting, Data Analytics & Technologies at Pace University (Lubin School of Business) New York"
+      ]
+    },{
+      img: img4,
+      name: "Anokh Kishore",
+      title: "Senior Software Engineering Manager",
+      details: [
+        "Capital One Financial Services, USA"
+      ]
+    },{
+      img: img6,
+      name: "Harshendra Gite",
+      title: "Sr Director ",
+      details: [
+        "LTM LIMITED , USA"
+      ]
+    },{
+      img: img9,
+      name: "Virendra Singh Chawra",
+      title: "Senior Specialist",
+      details: [
+        "Deloitte Consulting LLP, USA"
+      ]
+    },{
+      img: img10,
+      name: "Divyaraj Singh Jatav",
+      title: "Supply Chain Planner 2",
+      details: [
+        "Westcliff University, USA"
+      ]
+    },{
+      img: img11,
+      name: "Faiz Mulla",
+      title: "Product Manager / Business Analyst",
+      details: [
+        "Virginia Department of Social Services (VDSS), USA"
+      ]
+    },{
+      img: img12,
+      name: "Sandeep Bharadwaj Mannapur",
+      title: "Lead AI&ML Engineer",
+      details: [
+        "ServiceNow, Inc., USA"
+      ]
+    },{
+      img: img13,
+      name: "Shekar Vollem",
+      title: "Software Engineer",
+      details: [
+        "Capital One Financial Corporation, USA"
       ]
     },
   
