@@ -42,6 +42,9 @@ const SteeringCommittee = () => {
             <li>
               Prof. Bristhi Mitra, Dean Academics, CSJM University, Kanpur
             </li>
+            <li>
+              Dr. Alok Kumar, Director, School of Engineering and Technology (UIET), CSJM University Kanpur
+            </li>
           </ul>
         </section>
 
