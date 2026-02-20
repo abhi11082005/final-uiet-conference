@@ -221,9 +221,9 @@ const AdvisoryCommittee = () => {
                 <li>
                   Dr. Ajay Narayan Shukla, Graphic Era Hill University, Dehradun
                 </li>
-                  <li>Prof. Aditya Kaushik, Delhi Technological University</li>
-  <li>Prof. A. Velayudham, CAPE Institute of Technology, Tamil Nadu, India</li>
-  <li>Dr. Deepak Bhatia, Rajasthan Technical University</li>
+                <li>Prof. Aditya Kaushik, Delhi Technological University</li>
+                <li>Prof. A. Velayudham, CAPE Institute of Technology, Tamil Nadu, India</li>
+                <li>Dr. Deepak Bhatia, Rajasthan Technical University</li>
               </ul>
             </div>
           </div>
