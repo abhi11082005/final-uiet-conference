@@ -14,7 +14,6 @@ import img11 from "../../assets/imagespeakers/Faiz_Mulla.jpeg";
 import img12 from "../../assets/imagespeakers/Sandeep_Bharadwaj_Mannapur.jpeg";
 import img13 from "../../assets/imagespeakers/Shekar_Vollem.jpeg";
 
-
 const speakers = [
    {
       img: img1,
