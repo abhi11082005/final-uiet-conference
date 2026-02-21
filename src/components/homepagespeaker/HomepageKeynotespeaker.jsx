@@ -13,6 +13,9 @@ import img10 from "../../assets/imagespeakers/Divyaraj_Singh_Jatav.jpeg";
 import img11 from "../../assets/imagespeakers/Faiz_Mulla.jpeg";
 import img12 from "../../assets/imagespeakers/Sandeep_Bharadwaj_Mannapur.jpeg";
 import img13 from "../../assets/imagespeakers/Shekar_Vollem.jpeg";
+import img14 from "../../assets/imagespeakers/Mahamood_Hussain_Mirza.jpeg";
+import img15 from "../../assets/imagespeakers/Sai_Kalyan_Kumar_Modini.jpeg";
+
 
 const speakers = [
    {
@@ -112,6 +115,20 @@ const speakers = [
       title: "Software Engineer",
       details: [
         "Capital One Financial Corporation, USA"
+      ]
+    },{
+      img: img14,
+      name: "Mahamood Hussain Mirza",
+      title: "Software Engineer",
+      details: [
+        "Biztegy Analytics INC, USA"
+      ]
+    },{
+      img: img15,
+      name: "Sai Kalyan Kumar Modini",
+      title: "GCP Cloud Specialist, Sustainable AI Lead",
+      details: [
+        "HSBC, USA"
       ]
     },
   
