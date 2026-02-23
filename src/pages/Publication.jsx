@@ -9,12 +9,12 @@ const Publication = () => {
   return (
     <div className="w-full bg-gray-100 py-10 mt-10 rounded-lg">
       <div className="max-w-7xl mx-auto bg-white shadow-md rounded-2xl p-6 border border-gray-200 text-center">
-        <h2 className="text-3xl font-semibold text-gray-800 mb-4">
+        <h2 className="text-3xl font-semibold text-gray-800">
           PUBLICATION OPPORTUNITIES:
         </h2>
-        <p className="text-black leading-relaxed">
+        {/* <p className="text-black leading-relaxed">
           1. High Quality, Technically sound articles backed up with Novelty and experimentation, successfully presented and registered papers after considerable extension may be published (post successful peer reviewed) in a special issue to following Q1 Scopus Indexed Journal (Fast Processing Open Access). Additional Article Processing Charges of the Journal has to be paid by the Authors separately, (500$ for Indian Authors and 1200$ for Foreign Authors per Article as per Journal Website).
-        </p>
+        </p> */}
       </div>
 
       {/* link */}
@@ -57,7 +57,7 @@ const Publication = () => {
 
           {/* Right: EXACT content from image */}
           <div className="text-black leading-relaxed text-center md:text-left">
-            <p className="text-black leading-relaxed"> 2. Successfully presented selected papers, backed up with strong technical content, will be published as Scopus Indexed** Conference Proceedings and will be available online on{' '} <a className="underline text-blue-600 hover:text-blue-800" href="https://www.scitepress.org/ProceedingsList.aspx">SCITEPRESS DIGITAL LIBRARY </a> . </p>
+            <p className="text-black leading-relaxed"> 1. Successfully presented selected papers, backed up with strong technical content, will be published as Scopus Indexed** Conference Proceedings and will be available online on{' '} <a className="underline text-blue-600 hover:text-blue-800" href="https://www.scitepress.org/ProceedingsList.aspx">SCITEPRESS DIGITAL LIBRARY </a> . </p>
             <br />
             <span className="font-semibold">
               Science and Technology Publications, Lda
@@ -86,7 +86,7 @@ const Publication = () => {
 
       <div className="max-w-7xl mx-auto bg-white shadow-md rounded-2xl p-6 border border-gray-200 text-center mt-5">
         <p className="text-black leading-relaxed">
-          3. Some of Selected Quality Extended Papers and Successfully Presented Papers may be published as Book Chapters in Scopus Indexed Edited Books with Renowned Publishers such as IGI Global Scientific Publishing/Bentham Science/Scrivener Wiley Publisher. (Minimum Page Length – 15 Pages)
+          2. Some of Selected Quality Extended Papers and Successfully Presented Papers may be published as Book Chapters in Scopus Indexed Edited Books with Renowned Publishers such as IGI Global Scientific Publishing/Bentham Science/Scrivener Wiley Publisher. (Minimum Page Length – 15 Pages)
         </p>
       </div>
       <div className="max-w-7xl mx-auto bg-yellow-50 shadow-md rounded-2xl p-6 border-l-4 border-yellow-500 my-8">
