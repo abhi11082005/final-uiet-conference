@@ -4,7 +4,7 @@ const AdvisoryCommittee = () => {
   return (
     <div className="bg-gray-100 text-left p-6 md:p-12 lg:p-16">
       <h1 className="text-4xl font-bold text-center text-third mb-8">
-        ADVISORY COMMITTEE 
+        ADVISORY COMMITTEE
       </h1>
 
       <div className="space-y-8">
@@ -15,6 +15,7 @@ const AdvisoryCommittee = () => {
                 International Advisory Committee
               </h2>
               <ul className="list-disc list-inside text-gray-700">
+                <li>Prof. Teodor-Florin Cilan, Aurel Vlaicu University of Arad, Romania</li>
                 <li>
                   Prof (Dr.) Valentina Emilia Balas, Aurel Vlaicu University of
                   Arad / Academy of Romanian Scientists, ROMANIA
