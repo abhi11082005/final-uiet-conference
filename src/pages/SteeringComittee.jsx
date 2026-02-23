@@ -133,6 +133,7 @@ const SteeringCommittee = () => {
             Publicity Chair
           </h2>
           <ul className="list-disc list-inside text-gray-700">
+            <li>Prof. Teodor-Florin Cilan, Aurel Vlaicu University of Arad, Romania</li>
             <li>
               Dr. Nahed Tawfik, Electronics Research Institute, Cairo Egypt
             </li>
