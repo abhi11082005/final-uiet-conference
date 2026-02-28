@@ -230,10 +230,9 @@ const speakers = [
     },{
       img: img25,
       name: "Jofia Jose Prakash",
-      title: "Enterprise AI Architect & Technology Strategist",
+      title: "Architect",
       details: [
-        "Specialized in scaling Generative AI with Strong Governance, measurable Business Impact, and responsible adoption across Complex Organizations.",
-        "Senior IEEE Member, IEEE Computer Society, USA"
+        "ACS, USA"
       ]
     },
   
