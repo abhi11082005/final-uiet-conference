@@ -29,9 +29,10 @@ const Impdate = () => {
                 <del className="text-[#5a8aac] ml-2">25 November 2025</del>
                 <del className="text-black ml-2">25 December 2025</del>
                 <del className="text-black ml-2">25 January 2026</del>
+                <del className="text-black ml-2">28 February 2026</del>
 
                 <span className="text-red-600 font-semibold ml-2">
-                  28 February 2026
+                  5 March 2026
                 </span>
               </td>
             </tr>
@@ -49,8 +50,9 @@ const Impdate = () => {
                 <del className="text-[#5a8aac]">15 December 2025</del>
                 <del className="text-black ml-2">15 January 2026</del>
                 <del className="text-black ml-2">25 February 2026</del>
+                <del className="text-black ml-2">15 March 2026</del>
                 <span className="text-red-600 font-semibold ml-2">
-                  15 March 2026
+                  20 March 2026
                 </span>
               </td>
             </tr>
@@ -68,9 +70,10 @@ const Impdate = () => {
                 <del className="text-[#5a8aac]">05 January 2026</del>
                 <del className="text-black ml-2">25 January 2026</del>
                 <del className="text-black ml-2">25 March 2026</del>
+                <del className="text-black ml-2">05 April 2026</del>
 
                 <span className="text-red-600 font-semibold ml-2">
-                  05 April 2026
+                  10 April 2026
                 </span>
               </td>
             </tr>
