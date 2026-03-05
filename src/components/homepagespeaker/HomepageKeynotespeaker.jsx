@@ -15,6 +15,7 @@ import img12 from "../../assets/imagespeakers/Sandeep_Bharadwaj_Mannapur.jpeg";
 import img13 from "../../assets/imagespeakers/Shekar_Vollem.jpeg";
 import img14 from "../../assets/imagespeakers/Mahamood_Hussain_Mirza.jpeg";
 import img15 from "../../assets/imagespeakers/Sai_Kalyan_Kumar_Modini.jpeg";
+import img16 from "../../assets/imagespeakers/Suneel_Kumar_Mogali.jpeg";
 
 
 const speakers = [
@@ -129,6 +130,13 @@ const speakers = [
       title: "GCP Cloud Specialist, Sustainable AI Lead",
       details: [
         "HSBC, USA"
+      ]
+    },{
+      img: img16,
+      name: "Suneel Kumar Mogali",
+      title: "Lead Technical Consultant",
+      details: [
+        "USA"
       ]
     },
   
