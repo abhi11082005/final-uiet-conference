@@ -3,7 +3,6 @@ import img3 from "../../assets/imagespeakers/Dr-Hari-Mohan-Pandey-BiZjcQa4.png";
 import img5 from "../../assets/imagespeakers/Dr-Rajeev-K-Shakya-Ce17I09D.jpg";
 import img7 from "../../assets/imagespeakers/Dr-Akhila-Reddy-Yadulla-B2gPi2dG.jpg";
 import img8 from "../../assets/imagespeakers/Er-Abhinav-Tripathi-H_Nq_82g.png";
-import img23 from "../../assets/imagespeakers/KathyayanGoudMula-BJsR-Uv7.jpg";
 import img1 from "../../assets/imagespeakers/Prof-Alvaro-Rocha-aNHygu6H.png";
 import img2 from "../../assets/imagespeakers/Maksudul_Amin.jpeg"
 import img4 from "../../assets/imagespeakers/Anokh_Kishore.jpeg";
@@ -21,7 +20,10 @@ import img18 from "../../assets/imagespeakers/Noopur_sharma.jpeg";
 import img19 from "../../assets/imagespeakers/Chandan-Malagalu-Nagaraju.jpeg";
 import img20 from "../../assets/imagespeakers/Venkata_Jayadeep_Patibandla.jpeg";
 import img21 from "../../assets/imagespeakers/Amol_M._Khadge.jpeg";
-
+import img22 from "../../assets/imagespeakers/Mahatma_Reddy_Marri.jpeg";
+import img23 from "../../assets/imagespeakers/KathyayanGoudMula-BJsR-Uv7.jpg";
+import img24 from "../../assets/imagespeakers/Rakesh_Gahlot.jpeg";
+import img25 from "../../assets/imagespeakers/Er-Himani-Fnu-Bo3oMtie.png";
 
 const speakers = [
   {
@@ -177,6 +179,27 @@ const speakers = [
     title: "MSR Technology Group IL USA",
     details: [
       ""
+    ]
+  }, {
+    img: img22,
+    name: "Mahatma Reddy Marri",
+    title: "Advanced systems administrator Texas, United states",
+    details: [
+      ""
+    ]
+  }, {
+    img: img24,
+    name: "Rakesh Gahlot",
+    title: "Mphasis Corporation, USA",
+    details: [
+      ""
+    ]
+  },{
+    img: img25,
+    name: "Er. Himani Fnu",
+    title: "Cloud solution architect",
+    details: [
+      "Wipro Ltd. USA"
     ]
   },
 
