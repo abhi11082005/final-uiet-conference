@@ -9,7 +9,7 @@ import image from "../../assets/image.png";
 import Submitpaper from "../submitpaper.jsx/Submitpaper";
 import icraecctsf from "../../assets/icraecctsf.png";
 import finallogo from "../../assets/finallogo.png";
-import finallogo2026 from "../../assets/finallogo2026.jpg";
+import finallogo2026 from "../../assets/finallogo2026.jpg";   
 
 const Header = () => {
   const logos = [finallogo2026];
@@ -61,7 +61,7 @@ const Header = () => {
               </span>
             </li>
           </ul>
-          <div className="text-center px-4 pb-10">
+          <div className="text-center px-2 pb-5">
             <h1 className="text-[#1B305C] font-bold text-xl sm:text-2xl md:text-3xl">
               Chhatrapati Shahu Ji Maharaj University,<br></br> Kanpur (Venue
               Partner)
@@ -101,6 +101,10 @@ const Header = () => {
               <span className="inline-block mt-4 px-4 py-2  text-[#61B33B] font-bold text-lg rounded-lg animate-marqueeText ">
                 Online Presentation Allowed!!
               </span>
+            </div>
+
+            <div class="text-red-600 font-semibold px-2 rounded-full text-sm md:text-base">
+              SCITEPRESS Approved Conference (Indexed in Scopus, dblp and many more)
             </div>
           </div>
           <Submitpaper />
