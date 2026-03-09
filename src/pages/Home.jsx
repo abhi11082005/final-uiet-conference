@@ -13,14 +13,17 @@ import HomepageKeynotespeaker from "../components/homepagespeaker/HomepageKeynot
 import Homepagemediapartner from "../components/homepagemediapartner/Homepagemediapartner";
 import Homepagepublication2026 from "../components/homepagepublication/Homepagepublication2026";
 // import Homepagepublication from "../components/homepagepublication/Homepagepublication";
+import Indexing from "../components/sections/about/Indexing";
 
 const Home = () => {
   return (
     <>
+
       <VideoHomepage />
       <Carousel />
       <Homepagepublication2026 />
       <Homepagemediapartner />
+      <Indexing />
       <div className="bg-gray-100 py-10  text-center text-black border-b shadow-lg rounded-lg">
         {/* Section: About the Conference */}
         <h2 className="text-2xl md:text-3xl font-bold text-center mb-6">
