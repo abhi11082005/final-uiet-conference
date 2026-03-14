@@ -9,7 +9,8 @@ import image from "../../assets/image.png";
 import Submitpaper from "../submitpaper.jsx/Submitpaper";
 import icraecctsf from "../../assets/icraecctsf.png";
 import finallogo from "../../assets/finallogo.png";
-import finallogo2026 from "../../assets/finallogo2026.jpg";   
+import finallogo2026 from "../../assets/final_logo14_03_2026.png";   
+
 
 const Header = () => {
   const logos = [finallogo2026];
@@ -95,6 +96,10 @@ const Header = () => {
               <span className="bg-yellow-400 text-black font-semibold px-4 py-2 rounded">
                 Conference Date: 17<sup>th</sup> - 18<sup>th</sup> April, 2026
               </span>
+            </div>
+
+            <div className="mt-4 font-bold text-red-600">
+              Funded by ANRF (Anusandhan National Research Foundation) Government of India
             </div>
 
             <div className="text-center overflow-hidden">
