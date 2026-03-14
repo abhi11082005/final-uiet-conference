@@ -1,4 +1,4 @@
-import funded_by from "../../assets/logoother/fundedBy.jpeg";
+import funded_by from "../../assets/logoother/FundedBy.jpeg";
 
 const FundedBy = () => {
 
