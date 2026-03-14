@@ -19,7 +19,6 @@ import FundedBy from "../components/sections/FundedBy";
 const Home = () => {
   return (
     <>
-
       <VideoHomepage />
       <Carousel />
       <Homepagepublication2026 />
