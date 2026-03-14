@@ -14,6 +14,7 @@ import Homepagemediapartner from "../components/homepagemediapartner/Homepagemed
 import Homepagepublication2026 from "../components/homepagepublication/Homepagepublication2026";
 // import Homepagepublication from "../components/homepagepublication/Homepagepublication";
 import Indexing from "../components/sections/about/Indexing";
+import FundedBy from "../components/sections/FundedBy";
 
 const Home = () => {
   return (
@@ -23,6 +24,7 @@ const Home = () => {
       <Carousel />
       <Homepagepublication2026 />
       <Homepagemediapartner />
+      <FundedBy />
       <Indexing />
       <div className="bg-gray-100 py-10  text-center text-black border-b shadow-lg rounded-lg">
         {/* Section: About the Conference */}
