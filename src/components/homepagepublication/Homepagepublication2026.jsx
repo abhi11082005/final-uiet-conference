@@ -2,6 +2,7 @@ import React from "react";
 
 import pub_partner1 from '../../assets/publication_partners/pub_partner1.jpeg';
 import pub_partner2 from '../../assets/publication_partners/pub_partner2.jpeg';
+import pub_partner3 from '../../assets/publication_partners/wiley_scrivener_publishing.jpg';
 
 
 const Homepagepublication2026 = () => {
@@ -18,12 +19,8 @@ const Homepagepublication2026 = () => {
       link: null,
     },
     {
-      image: pub_partner1,
-      link: "https://www.scitepress.org/ProceedingsList.aspx",
-    },
-    {
-      image: pub_partner2,
-      link: null,
+      image: pub_partner3,
+      link: "https://www.scrivenerpublishing.com/",
     },
     {
       image: pub_partner1,
@@ -34,12 +31,8 @@ const Homepagepublication2026 = () => {
       link: null,
     },
     {
-      image: pub_partner1,
-      link: "https://www.scitepress.org/ProceedingsList.aspx",
-    },
-    {
-      image: pub_partner2,
-      link: null,
+      image: pub_partner3,
+      link: "https://www.scrivenerpublishing.com/",
     },
     {
       image: pub_partner1,
@@ -50,12 +43,8 @@ const Homepagepublication2026 = () => {
       link: null,
     },
     {
-      image: pub_partner1,
-      link: "https://www.scitepress.org/ProceedingsList.aspx",
-    },
-    {
-      image: pub_partner2,
-      link: null,
+      image: pub_partner3,
+      link: "https://www.scrivenerpublishing.com/",
     },
     {
       image: pub_partner1,
@@ -66,12 +55,8 @@ const Homepagepublication2026 = () => {
       link: null,
     },
     {
-      image: pub_partner1,
-      link: "https://www.scitepress.org/ProceedingsList.aspx",
-    },
-    {
-      image: pub_partner2,
-      link: null,
+      image: pub_partner3,
+      link: "https://www.scrivenerpublishing.com/",
     },
     {
       image: pub_partner1,
@@ -82,12 +67,8 @@ const Homepagepublication2026 = () => {
       link: null,
     },
     {
-      image: pub_partner1,
-      link: "https://www.scitepress.org/ProceedingsList.aspx",
-    },
-    {
-      image: pub_partner2,
-      link: null,
+      image: pub_partner3,
+      link: "https://www.scrivenerpublishing.com/",
     },
     {
       image: pub_partner1,
@@ -98,12 +79,8 @@ const Homepagepublication2026 = () => {
       link: null,
     },
     {
-      image: pub_partner1,
-      link: "https://www.scitepress.org/ProceedingsList.aspx",
-    },
-    {
-      image: pub_partner2,
-      link: null,
+      image: pub_partner3,
+      link: "https://www.scrivenerpublishing.com/",
     },
     {
       image: pub_partner1,
@@ -112,6 +89,10 @@ const Homepagepublication2026 = () => {
     {
       image: pub_partner2,
       link: null,
+    },
+    {
+      image: pub_partner3,
+      link: "https://www.scrivenerpublishing.com/",
     },
   ];
 
