@@ -24,6 +24,7 @@ import img22 from "../../assets/imagespeakers/Mahatma_Reddy_Marri.jpeg";
 import img23 from "../../assets/imagespeakers/KathyayanGoudMula-BJsR-Uv7.jpg";
 import img24 from "../../assets/imagespeakers/Rakesh_Gahlot.jpeg";
 import img25 from "../../assets/imagespeakers/Er-Himani-Fnu-Bo3oMtie.png";
+import img26 from "../../assets/imagespeakers/Mahendrakumar_Kalal.jpeg"
 
 const speakers = [
   {
@@ -200,6 +201,14 @@ const speakers = [
     title: "Cloud solution architect",
     details: [
       "Wipro Ltd. USA"
+    ]
+  },
+  {
+    img: img26,
+    name: "Mahendrakumar Kalal",
+    title: "Senior SAP analyst, O.C.Tanner",
+    details: [
+      "Salt Lake City, Utah, USA"
     ]
   },
 
