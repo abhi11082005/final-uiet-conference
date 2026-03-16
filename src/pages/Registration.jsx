@@ -175,7 +175,7 @@ const Registration = () => {
 
         {/* Submit registration details */}
         <div className="mt-3">
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLScPqqEwDq4hxSIGoDFsYbNOx8_V7dyleCLK2jJVS2ZNiPDGgw/viewform?usp=publish-editor" className="text-xl text-blue-600 underline font-semibold cursor-pointer hover:text-blue-800">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScPqqEwDq4hxSIGoDFsYbNOx8_V7dyleCLK2jJVS2ZNiPDGgw/viewform" className="text-xl text-blue-600 underline font-semibold cursor-pointer hover:text-blue-800">
             Click here to submit registration details
           </a>
         </div>
