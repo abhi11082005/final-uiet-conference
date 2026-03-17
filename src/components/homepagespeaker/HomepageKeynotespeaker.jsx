@@ -25,6 +25,7 @@ import img23 from "../../assets/imagespeakers/KathyayanGoudMula-BJsR-Uv7.jpg";
 import img24 from "../../assets/imagespeakers/Rakesh_Gahlot.jpeg";
 import img25 from "../../assets/imagespeakers/Er-Himani-Fnu-Bo3oMtie.png";
 import img26 from "../../assets/imagespeakers/Mahendrakumar_Kalal.jpeg"
+import img27 from "../../assets/imagespeakers/default_speaker.png";
 
 const speakers = [
   {
@@ -209,6 +210,14 @@ const speakers = [
     title: "Senior SAP analyst, O.C.Tanner",
     details: [
       "Salt Lake City, Utah, USA"
+    ]
+  },
+  {
+    img: img27,
+    name: "Ashish Srivastava",
+    title: "Founder aheadd.ai",
+    details: [
+      ""
     ]
   },
 
