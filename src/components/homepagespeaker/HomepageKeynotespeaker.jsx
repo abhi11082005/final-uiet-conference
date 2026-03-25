@@ -26,6 +26,7 @@ import img24 from "../../assets/imagespeakers/Rakesh_Gahlot.jpeg";
 import img25 from "../../assets/imagespeakers/Er-Himani-Fnu-Bo3oMtie.png";
 import img26 from "../../assets/imagespeakers/Mahendrakumar_Kalal.jpeg"
 import img27 from "../../assets/imagespeakers/default_speaker.png";
+import img28 from "../../assets/imagespeakers/Manas_Srivastava.jpeg";
 
 const speakers = [
   {
@@ -216,6 +217,14 @@ const speakers = [
     img: img27,
     name: "Ashish Srivastava",
     title: "Founder aheadd.ai",
+    details: [
+      ""
+    ]
+  },
+  {
+    img: img28,
+    name: "Manas Srivastava",
+    title: "Sr. IEEE Member / Sr. Customer Engineer Google Area of Expertise - Enterprise Applications, Data and AI",
     details: [
       ""
     ]
