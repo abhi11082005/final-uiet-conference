@@ -90,13 +90,13 @@ const Registration = () => {
                   colSpan={2}
                   className="px-2 py-3 sm:px-6 sm:py-4 text-base sm:text-lg font-semibold border border-gray-300"
                 >
-                  EARLY-BIRD-REGISTRATION
+                  EARLY-BIRD-REGISTRATION (By 10th April 2026)
                 </th>
                 <th
                   colSpan={2}
                   className="px-2 py-3 sm:px-6 sm:py-4 text-base sm:text-lg font-semibold border border-gray-300"
                 >
-                  LATE-BIRD-REGISTRATION
+                  LATE-BIRD-REGISTRATION (After 10th April 2026)
                 </th>
               </tr>
               <tr className="bg-gray-200 text-third">
@@ -152,6 +152,25 @@ const Registration = () => {
                 <td className="border px-2 py-3">USD $100</td>
                 <td className="border px-2 py-3">USD $250</td>
                 <td className="border px-2 py-3">USD $150</td>
+              </tr>
+
+              <tr className="bg-gray-200">
+                <td className="px-2 py-3 text-left border border-gray-300 text-sm sm:text-lg">
+                  Access to Keynote Talks (Indians)
+                </td>
+                <td className="border px-2 py-3">--</td>
+                <td className="border px-2 py-3">INR 1,000</td>
+                <td className="border px-2 py-3">--</td>
+                <td className="border px-2 py-3">INR 1,000</td>
+              </tr>
+              <tr>
+                <td className="px-2 py-3 text-left border border-gray-300 text-sm sm:text-lg">
+                  Access to Keynote Talks (Foreigners)
+                </td>
+                <td className="border px-2 py-3">--</td>
+                <td className="border px-2 py-3">USD $15</td>
+                <td className="border px-2 py-3">--</td>
+                <td className="border px-2 py-3">USD $15</td>
               </tr>
             </tbody>
           </table>
