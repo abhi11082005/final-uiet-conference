@@ -54,8 +54,9 @@ const Impdate = () => {
                 <del className="text-black ml-2">15 March 2026</del>
                 <del className="text-black ml-2">20 March 2026</del>
                 <del className="text-black ml-2">26 March 2026</del>
+                <del className="text-black ml-2">29 March 2026</del>
                 <span className="text-red-600 font-semibold ml-2">
-                  29 March 2026
+                  02 April 2026
                 </span>
               </td>
             </tr>
