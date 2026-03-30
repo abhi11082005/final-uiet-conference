@@ -172,6 +172,25 @@ const Registration = () => {
                 <td className="border px-2 py-3">--</td>
                 <td className="border px-2 py-3">USD $15</td>
               </tr>
+
+              <tr className="bg-gray-200">
+                <td className="px-2 py-3 text-left border border-gray-300 text-sm sm:text-lg">
+                  Paper Presentation Only (Indians)
+                </td>
+                <td className="border px-2 py-3">INR 3,500</td>
+                <td className="border px-2 py-3">INR 3,000</td>
+                <td className="border px-2 py-3">INR 4,000</td>
+                <td className="border px-2 py-3">INR 3,500</td>
+              </tr>
+              <tr>
+                <td className="px-2 py-3 text-left border border-gray-300 text-sm sm:text-lg">
+                  Paper Presentation Only (Foreigners)
+                </td>
+                <td className="border px-2 py-3">--</td>
+                <td className="border px-2 py-3">USD $40</td>
+                <td className="border px-2 py-3">--</td>
+                <td className="border px-2 py-3">USD $50</td>
+              </tr>
             </tbody>
           </table>
         </div>
