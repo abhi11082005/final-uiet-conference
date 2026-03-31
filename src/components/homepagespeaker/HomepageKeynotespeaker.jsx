@@ -224,9 +224,9 @@ const speakers = [
   {
     img: img28,
     name: "Manas Srivastava",
-    title: "Sr. IEEE Member / Sr. Customer Engineer Google Area of Expertise - Enterprise Applications, Data and AI",
+    title: "Sr. IEEE Member / Sr. Customer Engineer Google",
     details: [
-      ""
+      "Area of Expertise - Enterprise Applications, Data and AI"
     ]
   },
 
