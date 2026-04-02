@@ -4,9 +4,10 @@ import img1 from "../../../assets/gallary/Indexing/dblp.png";
 import img2 from "../../../assets/gallary/Indexing/scopus.png";
 import img3 from "../../../assets/gallary/Indexing/Semantic_Scholar_logo.png";
 import img4 from "../../../assets/gallary/Indexing/google_scholar.png";
+import img5 from "../../../assets/gallary/Indexing/thomson_reuters.png";
 
 const Indexing = () => {
-  const images = [img1, img2, img3, img4];
+  const images = [img5, img1, img2, img3, img4];
 
   return (
     <section className="py-8 px-1">
