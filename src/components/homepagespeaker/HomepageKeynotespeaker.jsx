@@ -27,6 +27,7 @@ import img25 from "../../assets/imagespeakers/Er-Himani-Fnu-Bo3oMtie.png";
 import img26 from "../../assets/imagespeakers/Mahendrakumar_Kalal.jpeg"
 import img27 from "../../assets/imagespeakers/default_speaker.png";
 import img28 from "../../assets/imagespeakers/Manas_Srivastava.jpeg";
+import img29 from "../../assets/imagespeakers/Chandra_Shekar_Reddy_Avula.jpeg"
 
 const speakers = [
   {
@@ -227,6 +228,14 @@ const speakers = [
     title: "Sr. IEEE Member / Sr. Customer Engineer Google",
     details: [
       "Area of Expertise - Enterprise Applications, Data and AI"
+    ]
+  },
+  {
+    img: img29,
+    name: "Chandra Shekar Reddy Avula",
+    title: "Senior Software Engineer, Verizon, USA",
+    details: [
+      ""
     ]
   },
 
