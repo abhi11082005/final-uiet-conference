@@ -9,7 +9,7 @@ import image from "../../assets/image.png";
 import Submitpaper from "../submitpaper.jsx/Submitpaper";
 import icraecctsf from "../../assets/icraecctsf.png";
 import finallogo from "../../assets/finallogo.png";
-import finallogo2026 from "../../assets/final_logo14_03_2026.png";   
+import finallogo2026 from "../../assets/final_logo14_03_2026.png";
 
 
 const Header = () => {
@@ -31,8 +31,8 @@ const Header = () => {
 
       <div className="max-w-4xl mx-auto text-center">
         <h1 className="text-3xl font-bold mb-4">
-          International Conference on Sustainable Computing and Intelligent Systems 
-         
+          International Conference on Sustainable Computing and Intelligent Systems
+
           <br />
           <span className="text-[#1B305C]">
             {" "}
@@ -92,9 +92,17 @@ const Header = () => {
               Tecnm Instituto Tecnologico Superior De Fresnillo, Mexico
             </h2>
 
-            <div className="mt-4">
-              <span className="bg-yellow-400 text-black font-semibold px-4 py-2 rounded">
-                Conference Date: 17<sup>th</sup> - 18<sup>th</sup> April, 2026
+            <div className="mt-6 mb-2 flex justify-center items-center gap-4 flex-wrap">
+              <span className="bg-yellow-400 text-black font-bold text-lg px-6 py-3 rounded-md shadow-lg flex items-center gap-3">
+                <span>Conference Dates: 20<sup>th</sup> - 21<sup>st</sup> April, 2026</span>
+                <span className="bg-red-600 text-white text-xs px-2 py-1 rounded-full uppercase tracking-wider font-bold animate-pulse">
+                  New Dates
+                </span>
+              </span>
+            </div>
+            <div className="mt-4 font-bold">
+              <span className="bg-green-300 px-2 py-1 rounded">
+                Due to some unavoidable administrative circumstances, Conference dates are being shifted from 17th-18th April to 20th-21st April.
               </span>
             </div>
 
