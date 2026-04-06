@@ -81,6 +81,18 @@ const Impdate = () => {
                 </span>
               </td>
             </tr>
+
+            {/* Row 4 */}
+            <tr className="bg-gray-100">
+              <td className="px-6 py-4 border border-gray-300 text-lg">
+                Conference Dates:
+              </td>
+              <td className="px-6 py-4 border border-gray-300 text-lg">
+                <span className="text-red-600 font-semibold ml-2">
+                  20th - 21st April 2026
+                </span>
+              </td>
+            </tr>
           </tbody>
         </table>
       </div>
