@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { BrowserRouter as Router, Routes, Route, BrowserRouter } from "react-router-dom";
 
 import "./App.css";
@@ -34,8 +34,10 @@ import PeerReviewPolicy from "./pages/PeerReviewPolicy";
 import HomepageKeynotespeaker from "./components/homepagespeaker/HomepageKeynotespeaker";
 import InAndAroundKanpur from "./pages/InAndAroundKanpur";
 
+
 function App() {
   const [isSticky, setIsSticky] = useState(false);
+  const alertShown = useRef(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -45,13 +47,23 @@ function App() {
       }
     };
 
+    if (!alertShown.current) {
+      alert(
+        "Important Message:\n\nDue to some unavoidable administrative circumstances, Conference dates are being shifted from 17th-18th April to 20th-21st April."
+      );
+      alertShown.current = true;
+    }
+
+    // return () => window.removeEventListener("scroll", handleScroll);
+
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  return ( 
+  return (
 
     <Router>
+      {/* <DateAlerts /> */}
       <Header />
       <Markey />
       <Navbar isSticky={isSticky} />
