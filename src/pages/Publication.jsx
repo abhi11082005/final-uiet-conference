@@ -18,7 +18,7 @@ const Publication = () => {
       </div>
 
       {/* link */}
-      <div className="mt-8 text-xl">
+      {/* <div className="mt-8 text-xl">
         <a
           href="https://xlescience.org/index.php/IJASIS"
           target="_blank"
@@ -27,12 +27,12 @@ const Publication = () => {
         >
           https://xlescience.org/index.php/IJASIS
         </a>
-      </div>
+      </div> */}
 
 
       {/* Insert Image Section */}
 
-      <a href="https://xlescience.org/index.php/IJASIS">
+      {/* <a href="https://xlescience.org/index.php/IJASIS">
         <div className="max-w-7xl mx-auto mb-8 mt-2 flex justify-center">
           <img
             src={pub4}
@@ -40,7 +40,7 @@ const Publication = () => {
             className="rounded-xl shadow-md border border-gray-200 object-contain"
           />
         </div>
-      </a>
+      </a> */}
 
 
       <div className="max-w-7xl mx-auto bg-white shadow-md rounded-2xl p-6 border border-gray-200 mt-5">
@@ -57,7 +57,7 @@ const Publication = () => {
 
           {/* Right: EXACT content from image */}
           <div className="text-black leading-relaxed text-center md:text-left">
-            <p className="text-black leading-relaxed"> 1. Successfully presented selected papers, backed up with strong technical content, will be published as Scopus Indexed** Conference Proceedings and will be available online on{' '} <a className="underline text-blue-600 hover:text-blue-800" href="https://www.scitepress.org/ProceedingsList.aspx">SCITEPRESS DIGITAL LIBRARY </a> . </p>
+            <p className="text-black leading-relaxed"> 1. Successfully presented selected papers, backed up with strong technical content, will be published as <strong>Scopus Indexed**</strong> Conference Proceedings and will be available online on{' '} <a className="underline text-blue-600 hover:text-blue-800" href="https://www.scitepress.org/ProceedingsList.aspx">SCITEPRESS DIGITAL LIBRARY </a> . </p>
             <br />
             <span className="font-semibold">
               Science and Technology Publications, Lda
