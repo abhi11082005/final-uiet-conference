@@ -48,6 +48,10 @@ const AdvisoryCommittee = () => {
                 </li>
                 <li>Dr. Hameed Mutlag Farhan, Altinbas University, Turkey</li>
                 <li>
+                  Prof. Manuela Cruz-Cunha, Information Systems and Technology, 
+                  Industrial Engineering, Polytechnic Institute of Cávado and Ave, Portugal
+                </li>
+                <li>
                   Dr. Badria Sulaiman Alfurhood, Department of Computer
                   Sciences, College of Computer and Information Sciences,
                   Princess Nourah bint Abdulrahman University, Saudi Arabia
@@ -91,6 +95,9 @@ const AdvisoryCommittee = () => {
                   University, Ethiopia
                 </li>
                 <li>
+                  Prof. António Rocha, Polytechnic Institute of Cávado and Ave, Portugal
+                </li>
+                <li>
                   Dr. Dzati Athiar Ramli, School of Electrical & Electronic
                   Engineering, Universiti Sains, Malaysia
                 </li>
@@ -101,6 +108,9 @@ const AdvisoryCommittee = () => {
                 <li>
                   Dr. Vinay Kumar Kasula, Department of Information Technology,
                   University of the Cumberlands, Williamsburg, USA
+                </li>
+                <li>
+                  Prof. Martinha Pereira, Polytechnic Institute of Cávado and Ave, Portugal
                 </li>
                 <li>
                   Dr. Vitri Tundjungsari, Computer Science Department, Esa
