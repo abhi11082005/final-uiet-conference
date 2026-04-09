@@ -4,7 +4,7 @@ const TechnicalCommittee = () => {
   return (
     <div className="bg-gray-100 text-left p-6 md:p-12 lg:p-16">
       <h1 className="text-4xl font-bold text-center text-third mb-8">
-        TECHNICAL PROGRAMME COMMITTEE 
+        TECHNICAL PROGRAMME COMMITTEE
       </h1>
 
       <div className="space-y-8">
@@ -25,6 +25,9 @@ const TechnicalCommittee = () => {
                   Prof. Syed Akhter Hossain, Faculty of Science & Information
                   Technology (FSIT) Daffodil International University (DIU),
                   Bangladesh
+                </li>
+                <li>
+                  Prof. Manuela Cruz-Cunha, Information Systems and Technology, Industrial Engineering, Polytechnic Institute of Cávado and Ave, Portugal
                 </li>
                 <li>
                   Prof (Dr.) Sergei Levashkin, Artificial Intelligence Research
@@ -88,6 +91,9 @@ const TechnicalCommittee = () => {
                   Indira Gandhi Delhi Technical University For Women, Delhi
                 </li>
                 <li>
+                  Prof. António Rocha, Polytechnic Institute of Cávado and Ave, Portugal
+                </li>
+                <li>
                   Prof. (Dr.) Prashant Kumar Mishra, Pranveer Singh Institute of
                   Technology, Kanpur
                 </li>
@@ -140,17 +146,20 @@ const TechnicalCommittee = () => {
                   Dr. Nuno Mateus-Coelho, Lusófona University, Porto, Portugal
                 </li>
                 <li>
+                  Prof. Martinha Pereira, Polytechnic Institute of Cávado and Ave, Portugal
+                </li>
+                <li>
                   Dr. Parvez Ali, Qassim University, Unaizah, Saudi Arabia
                 </li>
                 <li>
                   Dr. Hari Mohan Gaur, Frankfurt Institute for Advanced Studies,
                   Goethe-Uni Frankfurt, Germany
                 </li>
-                {/* <li>
+                <li>
                   Dr. Rajeev Kumar Shakya, Department of Electronics and
                   Communication Engineering, Adama Science and Technology
                   University, Ethiopia
-                </li> */}
+                </li>
                 <li>
                   Dr. Dzati Athiar Ramli, School of Electrical & Electronic
                   Engineering, Universiti Sains, Malaysia
@@ -234,8 +243,9 @@ const TechnicalCommittee = () => {
                 <li>Sowjanya Karri – Principal Technical Support Engineer, Oracle Corporation</li>
 
                 <li>Mahesh Soni – Senior Solution Architect, Hartford, USA</li>
-
+                
                 <li>Satyam Nikhra, Technical Lead and Staff Software Engineer at Earnest in San Francisco, USA.</li>
+
               </ul>
             </div>
           </div>
