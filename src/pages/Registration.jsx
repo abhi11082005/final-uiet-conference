@@ -90,13 +90,13 @@ const Registration = () => {
                   colSpan={2}
                   className="px-2 py-3 sm:px-6 sm:py-4 text-base sm:text-lg font-semibold border border-gray-300"
                 >
-                  EARLY-BIRD-REGISTRATION (By 10th April 2026)
+                  EARLY-BIRD-REGISTRATION (By 13th April 2026 11:59pm midnight)
                 </th>
                 <th
                   colSpan={2}
                   className="px-2 py-3 sm:px-6 sm:py-4 text-base sm:text-lg font-semibold border border-gray-300"
                 >
-                  LATE-BIRD-REGISTRATION (After 10th April 2026)
+                  LATE-BIRD-REGISTRATION (By 14th April 2026 5:00pm sharp)
                 </th>
               </tr>
               <tr className="bg-gray-200 text-third">
