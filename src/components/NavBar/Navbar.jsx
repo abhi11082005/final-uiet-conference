@@ -27,7 +27,7 @@ const menuItems = [
       { label: "Technical Programme Committee", href: "/technical-committee" },
     ],
   },
-  
+
   { label: "Registration", href: "/registration" },
   { label: "Publication", href: "/publication" },
   { label: "Speakers", href: "/speakers" },
@@ -46,6 +46,7 @@ const menuItems = [
   { label: "Contact Us", href: "/contact-us" },
   { label: "In and Around Kanpur", href: "/kanpur" },
   { label: "CMT Acknowledgement", href: "/cmt-acknowledgement" },
+  { label: "Download", href: "/download" },
 ];
 
 export default function NavBar() {
@@ -76,7 +77,28 @@ export default function NavBar() {
             <div key={index} className="relative group cursor-pointer">
               {/* Menu item */}
               <div className="flex items-center gap-1 hover:text-yellow-300">
-                <Link to={item.href}>{item.label}</Link>
+                {/* <Link to={item.href}>{item.label}</Link> */}
+                <Link to={item.href} className="relative inline-block">
+
+                  {/* Badge */}
+                  {item.label === "Download" && (
+                    <span className="absolute -top-3 -left-2 flex h-5 w-5">
+
+                      {/* Pulse ring */}
+                      <span className="absolute inline-flex h-full w-full rounded-full bg-red-500 opacity-75 animate-ping"></span>
+
+                      {/* Solid circle */}
+                      <span className="relative inline-flex h-5 w-5 rounded-full bg-red-600 text-white text-[9px] items-center justify-center font-bold">
+                        New
+                      </span>
+
+                    </span>
+                  )}
+
+                  {/* Text */}
+                  <span className="pl-1">{item.label}</span>
+
+                </Link>
                 {item.hasDropdown && (
                   <FaChevronDown className="text-xs mt-[1px]" />
                 )}
@@ -113,14 +135,36 @@ export default function NavBar() {
                       : setMenuOpen(false)
                   }
                 >
-                  <Link to={item.href} onClick={() => !item.hasDropdown && setMenuOpen(false)}>
+                  {/* <Link to={item.href} onClick={() => !item.hasDropdown && setMenuOpen(false)}>
                     {item.label}
+                  </Link> */}
+                  <Link
+                    to={item.href}
+                    onClick={() => !item.hasDropdown && setMenuOpen(false)}
+                    className="relative inline-block"
+                  >
+                    {/* Badge */}
+                    {item.label === "Download" && (
+                      <span className="absolute -top-3 -left-2 flex h-5 w-5">
+
+                        {/* Pulse ring */}
+                        <span className="absolute inline-flex h-full w-full rounded-full bg-red-500 opacity-75 animate-ping"></span>
+
+                        {/* Solid circle */}
+                        <span className="relative inline-flex h-5 w-5 rounded-full bg-red-600 text-white text-[9px] items-center justify-center font-bold">
+                          New
+                        </span>
+
+                      </span>
+                    )}
+
+                    {/* Text */}
+                    <span className="pl-1">{item.label}</span>
                   </Link>
                   {item.hasDropdown && (
                     <FaChevronDown
-                      className={`text-xs transition-transform duration-300 ${
-                        openDropdown === index ? "rotate-180" : ""
-                      }`}
+                      className={`text-xs transition-transform duration-300 ${openDropdown === index ? "rotate-180" : ""
+                        }`}
                     />
                   )}
                 </div>
