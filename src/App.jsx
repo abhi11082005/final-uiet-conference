@@ -33,6 +33,7 @@ import CMTAcknowledgement from "./pages/CMTAcknowledgement";
 import PeerReviewPolicy from "./pages/PeerReviewPolicy";
 import HomepageKeynotespeaker from "./components/homepagespeaker/HomepageKeynotespeaker";
 import InAndAroundKanpur from "./pages/InAndAroundKanpur";
+import Download from "./pages/Download";
 
 
 function App() {
@@ -87,6 +88,7 @@ function App() {
         <Route path="/call-for-sponsorship" element={<CallForSponsorship />} />
         <Route path="/kanpur" element={<InAndAroundKanpur />} />
         <Route path="/peer-review-policy" element={<PeerReviewPolicy />} />
+        <Route path="/download" element={<Download />} />
 
         <Route path="/cmt-acknowledgement" element={<CMTAcknowledgement />} />
       </Routes>
