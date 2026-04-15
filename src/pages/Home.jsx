@@ -15,10 +15,17 @@ import Homepagepublication2026 from "../components/homepagepublication/Homepagep
 // import Homepagepublication from "../components/homepagepublication/Homepagepublication";
 import Indexing from "../components/sections/about/Indexing";
 import FundedBy from "../components/sections/FundedBy";
+import Announcements from "./Announcements";
 
 const Home = () => {
   return (
     <>
+      <div className="relative">
+
+      {/* Floating Left Button */}
+      <Announcements />
+
+    </div>
 
       <VideoHomepage />
       <Carousel />
