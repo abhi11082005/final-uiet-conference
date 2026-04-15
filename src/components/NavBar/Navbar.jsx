@@ -46,7 +46,7 @@ const menuItems = [
   { label: "Contact Us", href: "/contact-us" },
   { label: "In and Around Kanpur", href: "/kanpur" },
   { label: "CMT Acknowledgement", href: "/cmt-acknowledgement" },
-  { label: "Download", href: "/download" },
+  { label: "Downloads", href: "/download" },
 ];
 
 export default function NavBar() {
