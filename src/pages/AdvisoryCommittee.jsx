@@ -15,12 +15,13 @@ const AdvisoryCommittee = () => {
                 International Advisory Committee
               </h2>
               <ul className="list-disc list-inside text-gray-700">
-                <li>Prof. Teodor-Florin Cilan, Aurel Vlaicu University of Arad, Romania</li>
+                {/* <li>Prof. Teodor-Florin Cilan, Aurel Vlaicu University of Arad, Romania</li> */}
                 <li>
                   Prof (Dr.) Valentina Emilia Balas, Aurel Vlaicu University of
                   Arad / Academy of Romanian Scientists, ROMANIA
                 </li>
                 <li>Prof. Simanta Mitra, Iowa State University, USA</li>
+                <li>Prof. Ramona Lile, Aurel Vlaicu University of Arad, Romania</li>
                 <li>
                   Prof. (Dr.) Marius M. Balas, Aurel Vlaicu University of Arad,
                   Romania
