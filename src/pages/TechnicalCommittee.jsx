@@ -17,6 +17,7 @@ const TechnicalCommittee = () => {
                   Arad / Academy of Romanian Scientists, ROMANIA
                 </li>
                 <li>Prof. Simanta Mitra, Iowa State University, USA</li>
+                <li>Prof. Ramona Lile, Aurel Vlaicu University of Arad, Romania</li>
                 <li>
                   Prof. (Dr.) Marius M. Balas, Aurel Vlaicu University of Arad,
                   Romania
