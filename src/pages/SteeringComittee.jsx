@@ -69,6 +69,31 @@ const SteeringCommittee = () => {
           </ul>
         </section>
 
+        {/* Honorary Chair */}
+        <section>
+          <h2 className="text-xl font-semibold text-gray-800 mb-2">
+            Honorary Chair
+          </h2>
+          <ul className="list-disc list-inside text-gray-700">
+  <li>
+    Prof Alvaro Rocha, Professor of Information Systems at the University of Lisbon - ISEG, Portugal
+    <ul className="list-disc list-inside ml-5">
+      <div>
+        Visiting Professor at:
+        <ul className="list-disc list-inside ml-5">
+          <li>Harbin Institute of Technology (China)</li>
+          <li>Brawijaya University (Indonesia)</li>
+          <li>Al-Farabi Kazakh National University (Kazakhstan)</li>
+          <li>University of Calabria (Italy)</li>
+          <li>Israel Technological University (Ecuador)</li>
+          <li>Rushford Business School (Switzerland)</li>
+        </ul>
+      </div>
+    </ul>
+  </li>
+</ul>
+        </section>
+
         {/* Program Chair */}
         <section>
           <h2 className="text-xl font-semibold text-gray-800 mb-2">
