@@ -63,6 +63,7 @@ const SteeringCommittee = () => {
               (AIRL), Povolzhskiy State University of Telecommunications and
               Informatics (PSUTI), Samara, Russia
             </li>
+            <li>Prof. Ramona Lile, Aurel Vlaicu University of Arad, Romania</li>
             <li>Prof. Rajeev Srivastava, IIT BHU</li>
             <li>Prof. Prabodh Bajpai, IIT Kanpur</li>
           </ul>
@@ -133,7 +134,7 @@ const SteeringCommittee = () => {
             Publicity Chair
           </h2>
           <ul className="list-disc list-inside text-gray-700">
-            <li>Prof. Teodor-Florin Cilan, Aurel Vlaicu University of Arad, Romania</li>
+            {/* <li>Prof. Teodor-Florin Cilan, Aurel Vlaicu University of Arad, Romania</li> */}
             <li>
               Dr. Nahed Tawfik, Electronics Research Institute, Cairo Egypt
             </li>
