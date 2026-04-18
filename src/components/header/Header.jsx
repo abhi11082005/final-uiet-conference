@@ -10,10 +10,13 @@ import Submitpaper from "../submitpaper.jsx/Submitpaper";
 import icraecctsf from "../../assets/icraecctsf.png";
 import finallogo from "../../assets/finallogo.png";
 import finallogo2026 from "../../assets/final_logo14_03_2026.png";
+// import finalnewlogo2026 from "../../assets/header_logo_new_2026.jpg";
+import finalnewlogoupdated2026 from "../../assets/header_logo_new_updated_2026.png"
+
 
 
 const Header = () => {
-  const logos = [finallogo2026];
+  const logos = [finalnewlogoupdated2026];
 
   return (
     <header className=" header bg-white text-dark  px-4 pb-0">
@@ -57,26 +60,25 @@ const Header = () => {
             <li>Department of Computer Science & Engineering</li>
             <li>Department of Electronics and Communication Engineering</li> */}
             <li>
-              <span className="text-2xl">
+              <span className="text-[#1B305C] font-bold text-xl sm:text-2xl md:text-3xl">
                 School of Engineering and Technology (UIET)
               </span>
             </li>
           </ul>
           <div className="text-center px-2 pb-5">
             <h1 className="text-[#1B305C] font-bold text-xl sm:text-2xl md:text-3xl">
-              Chhatrapati Shahu Ji Maharaj University,<br></br> Kanpur (Venue
-              Partner)
+              Chhatrapati Shahu Ji Maharaj University,<br></br> Kanpur
             </h1>
 
-            <div className="mt-4">
+            {/* <div className="mt-4">
               <span className="bg-[#1B305C] text-white font-semibold px-4 py-2 rounded">
                 UGC Category - I
               </span>
-            </div>
-            <p className="text-gray-700 text-base mt-1">
+            </div> */}
+            {/* <p className="text-gray-700 text-base mt-1">
               Uttar Pradesh State University (Formerly Kanpur University,
               Kanpur, India)
-            </p>
+            </p> */}
 
             <p className="text-[#1B305C] font-medium text-base mt-2">
               in association with
