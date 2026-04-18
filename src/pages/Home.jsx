@@ -76,12 +76,12 @@ const Home = () => {
       <AboutUniversity />
       <div className=" ">
         <HomepageKeynotespeaker />
-        <Homepageimg />
+        {/* <Homepageimg />
         <Homepagevideo />
         <Homepagekeynotesession />
         <HomepageSpeaker />
         <Homepagepublication />
-        <CountryFlags />
+        <CountryFlags /> */}
       </div>
     </>
   );
