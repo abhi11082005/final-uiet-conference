@@ -43,6 +43,9 @@ export default function Announcements() {
             <div className="mt-4 text-gray-700 text-left text-sm sm:text-base">
               <ul className="list-disc pl-5 space-y-2">
                 <li>
+                  Technical Presentation Schedule available under <span className="font-semibold">Downloads</span> section.
+                </li>
+                <li>
                   ICSCIS 2026 PPT template available under <span className="font-semibold">Downloads</span> section.
                 </li>
               </ul>
