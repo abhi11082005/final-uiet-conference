@@ -28,6 +28,8 @@ import img26 from "../../assets/imagespeakers/Mahendrakumar_Kalal.jpeg"
 import img27 from "../../assets/imagespeakers/default_speaker.png";
 import img28 from "../../assets/imagespeakers/Manas_Srivastava.jpeg";
 import img29 from "../../assets/imagespeakers/Chandra_Shekar_Reddy_Avula.jpeg"
+import img30 from "../../assets/imagespeakers/Er-Anupama-Aggarwal-BRLArrQT.png";
+import img31 from "../../assets/imagespeakers/Prof-Sergei-Levashkin-CqfCX1Mu.png";
 
 const speakers = [
   {
@@ -45,13 +47,30 @@ const speakers = [
     ],
   },
   {
+    img: img31,
+    name: "Prof. Sergei Levashkin",
+    title: "Professor",
+    details: [
+      "Director at Artificial Intelligence Lab, Russia"
+    ]
+  },
+  {
     img: img3,
     name: "Dr. Hari Mohan Pandey",
     title: "Associate Professor (Sr. Lecturer) Data Science and Artificial Intelligence, Bournemouth University, U.K.",
     details: [
       "Top 2% scientist (2022 World Ranking list by Stanford University)"
     ]
-  }, {
+  },
+  {
+    img: img30,
+    name: "Er. Anupama Aggarwal",
+    title: "Lead Data Scientist / Product Owner",
+    details: [
+      "ZeroG Lufthansa Group, Germany"
+    ]
+  },
+  {
     img: img23,
     name: "Kathyayan Goud Mula",
     title: "Technical lead manager",
@@ -198,7 +217,7 @@ const speakers = [
     details: [
       ""
     ]
-  },{
+  }, {
     img: img25,
     name: "Er. Himani Fnu",
     title: "Cloud solution architect",
