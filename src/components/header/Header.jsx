@@ -112,11 +112,11 @@ const Header = () => {
               Funded by ANRF (Anusandhan National Research Foundation) Government of India
             </div>
 
-            <div className="text-center overflow-hidden">
+            {/* <div className="text-center overflow-hidden">
               <span className="inline-block mt-4 px-4 py-2  text-[#61B33B] font-bold text-lg rounded-lg animate-marqueeText ">
                 Online Presentation Allowed!!
               </span>
-            </div>
+            </div> */}
 
             <div class="text-red-600 font-semibold px-2 rounded-full text-sm md:text-base">
               SCITEPRESS Approved Conference (Indexed in Scopus, dblp and many more)
