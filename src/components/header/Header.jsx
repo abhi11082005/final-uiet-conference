@@ -53,9 +53,9 @@ const Header = () => {
             Jointly Organized By:
           </p>
           <ul className="list-none list-inside mt-4 text-gray-700 font-semibold">
-            <li>Department of Computer Application</li>
+            {/* <li>Department of Computer Application</li>
             <li>Department of Computer Science & Engineering</li>
-            <li>Department of Electronics and Communication Engineering</li>
+            <li>Department of Electronics and Communication Engineering</li> */}
             <li>
               <span className="text-2xl">
                 School of Engineering and Technology (UIET)
@@ -95,16 +95,16 @@ const Header = () => {
             <div className="mt-6 mb-2 flex justify-center items-center gap-4 flex-wrap">
               <span className="bg-yellow-400 text-black font-bold text-lg px-6 py-3 rounded-md shadow-lg flex items-center gap-3">
                 <span>Conference Dates: 20<sup>th</sup> - 21<sup>st</sup> April, 2026</span>
-                <span className="bg-red-600 text-white text-xs px-2 py-1 rounded-full uppercase tracking-wider font-bold animate-pulse">
+                {/* <span className="bg-red-600 text-white text-xs px-2 py-1 rounded-full uppercase tracking-wider font-bold animate-pulse">
                   New Dates
-                </span>
+                </span> */}
               </span>
             </div>
-            <div className="mt-4 font-bold">
+            {/* <div className="mt-4 font-bold">
               <span className="bg-green-300 px-2 py-1 rounded">
                 Due to some unavoidable administrative circumstances, Conference dates are being shifted from 17th-18th April to 20th-21st April.
               </span>
-            </div>
+            </div> */}
 
             <div className="mt-4 font-bold text-red-600">
               Funded by ANRF (Anusandhan National Research Foundation) Government of India
