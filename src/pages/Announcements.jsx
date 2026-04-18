@@ -10,19 +10,38 @@ export default function Announcements() {
   return (
     <>
       {/* Floating Button */}
-      <button
+
+      {/* <button
         onClick={() => setOpen(true)}
-        className="fixed left-3 top-1/3 transform -translate-y-1/2 rotate-90 origin-left 
-        px-4 py-2 bg-third text-white font-semibold rounded-r-lg shadow-md 
-        hover:bg-third transition z-10"
+        className=""
       >
-        Announcements
+        <div className="fixed left-3 top-1/3 transform -translate-y-1/2 rotate-90 origin-left 
+        px-4 py-2 bg-third text-white font-semibold rounded-r-lg shadow-md 
+        hover:bg-third transition z-10">Announcements </div>
+      </button> */}
+      <button onClick={() => setOpen(true)} className="">
+        {/* Announcements (reference position) */}
+        <div
+          className="fixed left-3 top-1/2 transform -translate-y-1/2 -rotate-90 origin-left
+    px-4 py-2 bg-third text-white font-semibold rounded-r-lg 
+    hover:bg-third transition z-10"
+        >
+          Announcements
+        </div>
+
+        {/* Technical Presentation Schedule (centered relative to above) */}
+        <div
+          className="fixed left-3 top-1/2 transform translate-y-1/2 -rotate-90 origin-left ml-10
+          "
+        >
+          Technical Presentation Schedule
+        </div>
       </button>
 
       {/* Modal */}
       {open && (
         <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
-          
+
           <div className="bg-white p-6 rounded-lg shadow-lg max-w-6xl w-full 
             sm:max-w-lg md:max-w-2xl lg:max-w-4xl max-h-[80vh] overflow-y-auto">
 
