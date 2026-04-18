@@ -14,18 +14,18 @@ const Download = () => {
           <ul className="space-y-6 list-disc pl-5">
             
             {/* Paper Presentation Schedule */}
-            {/* <li>
+            <li>
               <a
-                href="files/Technical_schedule-Website-Upload-8-April-2025.pdf"
+                href="/docs/Technical_schedule.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-xl font-semibold text-gray-800 underline hover:text-blue-600 transition"
               >
-                PAPER PRESENTATION SCHEDULE
+                TECHNICAL PRESENTATION SCHEDULE
               </a>
-            </li> */}
+            </li>
 
-            {/* Template */}
+            
             <li>
               <a
                 href="/docs/ICSCIS_2026_TEMPLATE_FOR_PAPER_PRESENTATION.pptx"
