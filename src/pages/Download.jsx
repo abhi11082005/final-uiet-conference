@@ -14,16 +14,16 @@ const Download = () => {
           <ul className="space-y-6 list-disc pl-5">
             
             {/* Paper Presentation Schedule */}
-            {/* <li>
+            <li>
               <a
-                href="/docs/Technical_schedule.pdf"
+                href="/docs/Technical_schedule_without_Chair.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-xl font-semibold text-gray-800 underline hover:text-blue-600 transition"
               >
                 TECHNICAL PRESENTATION SCHEDULE
               </a>
-            </li> */}
+            </li>
 
             
             <li>
