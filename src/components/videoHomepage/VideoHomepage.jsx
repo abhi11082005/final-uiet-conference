@@ -17,21 +17,21 @@ const VideoHomepage = () => {
 
         {/* Overlay Text */}
         <div
-          className="absolute inset-0 z-10 flex flex-col items-center justify-center text-center px-4 bg-white bg-clip-text text-transparent
+          className="absolute inset-0 z-10 flex flex-col items-center justify-center text-center px-4  bg-clip-text text-transparent
 "
         >
-          <h1 className="text-4xl md:text-5xl font-bold mb-2">
+          <h1 className="text-4xl md:text-5xl font-bold mb-2 text-[#ff6600]">
             International Conference on Sustainable Computing and Intelligent Systems (ICSCIS 2026)
           </h1>
           
-          <p className="text-xl font-medium">
-            Conference Date: 17
-            <sup className="text-white">
+          <p className="text-xl font-medium text-[#ff6600]">
+            Conference Date: 20
+            <sup className=" text-[#ff6600]">
               th
             </sup>{" "}
-            - 18
-            <sup className="text-white">
-              th
+            - 21
+            <sup className="text-[#ff6600]">
+              st
             </sup>{" "}
             April, 2026
           </p>
