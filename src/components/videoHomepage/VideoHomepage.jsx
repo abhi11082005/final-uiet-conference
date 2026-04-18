@@ -17,10 +17,11 @@ const VideoHomepage = () => {
 
         {/* Overlay Text */}
         <div
-          className="absolute inset-0 z-10 flex flex-col items-center justify-center text-center px-4  bg-clip-text text-transparent
+          className="absolute inset-0 z-10 flex flex-col items-center justify-center text-center px-4 bg-white bg-clip-text text-transparent
 "
         >
-          <h1 className="text-4xl md:text-5xl font-bold mb-2 text-[#ff6600]">
+          <div className="bg-white rounded-2xl bg-opacity-60">
+          <h1 className="text-4xl md:text-5xl font-bold mb-2 text-[#ff6600] ">
             International Conference on Sustainable Computing and Intelligent Systems (ICSCIS 2026)
           </h1>
           
@@ -35,6 +36,7 @@ const VideoHomepage = () => {
             </sup>{" "}
             April, 2026
           </p>
+          </div>
         </div>
       </div>
     </div>
