@@ -50,7 +50,7 @@ const Header = () => {
           </h2> */}
 
           <p className="font-semibold text-purple-700 text-lg">
-            Jointly Organized By:
+            Organized By:
           </p>
           <ul className="list-none list-inside mt-4 text-gray-700 font-semibold">
             {/* <li>Department of Computer Application</li>
