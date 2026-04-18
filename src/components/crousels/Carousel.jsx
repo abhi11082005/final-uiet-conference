@@ -18,12 +18,12 @@ import img8 from "../../assets/Slideimg/slideImage2026.png";
 const Carousel = () => {
   // Array with image and specific object position for each
   const slides = [
-    { src: img1, position: "object-center" },
-    { src: img4, position: "object-center" },
-    { src: img3, position: "object-center" },
+    // { src: img1, position: "object-center" },
+    // { src: img4, position: "object-center" },
+    // { src: img3, position: "object-center" },
     { src: img8, position: "object-center" },
 
-    { src: img7, position: "object-top" },
+    // { src: img7, position: "object-top" },
     
   ];
 
