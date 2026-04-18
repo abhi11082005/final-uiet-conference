@@ -14,7 +14,7 @@ const Download = () => {
           <ul className="space-y-6 list-disc pl-5">
             
             {/* Paper Presentation Schedule */}
-            <li>
+            {/* <li>
               <a
                 href="/docs/Technical_schedule.pdf"
                 target="_blank"
@@ -23,7 +23,7 @@ const Download = () => {
               >
                 TECHNICAL PRESENTATION SCHEDULE
               </a>
-            </li>
+            </li> */}
 
             
             <li>
