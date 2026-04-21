@@ -54,7 +54,7 @@ export default function AboutUniversity() {
         <p>
           CSJM University has many affiliated colleges spread across the state, offering courses under its guidance.
           Programs range from traditional degrees like B.A., B.Sc., and B.Com to professional degrees such as B.Tech,
-          MBA, MCA, and medical courses like MBBS and BDS. The university promotes research in various fields,
+          MBA, MCA. The university promotes research in various fields,
           encouraging innovation among both students and faculty.
         </p>
 
