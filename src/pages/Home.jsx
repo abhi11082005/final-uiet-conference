@@ -16,6 +16,7 @@ import Homepagepublication2026 from "../components/homepagepublication/Homepagep
 import Indexing from "../components/sections/about/Indexing";
 import FundedBy from "../components/sections/FundedBy";
 import Announcements from "./Announcements";
+import HomepagefloatingKeynotesspeaker from "../components/homepagespeaker/HomepagefloatingKeynotesspeaker";
 
 const Home = () => {
   return (
@@ -75,7 +76,9 @@ const Home = () => {
       </div>
       <AboutUniversity />
       <div className=" ">
-        <HomepageKeynotespeaker />
+        {/* <HomepageKeynotespeaker /> */}
+        <HomepagefloatingKeynotesspeaker />
+
         {/* <Homepageimg />
         <Homepagevideo />
         <Homepagekeynotesession />
