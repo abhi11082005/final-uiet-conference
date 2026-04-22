@@ -29,13 +29,6 @@ export default function Announcements() {
           Announcements
         </div>
 
-        {/* Technical Presentation Schedule (centered relative to above) */}
-        <div
-          className="fixed left-3 top-1/2 transform translate-y-1/2 -rotate-90 origin-left ml-10
-          "
-        >
-          Technical Presentation Schedule
-        </div>
       </button>
 
       {/* Modal */}
@@ -59,15 +52,17 @@ export default function Announcements() {
             </div>
 
             {/* Content */}
-            <div className="mt-4 text-gray-700 text-left text-sm sm:text-base">
-              <ul className="list-disc pl-5 space-y-2">
-                <li>
-                  Technical Presentation Schedule available under <span className="font-semibold">Downloads</span> section.
-                </li>
-                <li>
-                  ICSCIS 2026 PPT template available under <span className="font-semibold">Downloads</span> section.
-                </li>
-              </ul>
+            <div className="mt-4">
+              <div className="w-full aspect-video">
+                <iframe
+                  className="w-full h-full rounded-lg"
+                  src="https://www.youtube.com/embed/Hzjyt32VjQc"
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </div>
             </div>
 
             {/* Footer */}
