@@ -79,11 +79,11 @@ const Home = () => {
         {/* <HomepageKeynotespeaker /> */}
         <HomepagefloatingKeynotesspeaker />
 
+        <Homepagepublication />
         {/* <Homepageimg />
         <Homepagevideo />
         <Homepagekeynotesession />
         <HomepageSpeaker />
-        <Homepagepublication />
         <CountryFlags /> */}
       </div>
     </>
