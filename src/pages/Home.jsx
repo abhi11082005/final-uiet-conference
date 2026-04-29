@@ -16,6 +16,7 @@ import Homepagepublication2026 from "../components/homepagepublication/Homepagep
 import Indexing from "../components/sections/about/Indexing";
 import FundedBy from "../components/sections/FundedBy";
 import Announcements from "./Announcements";
+import Homepageimg2026 from "../components/homepageimg/Homepageimg2026";
 import HomepagefloatingKeynotesspeaker from "../components/homepagespeaker/HomepagefloatingKeynotesspeaker";
 
 const Home = () => {
@@ -80,7 +81,9 @@ const Home = () => {
         <HomepagefloatingKeynotesspeaker />
 
         <Homepagepublication />
-        {/* <Homepageimg />
+        <Homepageimg2026 />
+        <Homepageimg />
+        {/* 
         <Homepagevideo />
         <Homepagekeynotesession />
         <HomepageSpeaker />
