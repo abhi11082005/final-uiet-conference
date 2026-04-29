@@ -83,11 +83,13 @@ const Home = () => {
         <Homepagepublication />
         <Homepageimg2026 />
         <Homepageimg />
+        <Homepagekeynotesession />
+        <CountryFlags /> 
         {/* 
         <Homepagevideo />
-        <Homepagekeynotesession />
+        
         <HomepageSpeaker />
-        <CountryFlags /> */}
+        */}
       </div>
     </>
   );
