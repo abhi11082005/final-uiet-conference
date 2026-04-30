@@ -22,6 +22,9 @@ import img18 from "../../assets/gallary/inaugural2026/img18.jpeg";
 import img19 from "../../assets/gallary/inaugural2026/img19.jpeg";
 import img20 from "../../assets/gallary/inaugural2026/img20.jpeg";
 import img21 from "../../assets/gallary/inaugural2026/img21.jpeg";
+import img22 from "../../assets/gallary/inaugural2026/img22.jpeg";
+import img23 from "../../assets/gallary/inaugural2026/img23.jpeg";
+import img24 from "../../assets/gallary/inaugural2026/img24.jpeg";
 
 
 const photos = [
@@ -46,6 +49,9 @@ const photos = [
   img19,
   img20,
   img21,
+  img22,
+  img23,
+  img24,
   img1,
   img2,
   img3,
@@ -67,6 +73,9 @@ const photos = [
   img19,
   img20,
   img21,
+  img22,
+  img23,
+  img24
 ];
 
 const PhotoGallery = () => {
