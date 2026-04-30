@@ -78,16 +78,17 @@ const Home = () => {
       <AboutUniversity />
       <div className=" ">
         {/* <HomepageKeynotespeaker /> */}
+        <Homepageimg2026 />
         <HomepagefloatingKeynotesspeaker />
 
         <Homepagepublication />
-        <Homepageimg2026 />
+        
         <Homepageimg />
         <Homepagekeynotesession />
         <CountryFlags /> 
         {/* 
-        <Homepagevideo />
         
+        <Homepagevideo />
         <HomepageSpeaker />
         */}
       </div>
