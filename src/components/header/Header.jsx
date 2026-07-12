@@ -119,7 +119,7 @@ const Header = () => {
             </div> */}
 
             <div class="text-red-600 font-semibold px-2 rounded-full text-sm md:text-base">
-              SCITEPRESS Approved Conference (Indexed in Scopus, dblp and many more)
+              SCITEPRESS Approved Conference (Indexed in Scopus**, dblp and many more)
             </div>
           </div>
           <Submitpaper />

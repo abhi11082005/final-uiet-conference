@@ -37,6 +37,15 @@ export default function Footer() {
           </div>
         </div>
       </div>
+      <div className="max-w-7xl mx-auto bg-yellow-50 shadow-md rounded-2xl p-6 border-l-4 border-yellow-500 my-8">
+        <p className="text-yellow-800 font-medium leading-relaxed">
+          <strong>
+            NOTE<span className="text-red-600">**</span> :
+          </strong>{" "}
+          ORGANIZERS WILL NOT BE RESPONSIBLE FOR ANY KIND OF QUALITY ISSUE REFLECTING IN THE MANUSCRIPT FROM AUTHOR SIDE. MERELY ACCEPTANCE FOR THE CONFERENCE PRESENTATION DOES NOT GAURANTEE THE PUBLICATION OF MANUSCRIPT. AUTHOR MUST ADHERE TO THE STRONG TECHNICAL QUALITY AND FORMATTING GUIDELINES OF THE PUBLISHER. FINAL PUBLICATION DECISION WILL BE OF THE PUBLISHER.
+        </p>
+        <p>** Scopus Indexing subject to the fulfilment of passing quality check by Scopus.</p>
+      </div>
     </footer>
   );
 }
