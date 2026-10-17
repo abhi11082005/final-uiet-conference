@@ -43,20 +43,20 @@ const Publication = () => {
       </a> */}
 
 
-      <div className="max-w-7xl mx-auto bg-white shadow-md rounded-2xl p-6 border border-gray-200 mt-5">
-        <div className="flex flex-col md:flex-row items-center gap-6">
+      {/* <div className="max-w-7xl mx-auto bg-white shadow-md rounded-2xl p-6 border border-gray-200 mt-5">
+        <div className="flex flex-col md:flex-row items-center gap-6"> */}
 
           {/* Left: Image (same as in image) */}
-          <div className="flex-shrink-0">
+          {/* <div className="flex-shrink-0">
             <img
               src={pub5}
               alt="SCITEPRESS Publication"
               className="w-56 object-contain"
             />
-          </div>
+          </div> */}
 
           {/* Right: EXACT content from image */}
-          <div className="text-black leading-relaxed text-center md:text-left">
+          {/* <div className="text-black leading-relaxed text-center md:text-left">
             <p className="text-black leading-relaxed"> 1. Successfully presented selected papers, backed up with strong technical content, will be published as <strong>Scopus Indexed**</strong> Conference Proceedings and will be available online on{' '} <a className="underline text-blue-600 hover:text-blue-800" href="https://www.scitepress.org/ProceedingsList.aspx">SCITEPRESS DIGITAL LIBRARY </a> . </p>
             <br />
             <span className="font-semibold">
@@ -78,15 +78,15 @@ const Publication = () => {
             >
               http://www.scitepress.org
             </a>
-          </div>
+          </div> */}
 
-        </div>
-      </div>
+        {/* </div>
+      </div> */}
 
 
       <div className="max-w-7xl mx-auto bg-white shadow-md rounded-2xl p-6 border border-gray-200 text-center mt-5">
         <p className="text-black leading-relaxed">
-          2. Some of Selected Quality Extended Papers and Successfully Presented Papers may be published as Book Chapters in Scopus Indexed Edited Books with Renowned Publishers such as IGI Global Scientific Publishing/Bentham Science/Scrivener Wiley Publisher. (Minimum Page Length – 15 Pages)
+          1. Some of Selected Quality Extended Papers and Successfully Presented Papers may be published as Book Chapters in Scopus Indexed Edited Books with Renowned Publishers such as IGI Global Scientific Publishing/Bentham Science/Scrivener Wiley Publisher. (Minimum Page Length – 15 Pages)
         </p>
       </div>
       <div className="max-w-7xl mx-auto bg-yellow-50 shadow-md rounded-2xl p-6 border-l-4 border-yellow-500 my-8">
